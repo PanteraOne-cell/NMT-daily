@@ -1,0 +1,30 @@
+name: NMT Check Bank
+
+on:
+  schedule:
+    # Щосуботи о 09:00 Київ = 06:00 UTC
+    - cron: '0 6 * * 6'
+  workflow_dispatch:
+
+jobs:
+  check-bank:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Check bank and notify if low
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          TELEGRAM_CHAT_ID_1: ${{ secrets.TELEGRAM_CHAT_ID_1 }}
+          TELEGRAM_CHAT_ID_2: ${{ secrets.TELEGRAM_CHAT_ID_2 }}
+        run: python check_bank.py

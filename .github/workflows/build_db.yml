@@ -1,0 +1,61 @@
+name: Build Questions DB
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # щопонеділка о 3:00 UTC
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "Предмет (за замовч. — всі)"
+        required: false
+        default: ""
+        type: choice
+        options:
+          - ""
+          - ukrainian
+          - mathematics
+          - history
+          - biology
+      limit:
+        description: "Питань за запуск"
+        required: false
+        default: "50"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch question IDs
+        run: python scraper/fetch_question_ids.py
+
+      - name: Build database
+        run: |
+          SUBJECT_ARG=""
+          if [ -n "${{ inputs.subject }}" ]; then
+            SUBJECT_ARG="--subject ${{ inputs.subject }}"
+          fi
+          python scraper/build_database.py \
+            $SUBJECT_ARG \
+            --limit ${{ inputs.limit || '50' }}
+
+      - name: Commit & push
+        run: |
+          git config user.name "nmt-daily-bot"
+          git config user.email "bot@nmt-daily"
+          git add data/ bank/
+          git diff --staged --quiet || \
+            git commit -m "chore: scrape questions from zno.osvita.ua [skip ci]"
+          git push

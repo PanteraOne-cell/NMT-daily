@@ -1,0 +1,66 @@
+name: Parse PDF to Bank
+
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: 'Предмет'
+        required: true
+        type: choice
+        options:
+          - math
+          - ukrainian
+          - history
+          - biology
+      year:
+        description: 'Рік НМТ (напр. 2025)'
+        required: true
+        default: '2025'
+      variant:
+        description: 'Варіант (напр. 1)'
+        required: false
+        default: '1'
+      pdf_file:
+        description: 'Назва PDF у папці pdfs/ (напр. math_2025_v1.pdf)'
+        required: true
+      answers_file:
+        description: 'Назва PDF з відповідями (необов. напр. math_2025_answers.pdf)'
+        required: false
+        default: ''
+
+jobs:
+  parse-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pymupdf
+
+      - name: Parse PDF
+        run: |
+          ANSWERS_ARG=""
+          if [ -n "${{ inputs.answers_file }}" ]; then
+            ANSWERS_ARG="--answers pdfs/${{ inputs.answers_file }}"
+          fi
+          python parse_pdf.py \
+            --pdf pdfs/${{ inputs.pdf_file }} \
+            $ANSWERS_ARG \
+            --subject ${{ inputs.subject }} \
+            --year ${{ inputs.year }} \
+            --variant ${{ inputs.variant }}
+
+      - name: Commit updated bank
+        run: |
+          git config user.name "nmt-daily-bot"
+          git config user.email "bot@nmt-daily"
+          git add bank/${{ inputs.subject }}.json
+          git diff --staged --quiet || git commit -m "bank: ${{ inputs.subject }} НМТ ${{ inputs.year }} v${{ inputs.variant }}"
+          git push
