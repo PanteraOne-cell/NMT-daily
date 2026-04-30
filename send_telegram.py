@@ -52,6 +52,8 @@ def send_to(
         "explanation": explanation,
         "is_anonymous": True,
     })
+    if not resp.ok:
+        print(f"Telegram error [{chat_id}]: {resp.status_code} {resp.text}")
     resp.raise_for_status()
 
 
