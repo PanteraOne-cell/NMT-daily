@@ -1,0 +1,28 @@
+name: Send Daily NMT Question
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # кожної години
+  workflow_dispatch:      # ручний запуск для тесту
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests python-dotenv
+
+      - name: Send question
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_IDS: ${{ secrets.CHAT_IDS }}
+        run: python send_telegram.py
