@@ -67,14 +67,6 @@ def format_message(subject: str, q: dict) -> str:
     return "\n".join(lines)
 
 
-def _safe_callback_data(answer_key: str, answer_text: str) -> str:
-    data = f"✅ {answer_key}. {clean(answer_text)}"
-    encoded = data.encode("utf-8")
-    if len(encoded) > 64:
-        data = encoded[:64].decode("utf-8", errors="ignore")
-    return data
-
-
 def send_to(chat_id: str, text: str, q: dict):
     answer = q["answer"]
     answer_text = q["options"].get(answer, answer)
@@ -111,30 +103,11 @@ def send_to(chat_id: str, text: str, q: dict):
         })
 
 
-def process_callbacks():
-    resp = _post("getUpdates", json={"timeout": 5, "allowed_updates": ["callback_query"]})
-    updates = resp.json().get("result", [])
-    if not updates:
-        return
-    last_update_id = updates[-1]["update_id"]
-    for update in updates:
-        cq = update.get("callback_query")
-        if cq:
-            _post("answerCallbackQuery", json={
-                "callback_query_id": cq["id"],
-                "text": cq["data"],
-                "show_alert": True,
-            })
-    _post("getUpdates", json={"offset": last_update_id + 1, "timeout": 1})
-
-
 def main():
     print(f"[{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC] Starting...")
     if not CHAT_IDS:
         print("ERROR: CHAT_IDS not set in .env")
         return
-
-    process_callbacks()
 
     subject = random.choice(list(SUBJECTS.keys()))
     q = load_question(subject)
@@ -148,8 +121,4 @@ def main():
 
 
 if __name__ == "__main__":
-    import sys
-    if len(sys.argv) > 1 and sys.argv[1] == "callbacks":
-        process_callbacks()
-    else:
-        main()
+    main()
