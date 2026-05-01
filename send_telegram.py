@@ -57,8 +57,27 @@ def send_to(chat_id: str, subject: str, q: dict):
     label = SUBJECTS.get(subject, subject)
     question_text = f"{label}\n\n{clean(q['text'])}"
 
-    resp = _post("sendMessage", json={"chat_id": chat_id, "text": question_text})
-    msg_id = resp.json()["result"]["message_id"]
+    image_path = Path(__file__).parent / q["image"] if q.get("image") else None
+    if image_path:
+        print(f"[INFO] image field: {q['image']}")
+        print(f"[INFO] resolved path: {image_path.resolve()}")
+        print(f"[INFO] file exists: {image_path.exists()}")
+
+    first_msg_id: int
+    if image_path and image_path.exists():
+        with open(image_path, "rb") as photo:
+            resp = _post(
+                "sendPhoto",
+                data={"chat_id": chat_id, "caption": question_text},
+                files={"photo": photo},
+            )
+        print(f"[INFO] sendPhoto: {resp.status_code} ok={resp.json().get('ok')}")
+        first_msg_id = resp.json()["result"]["message_id"]
+    else:
+        if q.get("image"):
+            print(f"[WARNING] image not found: {q['image']}")
+        resp = _post("sendMessage", json={"chat_id": chat_id, "text": question_text})
+        first_msg_id = resp.json()["result"]["message_id"]
 
     options = [f"{k}. {clean(v)}"[:100] for k, v in q["options"].items()]
     keys = list(q["options"].keys())
@@ -70,7 +89,7 @@ def send_to(chat_id: str, subject: str, q: dict):
         "options": options,
         "type": "quiz",
         "correct_option_id": correct_option_id,
-        "reply_to_message_id": msg_id,
+        "reply_to_message_id": first_msg_id,
         "is_anonymous": True,
     })
 
