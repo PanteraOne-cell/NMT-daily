@@ -20,6 +20,11 @@ SUBJECTS = {
     "biology":   "🧬 Біологія",
 }
 
+NEEDS_IMAGE_KW = [
+    "на рисунку", "на фото", "позначено буквою",
+    "зображено", "на діаграмі", "на карті", "на схемі",
+]
+
 
 def clean(text: str) -> str:
     text = html.unescape(str(text))
@@ -43,7 +48,16 @@ def load_question(subject: str) -> dict:
     with open(path, encoding="utf-8") as f:
         data = json.load(f)
     questions = data["questions"] if isinstance(data, dict) else data
-    valid = [q for q in questions if q.get("answer") in q.get("options", {})]
+
+    def is_valid(q: dict) -> bool:
+        if q.get("answer") not in q.get("options", {}):
+            return False
+        text_lower = q.get("text", "").lower()
+        needs_image = any(kw in text_lower for kw in NEEDS_IMAGE_KW)
+        has_image = bool(q.get("image_url") or q.get("image"))
+        return not (needs_image and not has_image)
+
+    valid = [q for q in questions if is_valid(q)]
     if not valid:
         raise ValueError(f"No valid questions in {subject}")
     return random.choice(valid)
@@ -60,7 +74,7 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
 
 def format_message(subject: str, q: dict) -> str:
     label = SUBJECTS.get(subject, subject)
-    lines = [escape_md(label), "", escape_md(clean(q["text"])), ""]
+    lines = [f"*{escape_md(label)}*", "", f"❓ {escape_md(clean(q['text']))}", ""]
     for k, v in q["options"].items():
         lines.append(escape_md(f"{k}. {clean(v)}"))
     lines.append("\n📌 [@nmt\\_daily\\_ua](https://t.me/nmt_daily_ua)")
@@ -68,39 +82,46 @@ def format_message(subject: str, q: dict) -> str:
 
 
 def send_to(chat_id: str, text: str, q: dict):
-    answer = q["answer"]
-    answer_text = q["options"].get(answer, answer)
-    image_url = q.get("image_url")
-
-    spoiler = f"\n\n||✅ Правильна відповідь: {escape_md(clean(answer_text))}||"
-    full_text = text + spoiler
+    image_url = q.get("image_url") or q.get("image")
 
     if image_url:
-        if len(full_text) <= 1024:
-            _post("sendPhoto", json={
-                "chat_id": chat_id,
-                "photo": image_url,
-                "caption": full_text,
-                "parse_mode": "MarkdownV2",
-            })
-        else:
+        if len(text) <= 1024:
             resp = _post("sendPhoto", json={
                 "chat_id": chat_id,
                 "photo": image_url,
-            })
-            msg_id = resp.json()["result"]["message_id"]
-            _post("sendMessage", json={
-                "chat_id": chat_id,
-                "text": full_text,
+                "caption": text,
                 "parse_mode": "MarkdownV2",
-                "reply_to_message_id": msg_id,
             })
+            first_id = resp.json()["result"]["message_id"]
+        else:
+            photo = _post("sendPhoto", json={
+                "chat_id": chat_id,
+                "photo": image_url,
+            })
+            photo_id = photo.json()["result"]["message_id"]
+            msg = _post("sendMessage", json={
+                "chat_id": chat_id,
+                "text": text,
+                "parse_mode": "MarkdownV2",
+                "reply_parameters": {"message_id": photo_id},
+            })
+            first_id = msg.json()["result"]["message_id"]
     else:
-        _post("sendMessage", json={
+        resp = _post("sendMessage", json={
             "chat_id": chat_id,
-            "text": full_text,
+            "text": text,
             "parse_mode": "MarkdownV2",
         })
+        first_id = resp.json()["result"]["message_id"]
+
+    answer_text = q["options"].get(q["answer"], q["answer"])
+    spoiler = f"||✅ Правильна відповідь: {escape_md(clean(answer_text))}||"
+    _post("sendMessage", json={
+        "chat_id": chat_id,
+        "text": spoiler,
+        "parse_mode": "MarkdownV2",
+        "reply_parameters": {"message_id": first_id},
+    })
 
 
 def main():
