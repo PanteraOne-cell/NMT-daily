@@ -75,19 +75,40 @@ def _safe_callback_data(answer_key: str, answer_text: str) -> str:
     return data
 
 
-def send_to(chat_id: str, text: str, answer_key: str, answer_full: str):
-    reply_markup = {
-        "inline_keyboard": [[{
-            "text": "💡 Показати відповідь",
-            "callback_data": _safe_callback_data(answer_key, answer_full),
-        }]]
-    }
-    _post("sendMessage", json={
-        "chat_id": chat_id,
-        "text": text,
-        "parse_mode": "MarkdownV2",
-        "reply_markup": reply_markup,
-    })
+def send_to(chat_id: str, text: str, q: dict):
+    answer = q["answer"]
+    answer_text = q["options"].get(answer, answer)
+    image_url = q.get("image_url")
+
+    spoiler = f"\n\n||✅ Правильна відповідь: {escape_md(clean(answer_text))}||"
+    full_text = text + spoiler
+
+    if image_url:
+        if len(full_text) <= 1024:
+            _post("sendPhoto", json={
+                "chat_id": chat_id,
+                "photo": image_url,
+                "caption": full_text,
+                "parse_mode": "MarkdownV2",
+            })
+        else:
+            resp = _post("sendPhoto", json={
+                "chat_id": chat_id,
+                "photo": image_url,
+            })
+            msg_id = resp.json()["result"]["message_id"]
+            _post("sendMessage", json={
+                "chat_id": chat_id,
+                "text": full_text,
+                "parse_mode": "MarkdownV2",
+                "reply_to_message_id": msg_id,
+            })
+    else:
+        _post("sendMessage", json={
+            "chat_id": chat_id,
+            "text": full_text,
+            "parse_mode": "MarkdownV2",
+        })
 
 
 def process_callbacks():
@@ -118,12 +139,11 @@ def main():
     subject = random.choice(list(SUBJECTS.keys()))
     q = load_question(subject)
     text = format_message(subject, q)
-    answer_full = q["options"].get(q["answer"], q["answer"])
 
     for i, chat_id in enumerate(CHAT_IDS):
         if i > 0:
             time.sleep(1)
-        send_to(chat_id, text, q["answer"], answer_full)
+        send_to(chat_id, text, q)
         print(f"OK [{chat_id}]: {subject}")
 
 
