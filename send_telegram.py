@@ -1,3 +1,4 @@
+import html
 import json
 import random
 import os
@@ -18,6 +19,13 @@ SUBJECTS = {
     "history":   "📜 Історія України",
     "biology":   "🧬 Біологія",
 }
+
+
+def clean(text: str) -> str:
+    text = html.unescape(str(text))
+    text = html.unescape(text)
+    text = text.replace("\xa0", " ")
+    return text
 
 
 def truncate(text: str, limit: int) -> str:
@@ -45,45 +53,25 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
     return resp
 
 
-def send_to(chat_id: str, text: str, q: dict):
-    opts_lines = "\n".join(f"{k}. {v}" for k, v in q["options"].items())
-    full_text = f"{text}\n\n{opts_lines}"
+def send_to(chat_id: str, subject: str, q: dict):
+    label = SUBJECTS.get(subject, subject)
+    question_text = f"{label}\n\n{clean(q['text'])}"
 
-    image_path = q.get("image")
-    first_msg_id: int | None = None
-    use_text_only = True
+    resp = _post("sendMessage", json={"chat_id": chat_id, "text": question_text})
+    msg_id = resp.json()["result"]["message_id"]
 
-    if image_path:
-        img_file = Path(image_path)
-        if not img_file.exists():
-            print(f"WARNING: image not found: {image_path} — sending text only")
-        else:
-            use_text_only = False
-            # caption limit is 1024 chars
-            caption = full_text if len(full_text) <= 1024 else text
-            extra = opts_lines if len(full_text) > 1024 else None
+    options = [f"{k}. {clean(v)}"[:100] for k, v in q["options"].items()]
+    keys = list(q["options"].keys())
+    correct_option_id = keys.index(q["answer"])
 
-            with open(img_file, "rb") as fh:
-                resp = _post(
-                    "sendPhoto",
-                    data={"chat_id": chat_id, "caption": caption},
-                    files={"photo": fh},
-                )
-            first_msg_id = resp.json()["result"]["message_id"]
-
-            if extra:
-                _post("sendMessage", json={"chat_id": chat_id, "text": extra})
-
-    if use_text_only:
-        resp = _post("sendMessage", json={"chat_id": chat_id, "text": full_text})
-        first_msg_id = resp.json()["result"]["message_id"]
-
-    # spoiler with correct answer, replying to the first sent message
-    _post("sendMessage", json={
+    _post("sendPoll", json={
         "chat_id": chat_id,
-        "text": f"✅ Правильна відповідь: ||{q['answer']}||",
-        "reply_parameters": {"message_id": first_msg_id},
-        "parse_mode": "MarkdownV2",
+        "question": "Оберіть правильну відповідь:",
+        "options": options,
+        "type": "quiz",
+        "correct_option_id": correct_option_id,
+        "reply_to_message_id": msg_id,
+        "is_anonymous": True,
     })
 
 
@@ -96,13 +84,10 @@ def main():
     subject = random.choice(list(SUBJECTS.keys()))
     q = load_question(subject)
 
-    label = SUBJECTS.get(subject, subject)
-    text = f"{label}\n\n{q['text']}"
-
     for i, chat_id in enumerate(CHAT_IDS):
         if i > 0:
             time.sleep(1)
-        send_to(chat_id, text, q)
+        send_to(chat_id, subject, q)
         print(f"OK [{chat_id}]: {subject}")
 
 
