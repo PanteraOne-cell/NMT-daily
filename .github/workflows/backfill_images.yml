@@ -1,0 +1,51 @@
+name: Backfill Image URLs
+
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "Предмет (порожньо — всі)"
+        required: false
+        default: ""
+        type: choice
+        options:
+          - ""
+          - ukrainian
+          - math
+          - history
+          - biology
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Backfill images
+        run: |
+          if [ -n "${{ inputs.subject }}" ]; then
+            python scraper/backfill_images.py ${{ inputs.subject }}
+          else
+            python scraper/backfill_images.py
+          fi
+
+      - name: Commit & push
+        run: |
+          git config user.name "nmt-daily-bot"
+          git config user.email "bot@nmt-daily"
+          git add bank/
+          git diff --staged --quiet || \
+            git commit -m "chore: backfill image URLs from zno.osvita.ua [skip ci]"
+          git push
