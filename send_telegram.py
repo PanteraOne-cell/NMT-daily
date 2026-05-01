@@ -36,26 +36,55 @@ def load_question(subject: str) -> dict:
     return random.choice(valid)
 
 
-def send_to(
-    chat_id: str,
-    question: str,
-    options: list[str],
-    correct_option_id: int,
-    explanation: str,
-):
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPoll"
-    resp = requests.post(url, json={
-        "chat_id": chat_id,
-        "question": question,
-        "options": options,
-        "type": "quiz",
-        "correct_option_id": correct_option_id,
-        "explanation": explanation,
-        "is_anonymous": True,
-    })
+def _post(endpoint: str, **kwargs) -> requests.Response:
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/{endpoint}"
+    resp = requests.post(url, **kwargs)
     if not resp.ok:
-        print(f"Telegram error [{chat_id}]: {resp.status_code} {resp.text}")
+        print(f"Telegram error {endpoint}: {resp.status_code} {resp.text}")
     resp.raise_for_status()
+    return resp
+
+
+def send_to(chat_id: str, text: str, q: dict):
+    opts_lines = "\n".join(f"{k}. {v}" for k, v in q["options"].items())
+    full_text = f"{text}\n\n{opts_lines}"
+
+    image_path = q.get("image")
+    first_msg_id: int | None = None
+    use_text_only = True
+
+    if image_path:
+        img_file = Path(image_path)
+        if not img_file.exists():
+            print(f"WARNING: image not found: {image_path} — sending text only")
+        else:
+            use_text_only = False
+            # caption limit is 1024 chars
+            caption = full_text if len(full_text) <= 1024 else text
+            extra = opts_lines if len(full_text) > 1024 else None
+
+            with open(img_file, "rb") as fh:
+                resp = _post(
+                    "sendPhoto",
+                    data={"chat_id": chat_id, "caption": caption},
+                    files={"photo": fh},
+                )
+            first_msg_id = resp.json()["result"]["message_id"]
+
+            if extra:
+                _post("sendMessage", json={"chat_id": chat_id, "text": extra})
+
+    if use_text_only:
+        resp = _post("sendMessage", json={"chat_id": chat_id, "text": full_text})
+        first_msg_id = resp.json()["result"]["message_id"]
+
+    # spoiler with correct answer, replying to the first sent message
+    _post("sendMessage", json={
+        "chat_id": chat_id,
+        "text": f"✅ Правильна відповідь: ||{q['answer']}||",
+        "reply_parameters": {"message_id": first_msg_id},
+        "parse_mode": "MarkdownV2",
+    })
 
 
 def main():
@@ -68,19 +97,12 @@ def main():
     q = load_question(subject)
 
     label = SUBJECTS.get(subject, subject)
-    question = truncate(f"{label}\n\n{q['text']}", 300)
-
-    opts_items = list(q["options"].items())
-    options = [truncate(f"{key}. {val}", 100) for key, val in opts_items]
-    correct_option_id = next(
-        i for i, (key, _) in enumerate(opts_items) if key == q["answer"]
-    )
-    explanation = truncate(f"✅ Правильна відповідь: {q['answer']}", 200)
+    text = f"{label}\n\n{q['text']}"
 
     for i, chat_id in enumerate(CHAT_IDS):
         if i > 0:
             time.sleep(1)
-        send_to(chat_id, question, options, correct_option_id, explanation)
+        send_to(chat_id, text, q)
         print(f"OK [{chat_id}]: {subject}")
 
 
