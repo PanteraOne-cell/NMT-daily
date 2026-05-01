@@ -37,7 +37,12 @@ def parse_all_questions(html: str) -> list[dict]:
         m_q = re.search(r'class="question">(.*?)</div>\s*<div class="clear"', block, re.S)
         if not m_q:
             m_q = re.search(r'class="question">(.*?)<div class="answers"', block, re.S)
-        question_text = _clean(_strip_tags(m_q.group(1))) if m_q else ""
+        q_inner = m_q.group(1) if m_q else ""
+        question_text = _clean(_strip_tags(q_inner))
+
+        # URL зображення (якщо є в блоці питання)
+        m_img = re.search(r'<img[^>]+src="([^"]+)"', q_inner)
+        image_url = m_img.group(1) if m_img else None
 
         # Варіанти відповідей
         answer_blocks = re.findall(r'class="answer">(.*?)</div>\s*(?=<div class="answer"|</div>)', block, re.S)
@@ -60,13 +65,16 @@ def parse_all_questions(html: str) -> list[dict]:
                 choices.append({"label": label, "text": text})
 
         if question_text and len(choices) >= 2:
-            results.append({
+            entry = {
                 "id":          qid,
                 "question":    question_text,
                 "choices":     choices,
                 "correct":     correct,
                 "explanation": "",
-            })
+            }
+            if image_url:
+                entry["image_url"] = image_url
+            results.append(entry)
 
     return results
 

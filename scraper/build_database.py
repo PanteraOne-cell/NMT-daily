@@ -32,7 +32,7 @@ SUBJECT_MAP = {
 }
 
 DELAY   = 1.5
-MAX_NEW = 50
+MAX_NEW = 200
 
 
 def load_bank(bank_subject: str) -> dict:
@@ -83,7 +83,7 @@ def to_bank_entry(raw: dict, bank_subject: str, url_subject: str, qid: int) -> d
     for letter in ["A", "B", "C", "D", "E"]:
         options.setdefault(letter, "—")
 
-    return {
+    entry = {
         "id":          f"{prefix}_zno_{qid}",
         "source_id":   f"zno_{qid}",
         "topic":       detect_topic(raw.get("question", ""), bank_subject),
@@ -95,6 +95,12 @@ def to_bank_entry(raw: dict, bank_subject: str, url_subject: str, qid: int) -> d
         "answer":      raw.get("correct") or "?",
         "explanation": raw.get("explanation", ""),
     }
+    image_url = raw.get("image_url")
+    if image_url:
+        if not image_url.startswith("http"):
+            image_url = BASE_URL + image_url
+        entry["image"] = image_url
+    return entry
 
 
 def process_subject(subject_key: str, limit: int) -> int:

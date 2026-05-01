@@ -57,25 +57,36 @@ def send_to(chat_id: str, subject: str, q: dict):
     label = SUBJECTS.get(subject, subject)
     question_text = f"{label}\n\n{clean(q['text'])}"
 
-    image_path = Path(__file__).parent / q["image"] if q.get("image") else None
-    if image_path:
-        print(f"[INFO] image field: {q['image']}")
+    image_val = q.get("image")
+    image_url = image_val if (image_val and image_val.startswith("http")) else None
+    image_path = Path(__file__).parent / image_val if (image_val and not image_url) else None
+
+    if image_url:
+        print(f"[INFO] image URL: {image_url}")
+    elif image_path:
+        print(f"[INFO] image field: {image_val}")
         print(f"[INFO] resolved path: {image_path.resolve()}")
         print(f"[INFO] file exists: {image_path.exists()}")
 
     first_msg_id: int
-    if image_path and image_path.exists():
+    if image_url:
+        resp = _post("sendPhoto", json={
+            "chat_id": chat_id, "photo": image_url, "caption": question_text,
+        })
+        print(f"[INFO] sendPhoto (URL): {resp.status_code} ok={resp.json().get('ok')}")
+        first_msg_id = resp.json()["result"]["message_id"]
+    elif image_path and image_path.exists():
         with open(image_path, "rb") as photo:
             resp = _post(
                 "sendPhoto",
                 data={"chat_id": chat_id, "caption": question_text},
                 files={"photo": photo},
             )
-        print(f"[INFO] sendPhoto: {resp.status_code} ok={resp.json().get('ok')}")
+        print(f"[INFO] sendPhoto (file): {resp.status_code} ok={resp.json().get('ok')}")
         first_msg_id = resp.json()["result"]["message_id"]
     else:
-        if q.get("image"):
-            print(f"[WARNING] image not found: {q['image']}")
+        if image_val:
+            print(f"[WARNING] image not available: {image_val}")
         resp = _post("sendMessage", json={"chat_id": chat_id, "text": question_text})
         first_msg_id = resp.json()["result"]["message_id"]
 
