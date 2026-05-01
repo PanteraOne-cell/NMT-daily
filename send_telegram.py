@@ -3,6 +3,7 @@ import random
 import os
 import time
 import requests
+from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -58,6 +59,7 @@ def send_to(
 
 
 def main():
+    print(f"[{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC] Starting...")
     if not CHAT_IDS:
         print("ERROR: CHAT_IDS not set in .env")
         return

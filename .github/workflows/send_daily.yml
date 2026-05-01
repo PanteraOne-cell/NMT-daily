@@ -1,9 +1,12 @@
 name: Send Daily Question
 
 on:
-  schedule:
-    - cron: "0 * * * *"   # щогодини
   workflow_dispatch:
+    inputs:
+      debug:
+        description: 'Enable debug output'
+        required: false
+        default: 'false'
 
 jobs:
   send:
@@ -24,4 +27,5 @@ jobs:
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_IDS: ${{ secrets.CHAT_IDS }}
+          DEBUG: ${{ inputs.debug }}
         run: python send_telegram.py
