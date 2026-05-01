@@ -20,10 +20,12 @@ import requests
 
 BASE_URL = "https://zno.osvita.ua"
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; nmt-daily-bot/1.0; educational use)",
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "uk-UA,uk;q=0.9",
+    "Referer": "https://zno.osvita.ua/",
 }
-DELAY = 1.2
+DELAY = 1.5
 
 BASE_DIR = Path(__file__).parent.parent
 BANK_DIR = BASE_DIR / "bank"
@@ -38,17 +40,29 @@ def extract_image_url(html: str) -> str | None:
     return m_img.group(1) if m_img else None
 
 
-def fetch_page(source: str) -> str | None:
-    url = f"https://{source}/" if not source.startswith("http") else source
+def fetch_page(source: str) -> tuple[str | None, str | None]:
+    url = f"https://{source}" if not source.startswith("http") else source
+    last_err: str = "невідома помилка"
+    for attempt in range(3):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=25)
+            if resp.status_code == 404:
+                return None, f"HTTP 404 Not Found ({url})"
+            resp.raise_for_status()
+            return resp.text, None
+        except Exception as e:
+            last_err = f"{type(e).__name__}: {e}"
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+    return None, last_err
+
+
+def check_site_reachable() -> None:
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=15)
-        if resp.status_code == 404:
-            return None
-        resp.raise_for_status()
-        return resp.text
-    except requests.RequestException as e:
-        print(f"    ⚠️  {e}")
-        return None
+        r = requests.get(BASE_URL + "/", headers=HEADERS, timeout=10)
+        print(f"[TEST] {BASE_URL}: HTTP {r.status_code}")
+    except Exception as e:
+        print(f"[TEST] {BASE_URL} недоступний: {type(e).__name__}: {e}")
 
 
 def backfill_subject(subject: str) -> int:
@@ -71,11 +85,12 @@ def backfill_subject(subject: str) -> int:
 
     updated = 0
     for n, (idx, q) in enumerate(to_check, 1):
-        html = fetch_page(q["source"])
+        html, err = fetch_page(q["source"])
         time.sleep(DELAY)
 
         if not html:
-            print(f"  {n}/{len(to_check)} {q['source_id']} — не вдалося завантажити")
+            reason = f": {err}" if err else ""
+            print(f"  {n}/{len(to_check)} {q['source_id']} — не вдалося завантажити{reason}")
             continue
 
         img_url = extract_image_url(html)
@@ -104,6 +119,7 @@ def main() -> None:
         print(f"Невідомі предмети: {unknown}. Доступні: {ALL_SUBJECTS}")
         sys.exit(1)
 
+    check_site_reachable()
     total = 0
     for subject in subjects:
         total += backfill_subject(subject)

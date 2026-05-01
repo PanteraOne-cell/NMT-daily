@@ -23,10 +23,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.4.0
         with:
           python-version: "3.11"
 
@@ -46,6 +46,10 @@ jobs:
           git config user.name "nmt-daily-bot"
           git config user.email "bot@nmt-daily"
           git add bank/
-          git diff --staged --quiet || \
-            git commit -m "chore: backfill image URLs from zno.osvita.ua [skip ci]"
+          if git diff --staged --quiet; then
+            echo "Немає змін для коміту"
+            exit 0
+          fi
+          git commit -m "chore: backfill image URLs from zno.osvita.ua [skip ci]"
+          git pull --rebase origin main
           git push
