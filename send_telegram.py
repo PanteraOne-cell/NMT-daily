@@ -33,6 +33,11 @@ def truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
+def escape_md(text: str) -> str:
+    specials = set('\\_*[]()~`>#+-=|{}.!')
+    return "".join(("\\" + ch if ch in specials else ch) for ch in str(text))
+
+
 def load_question(subject: str) -> dict:
     path = Path(f"bank/{subject}.json")
     with open(path, encoding="utf-8") as f:
@@ -53,56 +58,53 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
     return resp
 
 
-def send_to(chat_id: str, subject: str, q: dict):
+def format_message(subject: str, q: dict) -> str:
     label = SUBJECTS.get(subject, subject)
-    question_text = f"{label}\n\n{clean(q['text'])}"
+    lines = [escape_md(label), "", escape_md(clean(q["text"])), ""]
+    for k, v in q["options"].items():
+        lines.append(escape_md(f"{k}. {clean(v)}"))
+    lines.append("\n📌 [@nmt\\_daily\\_ua](https://t.me/nmt_daily_ua)")
+    return "\n".join(lines)
 
-    image_val = q.get("image")
-    image_url = image_val if (image_val and image_val.startswith("http")) else None
-    image_path = Path(__file__).parent / image_val if (image_val and not image_url) else None
 
-    if image_url:
-        print(f"[INFO] image URL: {image_url}")
-    elif image_path:
-        print(f"[INFO] image field: {image_val}")
-        print(f"[INFO] resolved path: {image_path.resolve()}")
-        print(f"[INFO] file exists: {image_path.exists()}")
+def _safe_callback_data(answer_key: str, answer_text: str) -> str:
+    data = f"✅ {answer_key}. {clean(answer_text)}"
+    encoded = data.encode("utf-8")
+    if len(encoded) > 64:
+        data = encoded[:64].decode("utf-8", errors="ignore")
+    return data
 
-    first_msg_id: int
-    if image_url:
-        resp = _post("sendPhoto", json={
-            "chat_id": chat_id, "photo": image_url, "caption": question_text,
-        })
-        print(f"[INFO] sendPhoto (URL): {resp.status_code} ok={resp.json().get('ok')}")
-        first_msg_id = resp.json()["result"]["message_id"]
-    elif image_path and image_path.exists():
-        with open(image_path, "rb") as photo:
-            resp = _post(
-                "sendPhoto",
-                data={"chat_id": chat_id, "caption": question_text},
-                files={"photo": photo},
-            )
-        print(f"[INFO] sendPhoto (file): {resp.status_code} ok={resp.json().get('ok')}")
-        first_msg_id = resp.json()["result"]["message_id"]
-    else:
-        if image_val:
-            print(f"[WARNING] image not available: {image_val}")
-        resp = _post("sendMessage", json={"chat_id": chat_id, "text": question_text})
-        first_msg_id = resp.json()["result"]["message_id"]
 
-    options = [f"{k}. {clean(v)}"[:100] for k, v in q["options"].items()]
-    keys = list(q["options"].keys())
-    correct_option_id = keys.index(q["answer"])
-
-    _post("sendPoll", json={
+def send_to(chat_id: str, text: str, answer_key: str, answer_full: str):
+    reply_markup = {
+        "inline_keyboard": [[{
+            "text": "💡 Показати відповідь",
+            "callback_data": _safe_callback_data(answer_key, answer_full),
+        }]]
+    }
+    _post("sendMessage", json={
         "chat_id": chat_id,
-        "question": "Оберіть правильну відповідь:",
-        "options": options,
-        "type": "quiz",
-        "correct_option_id": correct_option_id,
-        "reply_to_message_id": first_msg_id,
-        "is_anonymous": True,
+        "text": text,
+        "parse_mode": "MarkdownV2",
+        "reply_markup": reply_markup,
     })
+
+
+def process_callbacks():
+    resp = _post("getUpdates", json={"timeout": 5, "allowed_updates": ["callback_query"]})
+    updates = resp.json().get("result", [])
+    if not updates:
+        return
+    last_update_id = updates[-1]["update_id"]
+    for update in updates:
+        cq = update.get("callback_query")
+        if cq:
+            _post("answerCallbackQuery", json={
+                "callback_query_id": cq["id"],
+                "text": cq["data"],
+                "show_alert": True,
+            })
+    _post("getUpdates", json={"offset": last_update_id + 1, "timeout": 1})
 
 
 def main():
@@ -111,15 +113,23 @@ def main():
         print("ERROR: CHAT_IDS not set in .env")
         return
 
+    process_callbacks()
+
     subject = random.choice(list(SUBJECTS.keys()))
     q = load_question(subject)
+    text = format_message(subject, q)
+    answer_full = q["options"].get(q["answer"], q["answer"])
 
     for i, chat_id in enumerate(CHAT_IDS):
         if i > 0:
             time.sleep(1)
-        send_to(chat_id, subject, q)
+        send_to(chat_id, text, q["answer"], answer_full)
         print(f"OK [{chat_id}]: {subject}")
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] == "callbacks":
+        process_callbacks()
+    else:
+        main()

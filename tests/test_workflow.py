@@ -39,3 +39,25 @@ def test_no_cron_string_in_file():
     assert "cron:" not in content, (
         "File must not contain any cron: expression"
     )
+
+
+def test_callbacks_job():
+    workflow = load_workflow()
+    jobs = workflow.get("jobs", {})
+
+    assert "callbacks" in jobs, "callbacks job must exist"
+
+    steps = jobs["callbacks"].get("steps", [])
+    assert any("callbacks" in str(step.get("run", "")) for step in steps), (
+        "callbacks job must have a step whose run: contains 'callbacks'"
+    )
+
+    for job_name, job in jobs.items():
+        if job_name == "callbacks":
+            continue
+        needs = job.get("needs", [])
+        if isinstance(needs, str):
+            needs = [needs]
+        assert "callbacks" not in needs, (
+            f"job '{job_name}' must not list 'callbacks' in its needs"
+        )
