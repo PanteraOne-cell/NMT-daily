@@ -120,6 +120,22 @@ def test_sent_tracking_fallback(monkeypatch, tmp_path):
     assert q["id"] == "q1"
 
 
+def test_load_question_raises_when_no_valid(monkeypatch, tmp_path):
+    """load_question raises ValueError when bank has no valid questions."""
+    from send_telegram import load_question
+
+    questions = [
+        {"id": "bad", "text": "на рисунку", "options": {"A": "x"}, "answer": "A"},  # needs image
+    ]
+    bank_dir = tmp_path / "bank"
+    bank_dir.mkdir()
+    (bank_dir / "math.json").write_text(json.dumps({"questions": questions}), encoding="utf-8")
+    monkeypatch.chdir(tmp_path)
+
+    with pytest.raises(ValueError, match="No valid questions"):
+        load_question("math")
+
+
 # ── shared mock helper ────────────────────────────────────────────────────────
 
 def _make_mock(monkeypatch, tmp_path):
@@ -147,7 +163,7 @@ def _make_mock(monkeypatch, tmp_path):
 
 
 def test_send_to_no_image(monkeypatch, tmp_path):
-    """No image: sendMessage → sendPoll → sendMessage(spoiler)."""
+    """No image: sendMessage → sendPoll (2 steps)."""
     st, calls = _make_mock(monkeypatch, tmp_path)
 
     q = {
@@ -159,19 +175,16 @@ def test_send_to_no_image(monkeypatch, tmp_path):
     st.send_to("@channel", "math", q)
 
     endpoints = [ep for ep, _ in calls]
-    assert endpoints == ["sendMessage", "sendPoll", "sendMessage"], endpoints
+    assert endpoints == ["sendMessage", "sendPoll"], endpoints
     poll = calls[1][1]
     assert poll["type"] == "quiz"
     assert poll["is_anonymous"] is True
     assert poll["correct_option_id"] == 2   # "C" is index 2 of A-E
     assert poll["reply_to_message_id"] == 42
-    spoiler_text = calls[2][1]["text"]
-    assert "||" in spoiler_text, "spoiler must use || formatting"
-    assert "C" in spoiler_text
 
 
 def test_send_to_with_image(monkeypatch, tmp_path):
-    """With image: sendPhoto(caption) → sendPoll → sendMessage(spoiler)."""
+    """With image: sendPhoto(caption) → sendPoll (2 steps)."""
     st, calls = _make_mock(monkeypatch, tmp_path)
 
     q = {
@@ -184,13 +197,12 @@ def test_send_to_with_image(monkeypatch, tmp_path):
     st.send_to("@channel", "biology", q)
 
     endpoints = [ep for ep, _ in calls]
-    assert endpoints == ["sendPhoto", "sendPoll", "sendMessage"], endpoints
+    assert endpoints == ["sendPhoto", "sendPoll"], endpoints
     photo = calls[0][1]
     assert "caption" in photo
     assert photo["parse_mode"] == "MarkdownV2"
     assert "Що зображено на рисунку" in photo["caption"]
     assert calls[1][1]["reply_to_message_id"] == 42
-    assert "||" in calls[2][1]["text"]
 
 
 def test_send_to_filters_placeholder_options(monkeypatch, tmp_path):
@@ -224,10 +236,21 @@ def test_strip_latex_applied_to_caption(monkeypatch, tmp_path):
     }
     st.send_to("@channel", "math", q)
 
-    # First call: sendMessage with the question text (no image)
     msg_text = calls[0][1]["text"]
     assert r"\sqrt" not in msg_text, "raw LaTeX must not appear in message"
     assert "√" in msg_text
+
+
+def test_send_to_label_contains_emoji_and_name(monkeypatch, tmp_path):
+    """send_to must include subject emoji and Ukrainian name in message."""
+    st, calls = _make_mock(monkeypatch, tmp_path)
+
+    q = {"id": "t5", "text": "Питання", "options": {"A": "x"}, "answer": "A"}
+    st.send_to("@channel", "math", q)
+
+    msg_text = calls[0][1]["text"]
+    assert "📐" in msg_text
+    assert "Математика" in msg_text
 
 
 def test_main_4_subjects_all_chats(monkeypatch, tmp_path):
@@ -259,18 +282,8 @@ def test_main_4_subjects_all_chats(monkeypatch, tmp_path):
 
     send_telegram.main()
 
-    poll_calls   = [(ep, p) for ep, p in calls if ep == "sendPoll"]
-    spoiler_calls = [(ep, p) for ep, p in calls if ep == "sendMessage"
-                     and "||" in p.get("text", "")]
-
-    assert len(poll_calls) == 8,    f"expected 8 sendPoll, got {len(poll_calls)}"
-    assert len(spoiler_calls) == 8, f"expected 8 spoiler messages, got {len(spoiler_calls)}"
+    poll_calls = [(ep, p) for ep, p in calls if ep == "sendPoll"]
+    assert len(poll_calls) == 8, f"expected 8 sendPoll, got {len(poll_calls)}"
 
     chat_ids_polled = {p["chat_id"] for _, p in poll_calls}
     assert chat_ids_polled == {"chat1", "chat2"}, "both chats must receive polls"
-
-    subjects_polled = {p["question"] for _, p in poll_calls}
-    # All polls have the same question text "Оберіть правильну відповідь:" but
-    # we verify that all 4 subjects were sent by checking print output via send_to calls.
-    # Instead, count unique chat×subject pairs via spoiler reply_to ids (all map to msg_id=1).
-    assert len(poll_calls) == 8

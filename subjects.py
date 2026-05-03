@@ -7,7 +7,7 @@ SUBJECT_NAMES: dict[str, str] = {
 
 SUBJECT_EMOJIS: dict[str, str] = {
     "math":      "📐",
-    "ukrainian": "🇺🇦",
+    "ukrainian": "📝",
     "history":   "📜",
     "biology":   "🧬",
 }

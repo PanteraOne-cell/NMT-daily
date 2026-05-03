@@ -9,17 +9,14 @@ from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
 
+from subjects import SUBJECT_NAMES, SUBJECT_EMOJIS
+
 load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_IDS = [cid.strip() for cid in os.getenv("CHAT_IDS", "").split(",") if cid.strip()]
 
-SUBJECTS = {
-    "math":      "📐 Математика",
-    "ukrainian": "📝 Українська мова",
-    "history":   "📜 Історія України",
-    "biology":   "🧬 Біологія",
-}
+SUBJECTS = list(SUBJECT_NAMES.keys())
 
 NEEDS_IMAGE_KW = [
     "на рисунку", "на фото", "позначено буквою",
@@ -139,7 +136,9 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
 
 
 def send_to(chat_id: str, subject: str, q: dict):
-    label = SUBJECTS.get(subject, subject)
+    emoji = SUBJECT_EMOJIS.get(subject, "")
+    name = SUBJECT_NAMES.get(subject, subject)
+    label = f"{emoji} {name}"
     image_url = q.get("image")
     question_text = _escape_md(strip_latex(clean(q["text"])))
 
@@ -184,7 +183,7 @@ def main():
         print("ERROR: CHAT_IDS not set in .env")
         return
 
-    subjects = list(SUBJECTS.keys())
+    subjects = list(SUBJECTS)
     random.shuffle(subjects)
 
     for subject in subjects:

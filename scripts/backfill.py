@@ -21,17 +21,7 @@ sys.path.insert(0, str(ROOT))
 
 from parse_question import parse_all_questions  # noqa: E402
 from subjects import SUBJECT_NAMES, detect_topic  # noqa: E402
-
-BASE_URL = "https://zno.osvita.ua"
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "uk-UA,uk;q=0.9",
-    "Referer": "https://zno.osvita.ua/",
-}
+from common import BASE_URL, HEADERS  # noqa: E402
 BANK_DIR = ROOT / "bank"
 STEP = 15
 

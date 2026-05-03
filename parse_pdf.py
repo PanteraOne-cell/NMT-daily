@@ -59,7 +59,7 @@ def extract_text(pdf_path):
 
 
 def parse_questions(text):
-    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
     questions = []
     current_q = None
     current_options = {}
