@@ -31,16 +31,20 @@ def test_no_image_needed_without_url(monkeypatch, tmp_path):
 
 
 def test_send_to_calls_sendpoll(monkeypatch):
-    """send_to sends a single sendPoll quiz with correct_option_id."""
+    """send_to: sends context message then a linked quiz poll."""
     import send_telegram
 
     calls = []
+    msg_id = 42
 
     class MockResp:
         ok = True
 
         def raise_for_status(self):
             pass
+
+        def json(self):
+            return {"result": {"message_id": msg_id}}
 
     def mock_post(endpoint, **kwargs):
         calls.append((endpoint, kwargs.get("json", {})))
@@ -55,9 +59,43 @@ def test_send_to_calls_sendpoll(monkeypatch):
     }
     send_telegram.send_to("@channel", "math", q)
 
-    assert len(calls) == 1, "send_to must make exactly one API call"
-    endpoint, payload = calls[0]
+    assert len(calls) == 2, "send_to must make exactly 2 API calls (message + poll)"
+    assert calls[0][0] == "sendMessage"
+    endpoint, payload = calls[1]
     assert endpoint == "sendPoll"
     assert payload["type"] == "quiz"
     assert payload["is_anonymous"] is True
-    assert payload["correct_option_id"] == 2  # index of "C" in options
+    assert payload["correct_option_id"] == 2       # index of "C" in options
+    assert payload["reply_to_message_id"] == msg_id
+
+
+def test_send_to_with_image(monkeypatch):
+    """send_to: uses sendPhoto instead of sendMessage when image is present."""
+    import send_telegram
+
+    calls = []
+
+    class MockResp:
+        ok = True
+
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {"result": {"message_id": 7}}
+
+    def mock_post(endpoint, **kwargs):
+        calls.append(endpoint)
+        return MockResp()
+
+    monkeypatch.setattr(send_telegram, "_post", mock_post)
+
+    q = {
+        "text": "на рисунку показано графік",
+        "options": {"A": "1", "B": "2", "C": "3", "D": "4", "E": "5"},
+        "answer": "A",
+        "image": "https://example.com/img.png",
+    }
+    send_telegram.send_to("@channel", "math", q)
+
+    assert calls == ["sendPhoto", "sendPoll"]

@@ -38,6 +38,18 @@ def truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
+def strip_latex(text: str) -> str:
+    import re
+    text = re.sub(r'\(\\frac\{([^}]+)\}\{([^}]+)\}\)', r'\1/\2', text)
+    text = re.sub(r'\((\d+)\\circ\)',  r'\1°',  text)
+    text = re.sub(r'\(\\sqrt\{([^}]+)\}\)', r'√\1', text)
+    text = text.replace(r'\(\pi\)', 'π')
+    text = re.sub(r'\(([^)]+)\^\{?2\}?\)', r'\1²', text)
+    text = re.sub(r'\(([^)]+)\^\{?3\}?\)', r'\1³', text)
+    text = re.sub(r'\\\(|\\\)', '', text)
+    return text
+
+
 def load_question(subject: str) -> dict:
     path = Path(f"bank/{subject}.json")
     with open(path, encoding="utf-8") as f:
@@ -67,19 +79,42 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
     return resp
 
 
+def _escape_md(text: str) -> str:
+    import re
+    return re.sub(r'([_*\[\]()~`>#+\-=|{}.!\\])', r'\\\1', str(text))
+
+
 def send_to(chat_id: str, subject: str, q: dict):
     label = SUBJECTS.get(subject, subject)
-    question = truncate(f"{label}\n\n{clean(q['text'])}", 255)
-    options = [{"text": f"{k}. {clean(v)}"[:100]} for k, v in q["options"].items()]
+    image_url = q.get("image")
+
+    # Step 1 / 2 — context message (photo or text)
+    if image_url:
+        resp = _post("sendPhoto", json={
+            "chat_id": chat_id,
+            "photo": image_url,
+        })
+    else:
+        text = f"{_escape_md(label)}\n\n❓ {_escape_md(clean(q['text']))}"
+        resp = _post("sendMessage", json={
+            "chat_id": chat_id,
+            "text": text,
+            "parse_mode": "MarkdownV2",
+        })
+    reply_message_id = resp.json()["result"]["message_id"]
+
+    # Step 3 — quiz poll
+    options = [{"text": strip_latex(clean(v))[:100]} for v in q["options"].values()]
     keys = list(q["options"].keys())
     correct_option_id = keys.index(q["answer"])
     _post("sendPoll", json={
         "chat_id": chat_id,
-        "question": question,
+        "question": "Оберіть правильну відповідь:",
         "options": options,
         "type": "quiz",
         "correct_option_id": correct_option_id,
         "is_anonymous": True,
+        "reply_to_message_id": reply_message_id,
     })
 
 
