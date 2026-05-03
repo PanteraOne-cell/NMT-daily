@@ -30,8 +30,8 @@ def test_no_image_needed_without_url(monkeypatch, tmp_path):
     assert selected_ids <= {"q2", "q3"}
 
 
-def test_send_to_uses_image_url(monkeypatch):
-    """send_to calls sendPhoto when image_url is present."""
+def test_send_to_calls_sendpoll(monkeypatch):
+    """send_to sends a single sendPoll quiz with correct_option_id."""
     import send_telegram
 
     calls = []
@@ -39,26 +39,25 @@ def test_send_to_uses_image_url(monkeypatch):
     class MockResp:
         ok = True
 
-        def json(self):
-            return {"result": {"message_id": 1}}
-
         def raise_for_status(self):
             pass
 
     def mock_post(endpoint, **kwargs):
-        calls.append(endpoint)
+        calls.append((endpoint, kwargs.get("json", {})))
         return MockResp()
 
     monkeypatch.setattr(send_telegram, "_post", mock_post)
 
     q = {
-        "text": "Питання",
-        "options": {"A": "варіант А"},
-        "answer": "A",
-        "image_url": "https://example.com/img.png",
+        "text": "Яке значення має вираз?",
+        "options": {"A": "1", "B": "2", "C": "3", "D": "4", "E": "5"},
+        "answer": "C",
     }
-    send_telegram.send_to("@channel", "текст питання", q)
+    send_telegram.send_to("@channel", "math", q)
 
-    assert "sendPhoto" in calls
-    assert calls.count("sendPhoto") == 1
-    assert calls[-1] == "sendMessage"  # spoiler is last
+    assert len(calls) == 1, "send_to must make exactly one API call"
+    endpoint, payload = calls[0]
+    assert endpoint == "sendPoll"
+    assert payload["type"] == "quiz"
+    assert payload["is_anonymous"] is True
+    assert payload["correct_option_id"] == 2  # index of "C" in options

@@ -29,17 +29,3 @@ jobs:
           CHAT_IDS: ${{ secrets.CHAT_IDS }}
           DEBUG: ${{ inputs.debug }}
         run: python send_telegram.py
-
-  callbacks:
-    runs-on: ubuntu-latest
-    needs: []
-    steps:
-      - uses: actions/checkout@v4.2.2
-      - uses: actions/setup-python@v5.4.0
-        with:
-          python-version: "3.10"
-      - run: pip install requests python-dotenv
-      - run: python send_telegram.py callbacks
-        env:
-          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          CHAT_IDS: ${{ secrets.CHAT_IDS }}

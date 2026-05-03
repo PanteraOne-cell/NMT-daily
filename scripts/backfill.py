@@ -69,6 +69,20 @@ def existing_source_ids(bank: dict) -> set[str]:
     }
 
 
+def first_uncovered_offset(done_ids: set[str]) -> int:
+    """Estimate the first page offset that likely contains unseen questions.
+
+    Questions on a page at offset N have roughly the same numeric IDs as N.
+    Starting just below the minimum known ID avoids re-scanning all already-
+    fetched pages from the top.
+    """
+    if not done_ids:
+        return STEP
+    min_id = min(int(x) for x in done_ids if x.isdigit())
+    # go two pages back from the minimum to avoid off-by-one on page boundaries
+    return max(STEP, (min_id // STEP - 2) * STEP)
+
+
 def fetch_page(slug: str, offset: int) -> str | None:
     url = f"{BASE_URL}/{slug}/all/{offset}/"
     delay = 2.0
@@ -145,7 +159,7 @@ def backfill_subject(subject: str, target: int) -> dict:
     done_ids = existing_source_ids(bank)
     need = target - before
     added = 0
-    offset = STEP
+    offset = first_uncovered_offset(done_ids)
     consecutive_empty = 0
 
     print(f"  {subject}: {before} → потрібно ще {need}")

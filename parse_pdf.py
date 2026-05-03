@@ -135,7 +135,7 @@ def build_questions(raw_questions, answers, subject, source_info):
         result.append({
             "id": f"{prefix}_{num:03d}",
             "topic": topic,
-            "year": int(source_info.split()[-2]) if source_info else 2025,
+            "year": int(source_info.split()[1].rstrip(",")) if source_info else 2025,
             "source": source_info,
             "type": "single_choice",
             "text": q["text"],
@@ -168,7 +168,9 @@ def merge_with_bank(new_questions, subject):
         unique = new_questions
 
     bank["total_questions"] = len(bank["questions"])
-    bank_path.write_text(json.dumps(bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp = bank_path.with_suffix(".tmp")
+    tmp.write_text(json.dumps(bank, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, bank_path)
     return len(unique)
 
 

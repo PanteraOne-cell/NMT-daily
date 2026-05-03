@@ -38,11 +38,6 @@ def truncate(text: str, limit: int) -> str:
     return text if len(text) <= limit else text[: limit - 1] + "…"
 
 
-def escape_md(text: str) -> str:
-    specials = set('\\_*[]()~`>#+-=|{}.!')
-    return "".join(("\\" + ch if ch in specials else ch) for ch in str(text))
-
-
 def load_question(subject: str) -> dict:
     path = Path(f"bank/{subject}.json")
     with open(path, encoding="utf-8") as f:
@@ -70,15 +65,6 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
         print(f"Telegram error {endpoint}: {resp.status_code} {resp.text}")
     resp.raise_for_status()
     return resp
-
-
-def format_message(subject: str, q: dict) -> str:
-    label = SUBJECTS.get(subject, subject)
-    lines = [f"*{escape_md(label)}*", "", f"❓ {escape_md(clean(q['text']))}", ""]
-    for k, v in q["options"].items():
-        lines.append(escape_md(f"{k}. {clean(v)}"))
-    lines.append("\n📌 [@nmt\\_daily\\_ua](https://t.me/nmt_daily_ua)")
-    return "\n".join(lines)
 
 
 def send_to(chat_id: str, subject: str, q: dict):
