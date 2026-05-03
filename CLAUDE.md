@@ -131,7 +131,7 @@ All tests are offline (no network, no Telegram API). `conftest.py` adds project 
 python check_bank.py
 
 # Run quality check (standalone script, not pytest)
-python _test_quality.py
+python scripts/quality_check.py
 
 # Expand bank to 600 questions
 python scripts/backfill.py --subject all --target 600
@@ -153,9 +153,6 @@ python parse_pdf.py --pdf exam.pdf --answers answers.pdf --subject math --year 2
 
 ## Improvement ideas
 
-- **CI test step**: add `pytest` to `send_daily.yml` so tests run on every push
 - **Geography subject**: `SUBJECT_URL` already has a placeholder gap — can add with slug `geography`
-- **`detect_topic` ordering**: "Функції та графіки" keyword `"функці"` catches too many unrelated questions; consider moving it later in the list or tightening keyword to `"графік функц"`
 - **Retry on `_save_sent`**: currently no retry if file write fails (race condition with git push)
-- **Structured logging**: replace `print()` with `logging` for better CI log filtering
-- **`_test_quality.py`**: standalone script at root; could be converted to `scripts/quality_check.py` for clarity
+- **`detect_topic` ordering**: "Функції та графіки" now comes last among math topics — if new math topics are added, keep this entry last
