@@ -30,72 +30,55 @@ def test_no_image_needed_without_url(monkeypatch, tmp_path):
     assert selected_ids <= {"q2", "q3"}
 
 
-def test_send_to_calls_sendpoll(monkeypatch):
-    """send_to: sends context message then a linked quiz poll."""
+def _make_mock(monkeypatch):
     import send_telegram
-
-    calls = []
-    msg_id = 42
+    payloads = {}
 
     class MockResp:
         ok = True
-
-        def raise_for_status(self):
-            pass
-
-        def json(self):
-            return {"result": {"message_id": msg_id}}
+        def raise_for_status(self): pass
+        def json(self): return {"result": {"message_id": 42}}
 
     def mock_post(endpoint, **kwargs):
-        calls.append((endpoint, kwargs.get("json", {})))
+        payloads[endpoint] = kwargs.get("json", {})
         return MockResp()
 
     monkeypatch.setattr(send_telegram, "_post", mock_post)
+    return send_telegram, payloads
+
+
+def test_send_to_no_image(monkeypatch):
+    """No image: sendMessage then sendPoll linked to it."""
+    st, payloads = _make_mock(monkeypatch)
 
     q = {
         "text": "Яке значення має вираз?",
         "options": {"A": "1", "B": "2", "C": "3", "D": "4", "E": "5"},
         "answer": "C",
     }
-    send_telegram.send_to("@channel", "math", q)
+    st.send_to("@channel", "math", q)
 
-    assert len(calls) == 2, "send_to must make exactly 2 API calls (message + poll)"
-    assert calls[0][0] == "sendMessage"
-    endpoint, payload = calls[1]
-    assert endpoint == "sendPoll"
-    assert payload["type"] == "quiz"
-    assert payload["is_anonymous"] is True
-    assert payload["correct_option_id"] == 2       # index of "C" in options
-    assert payload["reply_to_message_id"] == msg_id
+    assert set(payloads) == {"sendMessage", "sendPoll"}
+    assert payloads["sendPoll"]["type"] == "quiz"
+    assert payloads["sendPoll"]["is_anonymous"] is True
+    assert payloads["sendPoll"]["correct_option_id"] == 2   # "C" is index 2
+    assert payloads["sendPoll"]["reply_to_message_id"] == 42
 
 
 def test_send_to_with_image(monkeypatch):
-    """send_to: uses sendPhoto instead of sendMessage when image is present."""
-    import send_telegram
-
-    calls = []
-
-    class MockResp:
-        ok = True
-
-        def raise_for_status(self):
-            pass
-
-        def json(self):
-            return {"result": {"message_id": 7}}
-
-    def mock_post(endpoint, **kwargs):
-        calls.append(endpoint)
-        return MockResp()
-
-    monkeypatch.setattr(send_telegram, "_post", mock_post)
+    """With image: sendPhoto (with caption) then sendPoll linked to it."""
+    st, payloads = _make_mock(monkeypatch)
 
     q = {
-        "text": "на рисунку показано графік",
+        "text": "Що зображено на рисунку?",
         "options": {"A": "1", "B": "2", "C": "3", "D": "4", "E": "5"},
-        "answer": "A",
+        "answer": "B",
         "image": "https://example.com/img.png",
     }
-    send_telegram.send_to("@channel", "math", q)
+    st.send_to("@channel", "biology", q)
 
-    assert calls == ["sendPhoto", "sendPoll"]
+    assert set(payloads) == {"sendPhoto", "sendPoll"}
+    assert "caption" in payloads["sendPhoto"], "sendPhoto must carry caption"
+    assert payloads["sendPhoto"]["parse_mode"] == "MarkdownV2"
+    assert "Що зображено на рисунку" in payloads["sendPhoto"]["caption"]
+    assert payloads["sendPoll"]["reply_to_message_id"] == 42

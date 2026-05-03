@@ -90,9 +90,12 @@ def send_to(chat_id: str, subject: str, q: dict):
 
     # Step 1 / 2 — context message (photo or text)
     if image_url:
+        caption = f"{_escape_md(label)}\n\n❓ {_escape_md(clean(q['text']))}"
         resp = _post("sendPhoto", json={
             "chat_id": chat_id,
             "photo": image_url,
+            "caption": caption,
+            "parse_mode": "MarkdownV2",
         })
     else:
         text = f"{_escape_md(label)}\n\n❓ {_escape_md(clean(q['text']))}"
