@@ -81,46 +81,19 @@ def format_message(subject: str, q: dict) -> str:
     return "\n".join(lines)
 
 
-def send_to(chat_id: str, text: str, q: dict):
-    image_url = q.get("image_url") or q.get("image")
-
-    if image_url:
-        if len(text) <= 1024:
-            resp = _post("sendPhoto", json={
-                "chat_id": chat_id,
-                "photo": image_url,
-                "caption": text,
-                "parse_mode": "MarkdownV2",
-            })
-            first_id = resp.json()["result"]["message_id"]
-        else:
-            photo = _post("sendPhoto", json={
-                "chat_id": chat_id,
-                "photo": image_url,
-            })
-            photo_id = photo.json()["result"]["message_id"]
-            msg = _post("sendMessage", json={
-                "chat_id": chat_id,
-                "text": text,
-                "parse_mode": "MarkdownV2",
-                "reply_parameters": {"message_id": photo_id},
-            })
-            first_id = msg.json()["result"]["message_id"]
-    else:
-        resp = _post("sendMessage", json={
-            "chat_id": chat_id,
-            "text": text,
-            "parse_mode": "MarkdownV2",
-        })
-        first_id = resp.json()["result"]["message_id"]
-
-    answer_text = q["options"].get(q["answer"], q["answer"])
-    spoiler = f"||✅ Правильна відповідь: {escape_md(clean(answer_text))}||"
-    _post("sendMessage", json={
+def send_to(chat_id: str, subject: str, q: dict):
+    label = SUBJECTS.get(subject, subject)
+    question = truncate(f"{label}\n\n{clean(q['text'])}", 255)
+    options = [{"text": f"{k}. {clean(v)}"[:100]} for k, v in q["options"].items()]
+    keys = list(q["options"].keys())
+    correct_option_id = keys.index(q["answer"])
+    _post("sendPoll", json={
         "chat_id": chat_id,
-        "text": spoiler,
-        "parse_mode": "MarkdownV2",
-        "reply_parameters": {"message_id": first_id},
+        "question": question,
+        "options": options,
+        "type": "quiz",
+        "correct_option_id": correct_option_id,
+        "is_anonymous": True,
     })
 
 
@@ -132,12 +105,11 @@ def main():
 
     subject = random.choice(list(SUBJECTS.keys()))
     q = load_question(subject)
-    text = format_message(subject, q)
 
     for i, chat_id in enumerate(CHAT_IDS):
         if i > 0:
             time.sleep(1)
-        send_to(chat_id, text, q)
+        send_to(chat_id, subject, q)
         print(f"OK [{chat_id}]: {subject}")
 
 
