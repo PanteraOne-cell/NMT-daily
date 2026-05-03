@@ -174,12 +174,14 @@ def main():
         print("ERROR: CHAT_IDS not set in .env")
         return
 
-    subject = random.choice(list(SUBJECTS.keys()))
-    q = load_question(subject)
+    subjects = list(SUBJECTS.keys())
+    random.shuffle(subjects)
 
     for i, chat_id in enumerate(CHAT_IDS):
         if i > 0:
             time.sleep(1)
+        subject = subjects[i % len(subjects)]
+        q = load_question(subject)
         send_to(chat_id, subject, q)
         print(f"OK [{chat_id}]: {subject}")
 
