@@ -33,13 +33,15 @@ def test_detect_topic_math_trig():
 
 
 def test_detect_topic_math_integral():
-    # Avoid "функці" keyword (matches "Функції та графіки" first in topic order)
-    assert detect_topic("Обчисліть визначений інтеграл", "math") == "Інтеграл"
+    assert detect_topic("Обчисліть визначений інтеграл функції", "math") == "Інтеграл"
 
 
 def test_detect_topic_math_derivative():
-    # Avoid "функці" keyword (matches "Функції та графіки" first in topic order)
-    assert detect_topic("Знайдіть похідну виразу y = x²", "math") == "Похідна"
+    assert detect_topic("Знайдіть похідну функції y = x²", "math") == "Похідна"
+
+
+def test_detect_topic_math_functions_graph():
+    assert detect_topic("Побудуйте графік функції y = x²", "math") == "Функції та графіки"
 
 
 def test_detect_topic_math_logarithm():
