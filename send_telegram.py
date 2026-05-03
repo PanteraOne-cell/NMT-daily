@@ -133,7 +133,7 @@ def send_to(chat_id: str, subject: str, q: dict):
     image_url = q.get("image")
     question_text = _escape_md(strip_latex(clean(q["text"])))
 
-    # Step 1 / 2 — context message (photo or text)
+    # Step 1 — context message (photo or plain text)
     if image_url:
         caption = f"{_escape_md(label)}\n\n❓ {question_text}"
         resp = _post("sendPhoto", json={
@@ -151,7 +151,7 @@ def send_to(chat_id: str, subject: str, q: dict):
         })
     reply_message_id = resp.json()["result"]["message_id"]
 
-    # Step 3 — quiz poll (filter out "—" placeholders, recompute correct index)
+    # Step 2 — quiz poll (filter "—" placeholders, recompute correct index)
     pairs = [(k, v) for k, v in q["options"].items() if v != "—"]
     options = [{"text": strip_latex(clean(v))[:100]} for _, v in pairs]
     correct_option_id = [k for k, _ in pairs].index(q["answer"])
@@ -162,6 +162,19 @@ def send_to(chat_id: str, subject: str, q: dict):
         "type":                "quiz",
         "correct_option_id":   correct_option_id,
         "is_anonymous":        True,
+        "reply_to_message_id": reply_message_id,
+    })
+
+    # Step 3 — spoiler with correct answer (reply to question message)
+    correct_text = next(v for k, v in pairs if k == q["answer"])
+    spoiler = (
+        f"✅ ||{_escape_md(q['answer'])} — "
+        f"{_escape_md(strip_latex(clean(correct_text)))}||"
+    )
+    _post("sendMessage", json={
+        "chat_id":             chat_id,
+        "text":                spoiler,
+        "parse_mode":          "MarkdownV2",
         "reply_to_message_id": reply_message_id,
     })
 
@@ -177,13 +190,14 @@ def main():
     subjects = list(SUBJECTS.keys())
     random.shuffle(subjects)
 
-    for i, subject in enumerate(subjects):
-        if i > 0:
-            time.sleep(1)
-        chat_id = CHAT_IDS[i % len(CHAT_IDS)]
+    for subject in subjects:
         q = load_question(subject)
-        send_to(chat_id, subject, q)
-        print(f"OK [{chat_id}]: {subject}")
+        for i, chat_id in enumerate(CHAT_IDS):
+            if i > 0:
+                time.sleep(1)
+            send_to(chat_id, subject, q)
+            print(f"OK [{chat_id}]: {subject}")
+        time.sleep(2)
 
 
 if __name__ == "__main__":
