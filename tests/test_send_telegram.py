@@ -27,6 +27,58 @@ def test_no_image_needed_without_url(monkeypatch, tmp_path):
     assert selected_ids <= {"q2", "q3"}
 
 
+def test_image_options_filtered(monkeypatch, tmp_path):
+    """Questions whose answer options are image URLs must be excluded."""
+    from send_telegram import load_question
+
+    questions = [
+        {
+            "id": "img_opts",
+            "text": "Позначте зображення човна",
+            "options": {
+                "A": "https://zno.osvita.ua/doc/images/1.png",
+                "B": "https://zno.osvita.ua/doc/images/2.png",
+                "C": "https://zno.osvita.ua/doc/images/3.png",
+                "D": "https://zno.osvita.ua/doc/images/4.png",
+            },
+            "answer": "A",
+            "image": "https://zno.osvita.ua/doc/images/task.png",
+        },
+        {"id": "normal", "text": "Звичайне питання", "options": {"A": "так"}, "answer": "A"},
+    ]
+    bank_dir = tmp_path / "bank"
+    bank_dir.mkdir()
+    (bank_dir / "math.json").write_text(json.dumps({"questions": questions}), encoding="utf-8")
+    monkeypatch.chdir(tmp_path)
+
+    selected_ids = {load_question("math")["id"] for _ in range(40)}
+    assert "img_opts" not in selected_ids, "question with image-URL options must be filtered"
+    assert selected_ids == {"normal"}
+
+
+def test_zображення_kw_filtered_without_image(monkeypatch, tmp_path):
+    """Questions with 'зображення' in text and no image must be filtered."""
+    from send_telegram import load_question
+
+    questions = [
+        {
+            "id": "blind",
+            "text": "Позначте зображення, на якому показано...",
+            "options": {"A": "варіант"},
+            "answer": "A",
+        },
+        {"id": "ok", "text": "Звичайне питання", "options": {"A": "так"}, "answer": "A"},
+    ]
+    bank_dir = tmp_path / "bank"
+    bank_dir.mkdir()
+    (bank_dir / "math.json").write_text(json.dumps({"questions": questions}), encoding="utf-8")
+    monkeypatch.chdir(tmp_path)
+
+    selected_ids = {load_question("math")["id"] for _ in range(40)}
+    assert "blind" not in selected_ids
+    assert selected_ids == {"ok"}
+
+
 def test_sent_tracking_excludes_recent(monkeypatch, tmp_path):
     """load_question skips questions that appear in data/sent.json."""
     from send_telegram import load_question

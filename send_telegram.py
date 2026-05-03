@@ -23,7 +23,7 @@ SUBJECTS = {
 
 NEEDS_IMAGE_KW = [
     "на рисунку", "на фото", "позначено буквою",
-    "зображено", "на діаграмі", "на карті", "на схемі",
+    "зображено", "зображення", "на діаграмі", "на карті", "на схемі",
 ]
 
 SENT_PATH   = Path("data/sent.json")   # relative to CWD (repo root)
@@ -79,6 +79,14 @@ def _save_sent(q_id: str) -> None:
 
 # ── core helpers ──────────────────────────────────────────────────────────────
 
+_IMAGE_OPT_PAT = re.compile(r'^https?://|^/doc/images', re.IGNORECASE)
+
+
+def _has_image_options(q: dict) -> bool:
+    """True when answer options are image URLs, not displayable text."""
+    return any(_IMAGE_OPT_PAT.match(str(v)) for v in q.get("options", {}).values())
+
+
 def load_question(subject: str) -> dict:
     path = Path(f"bank/{subject}.json")
     with open(path, encoding="utf-8") as f:
@@ -87,6 +95,8 @@ def load_question(subject: str) -> dict:
 
     def is_valid(q: dict) -> bool:
         if q.get("answer") not in q.get("options", {}):
+            return False
+        if _has_image_options(q):
             return False
         text_lower = q.get("text", "").lower()
         needs_image = any(kw in text_lower for kw in NEEDS_IMAGE_KW)
