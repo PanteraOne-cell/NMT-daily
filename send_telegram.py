@@ -175,19 +175,6 @@ def send_to(chat_id: str, subject: str, q: dict):
         "reply_to_message_id": reply_message_id,
     })
 
-    # Step 3 — spoiler with correct answer (reply to question message)
-    correct_text = next(v for k, v in pairs if k == q["answer"])
-    spoiler = (
-        f"✅ ||{_escape_md(q['answer'])} — "
-        f"{_escape_md(strip_latex(clean(correct_text)))}||"
-    )
-    _post("sendMessage", json={
-        "chat_id":             chat_id,
-        "text":                spoiler,
-        "parse_mode":          "MarkdownV2",
-        "reply_to_message_id": reply_message_id,
-    })
-
     _save_sent(q.get("id", ""))
 
 
