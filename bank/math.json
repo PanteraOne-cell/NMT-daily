@@ -130,61 +130,6 @@
       "explanation": ""
     },
     {
-      "id": "math_zno_37395",
-      "source_id": "zno_37395",
-      "topic": "Планіметрія — кола",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37395",
-      "type": "single_choice",
-      "text": "На рисунку зображено коло із центром у точці \\(O\\) , \\(AB\\) &ndash; діаметр кола. Пряма \\(a\\) &ndash; дотична до кола&nbsp;й перетинає продовження діаметра \\(AB\\) в точці \\(K\\) , а&nbsp; \\(C\\) &ndash; точка дотику. Доберіть до величини (1&ndash;3)&nbsp;її значення&nbsp; (А &ndash; Д), якщо \\(\\overset{\\smile}{AC}=130^\\circ.\\)",
-      "options": {
-        "A": "\\(30^\\circ\\)",
-        "B": "\\(40^\\circ\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/373/37395/9-var-18-new.png"
-    },
-    {
-      "id": "math_zno_37394",
-      "source_id": "zno_37394",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37394",
-      "type": "single_choice",
-      "text": "Доберіть до функції&nbsp;(1&ndash;3) її властивість&nbsp; (А &ndash; Д).",
-      "options": {
-        "A": "проходить через початок координат",
-        "B": "не містить точок \\((x_0; y_0)\\) з від'ємною ординатою \\(y_0\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_37393",
-      "source_id": "zno_37393",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37393",
-      "type": "single_choice",
-      "text": "Доберіть до виразу (1&ndash;3) проміжок&nbsp;(А &ndash; Д), якому належить значення цього виразу.",
-      "options": {
-        "A": "\\([-2; -1)\\)",
-        "B": "\\([-1; 0)\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_37392",
       "source_id": "zno_37392",
       "topic": "Загальне",
@@ -456,61 +401,6 @@
         "E": "\\(4\\)"
       },
       "answer": "B",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_37371",
-      "source_id": "zno_37371",
-      "topic": "Планіметрія — трикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37371",
-      "type": "single_choice",
-      "text": "Периметр рівнобедреного трикутника (див.&nbsp;рисунок) дорівнює \\(32\\) см. \\(AB=BC=10\\) см. До відрізка (1&ndash;3) доберіть його довжину (А &ndash; Д).",
-      "options": {
-        "A": "\\(6{,}25\\) см",
-        "B": "\\(7{,}5\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/373/37371/8-var-18.png"
-    },
-    {
-      "id": "math_zno_37370",
-      "source_id": "zno_37370",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37370",
-      "type": "single_choice",
-      "text": "Доберіть до функції (1&ndash;3)&nbsp;її властивість&nbsp; (А &ndash; Д).",
-      "options": {
-        "A": "має лише одну точку локального екстремуму",
-        "B": "є зростаючою на всій області визначення",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_37369",
-      "source_id": "zno_37369",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37369",
-      "type": "single_choice",
-      "text": "Доберіть до виразу (1&ndash;3) проміжок&nbsp;(А &ndash; Д), якому належить значення цього виразу, якщо \\(a=-0{,}5.\\)",
-      "options": {
-        "A": "\\((-\\infty; -2)\\)",
-        "B": "\\([-2; -1)\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -788,61 +678,6 @@
       "explanation": ""
     },
     {
-      "id": "math_zno_37178",
-      "source_id": "zno_37178",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37178",
-      "type": "single_choice",
-      "text": "На рисунку зображено прямокутну трапецію \\(ABCD\\) , у якої \\(AC=CD=15\\) см, \\(BC=12\\) см. \\(O\\) &ndash; середина діагоналі \\(AC\\) трапеції \\(ABCD.\\) До&nbsp;відрізка (1&ndash;3) доберіть його довжину (А &ndash; Д).",
-      "options": {
-        "A": "\\(7{,}5\\) см",
-        "B": "\\(8\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/371/37178/7-var-18.png"
-    },
-    {
-      "id": "math_zno_37177",
-      "source_id": "zno_37177",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37177",
-      "type": "single_choice",
-      "text": "До початку речення (1&ndash;3) доберіть його закінчення (А &ndash; Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "має точку локального максимуму.",
-        "B": "має точку локального мінімуму.",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_37176",
-      "source_id": "zno_37176",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37176",
-      "type": "single_choice",
-      "text": "До виразу (1&ndash;3) доберіть множину (А &ndash; Д), якій належить значення цього виразу, якщо \\(a=5.\\)",
-      "options": {
-        "A": "множина ірраціональних чисел",
-        "B": "множина натуральних чисел",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_37175",
       "source_id": "zno_37175",
       "topic": "Системи рівнянь",
@@ -1114,62 +949,6 @@
         "E": "\\(8\\) см"
       },
       "answer": "E",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_37115",
-      "source_id": "zno_37115",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37115",
-      "type": "single_choice",
-      "text": "На більшій основі \\(AD\\) рівнобічної трапеції \\(ABCD\\) вибрано точку \\(O\\) так, що \\(BO\\ ||\\ CD\\) (див.&nbsp;рисунок). \\(CO\\) &ndash; висота трапеції, \\(BC=6\\) см, \\(CD=10\\) см. До кожного відрізка (1–3) доберіть його довжину (А – Д).",
-      "options": {
-        "A": "\\(6\\) см",
-        "B": "\\(8\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/371/37115/6-var-18.png"
-    },
-    {
-      "id": "math_zno_37114",
-      "source_id": "zno_37114",
-      "topic": "Системи рівнянь",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37114",
-      "type": "single_choice",
-      "text": "У прямокутній системі координат на площині зображено ламану \\(ABCDA\\) (див.&nbsp;рисунок). Визначте для функції&nbsp;(1&ndash;3) кількість&nbsp; (А &ndash; Д) спільних точок її графіка з ламаною \\(ABCDA.\\)",
-      "options": {
-        "A": "жодної",
-        "B": "одна",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/371/37114/6-var-17.png"
-    },
-    {
-      "id": "math_zno_37113",
-      "source_id": "zno_37113",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/37113",
-      "type": "single_choice",
-      "text": "До кожного початку речення (1–3) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження, якщо \\(n\\gt 0.\\)",
-      "options": {
-        "A": "\\(a=-n-2.\\)",
-        "B": "\\(a=\\frac 1n.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -1448,61 +1227,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/370/37098/6-var-01.png"
     },
     {
-      "id": "math_zno_36919",
-      "source_id": "zno_36919",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36919",
-      "type": "single_choice",
-      "text": "У рівнобічній трапеції \\(ABCD\\) \\(AB=BC=CD=6\\) см, діагональ \\(AC\\) утворює з основою \\(AD\\) кут \\(30^\\circ\\) (див.&nbsp;рисунок). До кожного відрізка (1&ndash;3) доберіть його довжину (А &ndash; Д).",
-      "options": {
-        "A": "\\(6\\sqrt{3}\\ \\text{см}\\)",
-        "B": "\\(6\\ \\text{см}\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/369/36919/5-var-18-new.png"
-    },
-    {
-      "id": "math_zno_36918",
-      "source_id": "zno_36918",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36918",
-      "type": "single_choice",
-      "text": "Доберіть до функції (1&ndash;3)&nbsp;властивість (А &ndash; Д) її графіка.",
-      "options": {
-        "A": "не перетинає осі \\(x\\)",
-        "B": "перетинає вісь \\(x\\) у точці з абсцисою \\(1\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_36917",
-      "source_id": "zno_36917",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36917",
-      "type": "single_choice",
-      "text": "До кожного виразу (1–3) доберіть тотожно рівний йому вираз (А – Д).",
-      "options": {
-        "A": "\\(\\sqrt{10}-3\\)",
-        "B": "\\(3-\\sqrt{10}\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_36916",
       "source_id": "zno_36916",
       "topic": "Загальне",
@@ -1777,62 +1501,6 @@
       "explanation": ""
     },
     {
-      "id": "math_zno_36607",
-      "source_id": "zno_36607",
-      "topic": "Планіметрія — трикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36607",
-      "type": "single_choice",
-      "text": "У рівнобічній трапеції \\(ABCD\\) діагоналі \\(AC\\) i \\(BD\\) взаємно перпендикулярні і перетинаються в точці \\(O\\) , \\(KM\\) &ndash; середня лінія трикутника \\(AOD\\) , \\(BO=6\\sqrt{2}\\) см, \\(KM=12\\) см (див.&nbsp;рисунок). До кожного відрізка (1–3) доберіть його довжину (А – Д).",
-      "options": {
-        "A": "\\(12\\) см",
-        "B": "\\(15\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/366/36607/4-var-18.png"
-    },
-    {
-      "id": "math_zno_36606",
-      "source_id": "zno_36606",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36606",
-      "type": "single_choice",
-      "text": "До кожного початку речення (1–3) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "є парною.",
-        "B": "має спільну точку з графіком функції \\(y=\\log_{0{,}5}(x+1)\\) у точці з абсцисою \\(x_0=0.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_36605",
-      "source_id": "zno_36605",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36605",
-      "type": "single_choice",
-      "text": "Доберіть на координатній прямій (див.&nbsp;рисунок) до виразу (1&ndash;3) точку&nbsp;(А &ndash; Д),&nbsp;координатою якої є значення цього виразу за \\(a=0{,}5.\\)",
-      "options": {
-        "A": "\\(K\\)",
-        "B": "\\(L\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/366/36605/4-var-16.png"
-    },
-    {
       "id": "math_zno_36604",
       "source_id": "zno_36604",
       "topic": "Загальне",
@@ -2105,62 +1773,6 @@
       },
       "answer": "E",
       "explanation": ""
-    },
-    {
-      "id": "math_zno_36564",
-      "source_id": "zno_36564",
-      "topic": "Планіметрія — трикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36564",
-      "type": "single_choice",
-      "text": "На паралельних прямих \\(n\\) і \\(m\\) розміщено півкруг діаметра \\(AB\\) , рівносторонній трикутник \\(ACD\\) , ромб \\(DCKL\\) (див.&nbsp;рисунок). Висота трикутника \\(ACD\\) дорівнює \\(4\\sqrt{3}.\\) Доберіть до фігури (1&ndash;3) її площу (А &ndash; Д). Уважайте, що \\(\\pi=3{,}14.\\)",
-      "options": {
-        "A": "\\(9{,}42\\)",
-        "B": "\\(12\\sqrt{3}\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/365/36564/pr-sim-18-new.png"
-    },
-    {
-      "id": "math_zno_36562",
-      "source_id": "zno_36562",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36562",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) зі значенням \\(a\\) (А – Д), за якого значення цього виразу дорівнює 2.",
-      "options": {
-        "A": "\\(\\frac 14\\)",
-        "B": "\\(\\frac 12\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_36560",
-      "source_id": "zno_36560",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36560",
-      "type": "single_choice",
-      "text": "Доберіть до функції (1–3) координатні чверті (А – Д), у яких лежить графік цієї функції (координатні чверті показано на рисунку).",
-      "options": {
-        "A": "лише I та II",
-        "B": "лише I та III",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/365/36560/pr-sim-16.png"
     },
     {
       "id": "math_zno_36559",
@@ -2455,62 +2067,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/364/36407/1-var-05.png"
     },
     {
-      "id": "math_zno_36402",
-      "source_id": "zno_36402",
-      "topic": "Планіметрія — чотирикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36402",
-      "type": "single_choice",
-      "text": "Діагональ \\(BD\\) паралелограма \\(ABCD\\) перпендикулярна до сторони \\(AB\\) (див.&nbsp;рисунок). \\(\\angle A=60^\\circ\\) , \\(BD=12\\) см. До кожного початку речення (1–3) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "дорівнює \\(4\\sqrt{3}\\) см.",
-        "B": "дорівнює \\(8\\sqrt{3}\\) см.",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/364/36402/3-var-18.png"
-    },
-    {
-      "id": "math_zno_36401",
-      "source_id": "zno_36401",
-      "topic": "Системи рівнянь",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36401",
-      "type": "single_choice",
-      "text": "У прямокутній системі координат на площині зображено коло \\(x^2+y^2=4\\). Визначте для функції&nbsp;(1&ndash;3) кількість &nbsp;(А &ndash; Д) спільних точок її графіка із заданим колом.",
-      "options": {
-        "A": "жодної",
-        "B": "лише одна",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/364/36401/3-var-1-new.png"
-    },
-    {
-      "id": "math_zno_36400",
-      "source_id": "zno_36400",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36400",
-      "type": "single_choice",
-      "text": "Доберіть до виразу&nbsp;(1&ndash;3) проміжк&nbsp;(А &ndash; Д), якому належить значення цього виразу.",
-      "options": {
-        "A": "\\((-\\infty; 0]\\)",
-        "B": "\\((0; 2)\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_36399",
       "source_id": "zno_36399",
       "topic": "Загальне",
@@ -2782,61 +2338,6 @@
         "E": "\\(\\left(-\\infty; -4\\right)\\)"
       },
       "answer": "A",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_36369",
-      "source_id": "zno_36369",
-      "topic": "Планіметрія — кола",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36369",
-      "type": "single_choice",
-      "text": "У прямокутник \\(ABCD\\) вписано коло із центром у точці \\(O\\) , яке дотикається сторін \\(AB\\) , \\(BC\\) , i \\(AD\\) , і півколо діаметра&nbsp; \\(CD\\) (див.&nbsp;рисунок). Коло й півколо мають лише одну спільну точку. \\(AB=8\\) см. До кожного початку речення (1&ndash;3) доберіть його закінчення (А &ndash; Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "дорівнює \\(10\\) см",
-        "B": "дорівнює \\(12\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/363/36369/2-var-18_1.png"
-    },
-    {
-      "id": "math_zno_36363",
-      "source_id": "zno_36363",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36363",
-      "type": "single_choice",
-      "text": "Доберіть до функції (1&ndash;3) її властивість (А &ndash; Д).",
-      "options": {
-        "A": "є спадною на всій області визначення",
-        "B": "графік функції перетинає вісь \\(y\\) в точці з ординатою \\(4\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_36362",
-      "source_id": "zno_36362",
-      "topic": "Натуральні числа та дроби",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36362",
-      "type": "single_choice",
-      "text": "До кожного початку речення (1&ndash;3) доберіть його закінчення (А &ndash; Д) так, щоб утворилося правильне твердження, якщо \\(m\\) i \\(n\\) &ndash; натуральні числа, \\(n\\gt 1\\) , \\(m\\gt 1.\\)",
-      "options": {
-        "A": "\\(a=mn.\\)",
-        "B": "\\(a=0.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -3116,61 +2617,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/363/36347/2-var-01.png"
     },
     {
-      "id": "math_zno_36342",
-      "source_id": "zno_36342",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36342",
-      "type": "single_choice",
-      "text": "На рисунку зображено прямокутник \\(ABCD.\\) Точки \\(K\\) i \\(M\\) &ndash; відповідно середини сторін \\(AB\\) i \\(BC\\) , \\(AB = 12\\) см, \\(MC = 8\\) см. До кожного відрізка (1&ndash;3) доберіть його довжину (А &ndash; Д). &nbsp;",
-      "options": {
-        "A": "\\(10\\) см",
-        "B": "\\(15\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/363/36342/1-var-18.png"
-    },
-    {
-      "id": "math_zno_36341",
-      "source_id": "zno_36341",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36341",
-      "type": "single_choice",
-      "text": "Доберіть до функції (1&ndash;3) її найменше&nbsp;значення&nbsp;(А &ndash; Д) на відрізку \\([0; 4].\\)",
-      "options": {
-        "A": "\\(1\\)",
-        "B": "\\(2\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_36340",
-      "source_id": "zno_36340",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/36340",
-      "type": "single_choice",
-      "text": "До кожного початку речення (1&ndash;3) доберіть його закінчення (А &ndash; Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "\\(a=0.\\)",
-        "B": "\\(a=27^{mn}.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_36339",
       "source_id": "zno_36339",
       "topic": "Планіметрія — чотирикутники",
@@ -3426,62 +2872,6 @@
       "answer": "B",
       "explanation": "",
       "image": "https://zno.osvita.ua/doc/images/znotest/363/36325/1-var-01.png"
-    },
-    {
-      "id": "math_zno_35808",
-      "source_id": "zno_35808",
-      "topic": "Планіметрія — трикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35808",
-      "type": "single_choice",
-      "text": "На рисунку зображено два рівні рівнобедрені трикутники \\(ABC\\) \\((AB=BC)\\) і \\(CMN\\) \\((CM=MN)\\) , що лежать в одній площині. \\(AN=8\\) см, \\(AB=2\\sqrt{17}\\) см. Узгодьте відрізок (1–3) із його довжиною (А – Д).",
-      "options": {
-        "A": "\\(4\\) см",
-        "B": "\\(6\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/358/35808/13-var-18.png"
-    },
-    {
-      "id": "math_zno_35807",
-      "source_id": "zno_35807",
-      "topic": "Логарифми",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35807",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) й точку (А – Д) на координатній прямій, координатою якої є значення виразу, де \\(e\\approx 2\\mathord{,}7\\) – основа натурального логарифма (число Ейлера).",
-      "options": {
-        "A": "\\(K\\)",
-        "B": "\\(L\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/358/35807/13-var-17.png"
-    },
-    {
-      "id": "math_zno_35806",
-      "source_id": "zno_35806",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35806",
-      "type": "single_choice",
-      "text": "Узгодьте функцію (1–3) із її властивістю (А – Д).",
-      "options": {
-        "A": "парна",
-        "B": "непарна",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
     },
     {
       "id": "math_zno_35805",
@@ -3759,61 +3149,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/357/35791/13-var-01.png"
     },
     {
-      "id": "math_zno_35786",
-      "source_id": "zno_35786",
-      "topic": "Планіметрія — трикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35786",
-      "type": "single_choice",
-      "text": "На рисунку зображено ромб \\(ABCD\\) й рівносторонній трикутник \\(DCK\\) зі стороною \\(8.\\) Точка \\(D\\) належить відрізку \\(AK\\) , точка \\(M\\) i \\(N\\) є серединами сторін \\(AB\\) i \\(CK\\) відповідно. Доберіть до відрізка (1–3) його довжину (А – Д).",
-      "options": {
-        "A": "\\(8\\sqrt{3}\\)",
-        "B": "\\(8\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/357/35786/12-var-18.png"
-    },
-    {
-      "id": "math_zno_35785",
-      "source_id": "zno_35785",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35785",
-      "type": "single_choice",
-      "text": "Поєднайте функцію (1–3) з її найменшим значенням (А – Д) на проміжку \\([–2; 6].\\)",
-      "options": {
-        "A": "\\(6\\)",
-        "B": "\\(8\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35784",
-      "source_id": "zno_35784",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35784",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) із твердженням про його значення (А – Д), що є правильним для цього виразу.",
-      "options": {
-        "A": "є цілим від’ємним числом",
-        "B": "є ірраціональним додатним числом",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35783",
       "source_id": "zno_35783",
       "topic": "Тригонометрія",
@@ -4087,61 +3422,6 @@
       "answer": "B",
       "explanation": "",
       "image": "https://zno.osvita.ua/doc/images/znotest/357/35769/131156_12-var-01.jpeg"
-    },
-    {
-      "id": "math_zno_35442",
-      "source_id": "zno_35442",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35442",
-      "type": "single_choice",
-      "text": "На рисунку зображено прямокутну трапецію \\(ABCD.\\) Точка \\(O\\) &ndash; середина діагоналі \\(AC\\) , \\(AB=BC\\) , \\(AC=40\\) см, \\(CD=24\\) см. Узгодьте відрізок (1&ndash;3) із його довжиною (А &ndash; Д).",
-      "options": {
-        "A": "\\(20\\)",
-        "B": "\\(16\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/354/35442/122717_math-pr-2026-18.png"
-    },
-    {
-      "id": "math_zno_35441",
-      "source_id": "zno_35441",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35441",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) із його значенням (А – Д), якщо \\(m=-\\frac 43.\\)",
-      "options": {
-        "A": "\\(-3\\)",
-        "B": "\\(1\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35440",
-      "source_id": "zno_35440",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35440",
-      "type": "single_choice",
-      "text": "Доберіть до початку речення (1–3) його закінчення (А – Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "не визначена в точці \\(x=1.\\)",
-        "B": "набуває від’ємного значення в точці \\(x=2.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
     },
     {
       "id": "math_zno_35439",
@@ -4419,24 +3699,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/354/35423/math-pr-2026-01-new.png"
     },
     {
-      "id": "math_zno_35422",
-      "source_id": "zno_35422",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35422",
-      "type": "single_choice",
-      "text": "На рисунках (А &ndash; Д) зображено графіки функцій, визначених на відрізку \\([-3; 3].\\) До кожного запитання (1&ndash;4) доберіть правильну відповідь (А &ndash; Д).",
-      "options": {
-        "A": "А",
-        "B": "Б",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35421",
       "source_id": "zno_35421",
       "topic": "Рівняння і нерівності",
@@ -4452,24 +3714,6 @@
         "E": "Д"
       },
       "answer": "E",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35420",
-      "source_id": "zno_35420",
-      "topic": "Планіметрія — кола",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35420",
-      "type": "single_choice",
-      "text": "На кожному з рисунків зображено коло з центром у точці \\(O\\) та хорду \\(AB.\\) \\(\\angle ACB\\) i \\(\\angle ADB\\) &ndash; вписані кути, які спираються на хорду \\(AB.\\) Установіть відповідність між вписаним кутом \\(ACB\\) , зображеним на рисунках (1&ndash;4), та його градусною мірою (А &ndash; Д).",
-      "options": {
-        "A": "\\(100^\\circ\\)",
-        "B": "\\(90^\\circ\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -4506,61 +3750,6 @@
         "E": "Д"
       },
       "answer": "E",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35382",
-      "source_id": "zno_35382",
-      "topic": "Планіметрія — кола",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35382",
-      "type": "single_choice",
-      "text": "На рисунку зображено прямокутник \\(ABCD\\) та два кола. Перше коло з центром у точці \\(O_1\\) описано навколо цього прямокутника. Площа круга, обмеженого колом з центром у точці \\(O_1\\) , дорівнює \\(625\\mathbf{\\pi}\\) см \\(^2.\\) Друге коло з центром у точці \\(O_2\\) дотикається до сторін \\(AB\\) , \\(BC\\) та \\(AD.\\) \\(AB=30\\) см. Узгодьте початок речення (1–3) із його закінченням (А – Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "\\(5\\) см",
-        "B": "\\(10\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/353/35382/11-var-18.png"
-    },
-    {
-      "id": "math_zno_35381",
-      "source_id": "zno_35381",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35381",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) із його значенням (А – Д).",
-      "options": {
-        "A": "\\(1\\)",
-        "B": "\\(\\frac 19\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35380",
-      "source_id": "zno_35380",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35380",
-      "type": "single_choice",
-      "text": "Узгодьте функцію (1–3) із її властивістю (А – Д).",
-      "options": {
-        "A": "є парною",
-        "B": "має лише одну спільну точку з колом \\(x^2+y^2=9\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -4839,61 +4028,6 @@
       "explanation": ""
     },
     {
-      "id": "math_zno_35360",
-      "source_id": "zno_35360",
-      "topic": "Стереометрія",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35360",
-      "type": "single_choice",
-      "text": "На рисунку зображено прямокутник \\(ABCD\\) , \\(O\\) – точка перетину його діагоналей. \\(AB=6\\) см, \\(AD=8\\) см, \\(OM\\) – перпендикуляр, проведений з точки \\(O\\) до сторони \\(AD\\) . Доберіть до геометричної фігури (1–3) її площу (А – Д).",
-      "options": {
-        "A": "\\(12\\) см \\(^2\\)",
-        "B": "\\(18\\) см \\(^2\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/353/35360/10-var-18.png"
-    },
-    {
-      "id": "math_zno_35359",
-      "source_id": "zno_35359",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35359",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) із значенням \\(m\\) (А – Д), за якого значення цього виразу дорівнює \\(1.\\)",
-      "options": {
-        "A": "\\(\\frac 14\\)",
-        "B": "\\(6\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35358",
-      "source_id": "zno_35358",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35358",
-      "type": "single_choice",
-      "text": "Узгодьте функцію (1–3) із її властивістю (А – Д).",
-      "options": {
-        "A": "парна",
-        "B": "непарна",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35357",
       "source_id": "zno_35357",
       "topic": "Тригонометрія",
@@ -5168,62 +4302,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/353/35343/10-var-01-new.png"
     },
     {
-      "id": "math_zno_35338",
-      "source_id": "zno_35338",
-      "topic": "Планіметрія — трикутники",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35338",
-      "type": "single_choice",
-      "text": "Коло із центром у точці \\(O\\) дотикається трьох сторін прямокутника \\(ABCD.\\) Вершина \\(K\\) прямокутного рівнобедреного трикутника \\(AKB\\) належить колу. \\(AB=12\\) см . Доберіть до кожного початку речення (1–3) його закінчення (А – Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "\\(6\\) см",
-        "B": "\\(8\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/353/35338/9-var-18.png"
-    },
-    {
-      "id": "math_zno_35337",
-      "source_id": "zno_35337",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35337",
-      "type": "single_choice",
-      "text": "На рисунку зображено графік функції \\(y=f(x)\\) , визначеної на проміжку \\([-4; 6].\\) Узгодьте проміжок (1–3) із функцією (А – Д), що описує графік функції \\(y=f(x)\\) на цьому проміжку. &nbsp;",
-      "options": {
-        "A": "\\(y=x^3\\)",
-        "B": "\\(y=12-2x\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/353/35337/9-var-17.png"
-    },
-    {
-      "id": "math_zno_35336",
-      "source_id": "zno_35336",
-      "topic": "Логарифми",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35336",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) і твердження про його значення (А – Д), яке є правильним для цього виразу, де \\(e\\approx 2\\mathord{,}7\\) – основа натурального логарифма (число Ейлера).",
-      "options": {
-        "A": "є натуральним числом",
-        "B": "є від’ємним цілим числом",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35335",
       "source_id": "zno_35335",
       "topic": "Рівняння і нерівності",
@@ -5494,61 +4572,6 @@
         "E": "\\(250\\) грн"
       },
       "answer": "C",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35315",
-      "source_id": "zno_35315",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35315",
-      "type": "single_choice",
-      "text": "Діагональ \\(AC\\) рівнобічної трапеції \\(ABCD\\) утворює зі стороною \\(CD\\) кут \\(120^\\circ.\\) Довжини основ трапеції дорівнюють \\(12\\) см і \\(30\\) см . До кожного початку речення (1–3) доберіть його закінчення (А – Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "\\(9\\) см",
-        "B": "\\(20\\sqrt{3}\\) см",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/353/35315/8-var-18.png"
-    },
-    {
-      "id": "math_zno_35314",
-      "source_id": "zno_35314",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35314",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1–3) із його значенням (А – Д).",
-      "options": {
-        "A": "\\(-\\frac 12\\)",
-        "B": "\\(\\frac 12\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35313",
-      "source_id": "zno_35313",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35313",
-      "type": "single_choice",
-      "text": "Доберіть до функції (1–3) її властивість (А – Д).",
-      "options": {
-        "A": "графік функції має лише \\(2\\) точки перетину з осями координат",
-        "B": "областю значень функції є проміжок \\([–5; +\\infty)\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -5827,24 +4850,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/352/35298/8-var-01.png"
     },
     {
-      "id": "math_zno_35282",
-      "source_id": "zno_35282",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35282",
-      "type": "single_choice",
-      "text": "На рисунках (1&ndash;4) зображено графіки функцій, визначених на відрізку \\([-4; 4].\\) Узгодьте графік функції (1-4) з твердженням (А &ndash; Д) про неї.",
-      "options": {
-        "A": "Функція є непарною.",
-        "B": "Функція набуває найбільшого значення, що дорівнює \\(4.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35281",
       "source_id": "zno_35281",
       "topic": "Функції та графіки",
@@ -5881,42 +4886,6 @@
       "explanation": ""
     },
     {
-      "id": "math_zno_35279",
-      "source_id": "zno_35279",
-      "topic": "Планіметрія — кола",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35279",
-      "type": "single_choice",
-      "text": "Установіть відповідність між фігурою (1&ndash;4) і тілом обертання (А &ndash; Д), утвореним унаслідок обертання цієї фігури навколо прямої, зображеної пунктиром.",
-      "options": {
-        "A": "А",
-        "B": "Б",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35278",
-      "source_id": "zno_35278",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35278",
-      "type": "single_choice",
-      "text": "Установіть відповідність між функцією (1&ndash;4) та прямою, зображеною на рисунку (А &ndash; Д), яка не має з графіком цієї функції жодної спільної точки .",
-      "options": {
-        "A": "А",
-        "B": "Б",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35277",
       "source_id": "zno_35277",
       "topic": "Функції та графіки",
@@ -5932,24 +4901,6 @@
         "E": "Д"
       },
       "answer": "E",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35221",
-      "source_id": "zno_35221",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35221",
-      "type": "single_choice",
-      "text": "Установіть відповідність між геометричним тілом (1&ndash;4) і його об’ємом (А &ndash; Д).",
-      "options": {
-        "A": "\\(\\frac{1}{6}\\mathbf{\\pi}a^3\\)",
-        "B": "\\(\\frac{1}{12}\\mathbf{\\pi}a^3\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -5972,24 +4923,6 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/142/14244/pr-math-2018-new-10-0.png"
     },
     {
-      "id": "math_zno_35054",
-      "source_id": "zno_35054",
-      "topic": "Функції та графіки",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35054",
-      "type": "single_choice",
-      "text": "Ha рисунках (1-4) зображено графіки функцій, кожна з яких визначена на проміжку \\([-2; 2].\\) Установіть відповідність між графіком функції (1-4) та властивістю (А&nbsp;&ndash;&nbsp;Д), що має ця функція.",
-      "options": {
-        "A": "графік функції не перетинає графік функції \\(y=\\operatorname{tg}\\ x\\)",
-        "B": "графік функції є фрагментом графіка функції \\(y=x^2-1\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
       "id": "math_zno_35053",
       "source_id": "zno_35053",
       "topic": "Функції та графіки",
@@ -6005,97 +4938,6 @@
         "E": "Д"
       },
       "answer": "D",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_35052",
-      "source_id": "zno_35052",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/35052",
-      "type": "single_choice",
-      "text": "Установіть відповідність між геометричною фігурою (1-4) та її площею (А&nbsp;&ndash;&nbsp;Д).",
-      "options": {
-        "A": "\\(12\\) см \\(^2\\)",
-        "B": "\\(16\\) см \\(^2\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_34956",
-      "source_id": "zno_34956",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/34956",
-      "type": "single_choice",
-      "text": "\\(ABCDA_1B_1C_1D_1\\) – прямокутний паралелепіпед. Увідповідніть площину (1–4) та паралельну їй пряму (А – Д).",
-      "options": {
-        "A": "\\(BC\\)",
-        "B": "\\(A_1D\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_34412",
-      "source_id": "zno_34412",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/34412",
-      "type": "single_choice",
-      "text": "На рисунку зображено квадрат \\(ABCD.\\) На стороні \\(C\\) вибрано точку \\(K\\) так, що \\(KC=4\\) см . Точка \\(M\\) &ndash; середина відрізка \\(AK.\\) Пряма, що проходить через точку \\(M\\) паралельно стороні \\(BC\\) , перетинає сторони \\(AB\\) та \\(CD\\) в точках \\(N\\) і \\(P\\) відповідно, \\(NM=6\\) см . Узгодьте відрізок (1-3) та його довжину (А&nbsp;&ndash;&nbsp;Д).",
-      "options": {
-        "A": "\\(10\\)",
-        "B": "\\(12\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/344/34412/math-2-2025-18-new.png"
-    },
-    {
-      "id": "math_zno_34411",
-      "source_id": "zno_34411",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/34411",
-      "type": "single_choice",
-      "text": "Узгодьте вираз (1-3) та проміжок (А&nbsp;&ndash;&nbsp;Д), якому належить його значення, де \\(\\mathbf{\\varphi}=\\frac{\\sqrt{5}+1}{2}\\) – відома математична величина, яку називають золотим числом.",
-      "options": {
-        "A": "\\((-\\infty; -1]\\)",
-        "B": "\\((-1; 0]\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
-      "explanation": ""
-    },
-    {
-      "id": "math_zno_34410",
-      "source_id": "zno_34410",
-      "topic": "Загальне",
-      "year": null,
-      "source": "zno.osvita.ua/mathematics/34410",
-      "type": "single_choice",
-      "text": "До кожного початку речення (1-3) доберіть його закінчення (А&nbsp;&ndash;&nbsp;Д) так, щоб утворилося правильне твердження.",
-      "options": {
-        "A": "утворює гострий кут із додатним напрямком осі \\(x.\\)",
-        "B": "симетрична прямій \\(y=2x+4\\) відносно осі \\(y.\\)",
-        "C": "—",
-        "D": "—",
-        "E": "—"
-      },
-      "answer": "?",
       "explanation": ""
     },
     {
@@ -6374,42 +5216,3927 @@
       "image": "https://zno.osvita.ua/doc/images/znotest/343/34395/math-2-2025-01.png"
     },
     {
-      "id": "math_zno_34390",
-      "source_id": "zno_34390",
+      "id": "math_zno_34387",
+      "source_id": "zno_34387",
       "topic": "Загальне",
       "year": null,
-      "source": "zno.osvita.ua/mathematics/34390",
+      "source": "zno.osvita.ua/mathematics/34387",
       "type": "single_choice",
-      "text": "Прямокутник \\(ABKM\\) складається з квадрата \\(ABCD\\) та прямокутника \\(CKMD\\) (див.&nbsp;рисунок). Периметр квадрата \\(ABCD\\) дорівнює \\(40\\) см , а довжина відрізка \\(CM\\) &ndash; \\(26\\) см . До кожного початку речення (1-3) доберіть його закінчення (А&nbsp;&ndash;&nbsp;Д) так, щоб утворилося правильне твердження.",
+      "text": "У рівнобічній трапеції \\(ABCD\\) точка \\(O\\) є серединою основи \\(AD\\) , \\(\\angle AOB=45^\\circ\\) , \\(AD:BC=5:2\\) (див.&nbsp;рисунок). Визначте площу трапеції \\(ABCD\\) , якщо \\(AD=b.\\)",
       "options": {
-        "A": "\\(16\\) см .",
-        "B": "\\(12\\) см .",
-        "C": "—",
-        "D": "—",
-        "E": "—"
+        "A": "\\(\\frac{7}{50}b^2\\)",
+        "B": "\\(\\frac{7}{25}b^2\\)",
+        "C": "\\(\\frac{7\\sqrt{2}}{50}b^2\\)",
+        "D": "\\(\\frac{b^2}{14}\\)",
+        "E": "\\(\\frac{4b^2}{25}\\)"
       },
-      "answer": "?",
+      "answer": "A",
       "explanation": "",
-      "image": "https://zno.osvita.ua/doc/images/znotest/343/34390/math-1-2025-18.png"
+      "image": "https://zno.osvita.ua/doc/images/znotest/343/34387/math-1-2025-15-new2.png"
     },
     {
-      "id": "math_zno_34389",
-      "source_id": "zno_34389",
+      "id": "math_zno_34386",
+      "source_id": "zno_34386",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34386",
+      "type": "single_choice",
+      "text": "Позначте проміжок, якому належить корінь рівняння \\(1-\\log_{0,5}x=3.\\)",
+      "options": {
+        "A": "\\((-\\infty; -3)\\)",
+        "B": "\\([-3; 0)\\)",
+        "C": "\\([0; 3)\\)",
+        "D": "\\([3; 10)\\)",
+        "E": "\\([10; +\\infty)\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34385",
+      "source_id": "zno_34385",
       "topic": "Загальне",
       "year": null,
-      "source": "zno.osvita.ua/mathematics/34389",
+      "source": "zno.osvita.ua/mathematics/34385",
       "type": "single_choice",
-      "text": "Доберіть до числового виразу (1-3) його значення (А&nbsp;&ndash;&nbsp;Д).",
+      "text": "\\(x(x-2y)-(x-y)^2=\\)",
+      "options": {
+        "A": "\\(-y^2\\)",
+        "B": "\\(y^2\\)",
+        "C": "\\(-4xy+y^2\\)",
+        "D": "\\(-2xy+y^2\\)",
+        "E": "\\(-4xy-y^2\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34384",
+      "source_id": "zno_34384",
+      "topic": "Прогресії",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34384",
+      "type": "single_choice",
+      "text": "В арифметичній прогресії \\((a_n)\\) відомо, що \\(a_6-a_1=-30.\\) Обчисліть значення виразу \\(a_1-a_3.\\)",
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(10\\)",
+        "C": "\\(-15\\)",
+        "D": "\\(-10\\)",
+        "E": "\\(-12\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34383",
+      "source_id": "zno_34383",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34383",
+      "type": "single_choice",
+      "text": "Розв'яжіть рівняння $$ \\frac{2x-7}{3}=\\frac{5x+4}{2}. $$",
+      "options": {
+        "A": "\\(-\\frac 29\\)",
+        "B": "\\(-1\\frac{7}{19}\\)",
+        "C": "\\(-2\\frac{4}{11}\\)",
+        "D": "\\(-3\\frac 23\\)",
+        "E": "\\(-\\frac{2}{19}\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34382",
+      "source_id": "zno_34382",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34382",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними для будь-якого трикутника? I. &nbsp;&nbsp;&nbsp;Сума будь-яких двох сторін трикутника менша за третю його сторону. II. &nbsp;&nbsp;Сума будь-яких двох кутів трикутника більша за \\(90^\\circ.\\) III. &nbsp;Навпроти найбільшої сторони трикутника лежить найбільший його кут....",
+      "options": {
+        "A": "лише І",
+        "B": "лише ІІ",
+        "C": "лише III",
+        "D": "лише І та ІІІ",
+        "E": "І , ІІ та ІІІ"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34381",
+      "source_id": "zno_34381",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34381",
+      "type": "single_choice",
+      "text": "\\(\\log_55^{10}=\\)",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(10\\)",
+        "C": "\\(50\\)",
+        "D": "\\(5^{10}\\)",
+        "E": "\\(10^{5}\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34380",
+      "source_id": "zno_34380",
+      "topic": "Системи рівнянь",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34380",
+      "type": "single_choice",
+      "text": "У прямокутній системі координат у просторі задано точки \\(A(5; -4; 0)\\) і \\(B(7; 2; - 2).\\) Визначте точку \\(C\\) , симетричну точці \\(A\\) відносно точки \\(B.\\)",
+      "options": {
+        "A": "\\(C(1; 3; -1)\\)",
+        "B": "\\(C(2; 6; -2)\\)",
+        "C": "\\(C(6; -1; -1)\\)",
+        "D": "\\(C(3; -10; 2)\\)",
+        "E": "\\(C(9; 8; -4)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34379",
+      "source_id": "zno_34379",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34379",
+      "type": "single_choice",
+      "text": "Під час миття рук милом із крана витікає \\(25\\) л води, з них \\(60\\ \\text{%}\\) марнують під час намилювання. Скільки літрів води можна зберегти, якщо закривати кран перед намилюванням рук?",
+      "options": {
+        "A": "\\(19\\)",
+        "B": "\\(15\\)",
+        "C": "\\(12\\)",
+        "D": "\\(10\\)",
+        "E": "\\(6\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34378",
+      "source_id": "zno_34378",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34378",
+      "type": "single_choice",
+      "text": "Укажіть функцію, графік якої зображено на рисунку&nbsp;2, якщо він отриманий внаслідок паралельного перенесення графіка функції \\(y=f(x)\\) (див.&nbsp;рис.&nbsp;1).",
+      "options": {
+        "A": "\\(y=2f(x)\\)",
+        "B": "\\(y=f(x+2)\\)",
+        "C": "\\(y=f(x-2)\\)",
+        "D": "\\(y=f(x)+2\\)",
+        "E": "\\(y=f(x)-2\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/343/34378/math-1-2025-06-new.png"
+    },
+    {
+      "id": "math_zno_34376",
+      "source_id": "zno_34376",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34376",
+      "type": "single_choice",
+      "text": "На рисунку зображено трикутну піраміду \\(SABC\\) з основою \\(ABC.\\) Скільки всього площин, паралельних площині основи піраміди, можна провести через її вершину \\(S\\) ?",
+      "options": {
+        "A": "жодної",
+        "B": "лише одну",
+        "C": "лише дві",
+        "D": "лише три",
+        "E": "більше як три"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/343/34376/math-1-2025-05_1.png"
+    },
+    {
+      "id": "math_zno_34375",
+      "source_id": "zno_34375",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34375",
+      "type": "single_choice",
+      "text": "\\(0\\mathord{,}6x^3\\cdot 5x^4=\\)",
+      "options": {
+        "A": "\\(30x^7\\)",
+        "B": "\\(3x^7\\)",
+        "C": "\\(30x^{12}\\)",
+        "D": "\\(3x^{12}\\)",
+        "E": "\\(0\\mathord{,}3x^{12}\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34374",
+      "source_id": "zno_34374",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34374",
+      "type": "single_choice",
+      "text": "Позначте число, що є розв'язком системи нерівностей $$ \\left\\{ \\begin{array}{l} x\\gt -3, \\\\ x\\le 7. \\end{array} \\right. $$",
+      "options": {
+        "A": "\\(-10\\)",
+        "B": "\\(-7\\)",
+        "C": "\\(-3\\)",
+        "D": "\\(5\\)",
+        "E": "\\(10\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34373",
+      "source_id": "zno_34373",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34373",
+      "type": "single_choice",
+      "text": "Емблема компанії має вигляд круга, від центра \\(O\\) якого проведено радіуси \\(OA\\) , \\(OB\\) і \\(OC\\) (див.&nbsp;рисунок). Визначте градусну міру кута \\(AOB\\) , якщо радіуси поділяють круг на три рівні частини.",
+      "options": {
+        "A": "\\(100^\\circ\\)",
+        "B": "\\(90^\\circ\\)",
+        "C": "\\(180^\\circ\\)",
+        "D": "\\(120^\\circ\\)",
+        "E": "\\(60^\\circ\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/343/34373/math-1-2025-02.png"
+    },
+    {
+      "id": "math_zno_34371",
+      "source_id": "zno_34371",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34371",
+      "type": "single_choice",
+      "text": "На графіку функції відображено зміну температури повітря в травні протягом доби. Визначте за графіком кількість годин, протягом яких температура не перевищувала \\(10^\\circ\\ \\mathrm{C}.\\)",
+      "options": {
+        "A": "\\(7\\)",
+        "B": "\\(9\\)",
+        "C": "\\(14\\)",
+        "D": "\\(2\\)",
+        "E": "\\(22\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/343/34371/math-1-2025-01.png"
+    },
+    {
+      "id": "math_zno_34250",
+      "source_id": "zno_34250",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34250",
+      "type": "single_choice",
+      "text": "Укажіть ескіз графіка функції \\(y=\\log_{\\frac 14}x.\\)",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34249",
+      "source_id": "zno_34249",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34249",
+      "type": "single_choice",
+      "text": "Розгортку якого з наведених многогранників зображено на рисунку?",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/342/34249/ds-math-2019-new-06-0.png"
+    },
+    {
+      "id": "math_zno_34248",
+      "source_id": "zno_34248",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34248",
+      "type": "single_choice",
+      "text": "Розгортку якого з наведених многогранників зображено на рисунку?",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "A",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/342/34248/os-math-2019-new-05-0_1.png"
+    },
+    {
+      "id": "math_zno_34217",
+      "source_id": "zno_34217",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34217",
+      "type": "single_choice",
+      "text": "На якому рисунку зображено ескіз графіка функції \\(y=3^x\\) ?",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34215",
+      "source_id": "zno_34215",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34215",
+      "type": "single_choice",
+      "text": "На одному з наведених рисунків зображено ескіз графіка функції \\(y=\\sqrt{x}.\\) Укажіть його.",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34214",
+      "source_id": "zno_34214",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34214",
+      "type": "single_choice",
+      "text": "На якому з рисунків зображено ескіз графіка функції \\(y=(0\\mathord{,}5)^x\\) ?",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34001",
+      "source_id": "zno_34001",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34001",
+      "type": "single_choice",
+      "text": "Oбчисліть значення виразу \\(\\log_5(5ab),\\) якщо \\(\\log_5(ab)=0\\mathord{,}7.\\)",
+      "options": {
+        "A": "\\(1\\mathord{,}7\\)",
+        "B": "\\(5\\mathord{,}7\\)",
+        "C": "\\(5^{1\\mathord{,}7}\\)",
+        "D": "\\(0\\mathord{,}7\\)",
+        "E": "\\(3\\mathord{,}5\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_34000",
+      "source_id": "zno_34000",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/34000",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему рівнянь $$ \\left\\{\\begin{array}{l} \\frac{x}{2x+y}=\\frac 15,\\\\ 4x+2=y. \\end{array}\\right. $$ Якщо \\((x_0; y_0)\\) – розв’язок системи, то \\(x_0+y_0=\\)",
+      "options": {
+        "A": "\\(-8\\)",
+        "B": "\\(12\\)",
+        "C": "\\(6\\)",
+        "D": "\\(8\\)",
+        "E": "\\(-6\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33999",
+      "source_id": "zno_33999",
+      "topic": "Прогресії",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33999",
+      "type": "single_choice",
+      "text": "У геометричній прогресії \\((b_n)\\) відомо, що \\(b_1 = 32,\\) \\(b_2 = 8.\\) Oбчисліть \\(\\frac{b_5}{b_7}.\\)",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(\\frac{1}{16}\\)",
+        "C": "\\(7\\)",
+        "D": "\\(\\frac 14\\)",
+        "E": "\\(16\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33997",
+      "source_id": "zno_33997",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33997",
+      "type": "single_choice",
+      "text": "Периметр ромба дорівнює \\(80\\) см , а його висота – \\(12\\) см . Визначте довжину (у см ) меншої діагоналі ромба.",
+      "options": {
+        "A": "\\(8\\sqrt{5}\\)",
+        "B": "\\(4\\sqrt{10}\\)",
+        "C": "\\(20\\)",
+        "D": "\\(16\\)",
+        "E": "\\(6\\sqrt{10}\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33995",
+      "source_id": "zno_33995",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33995",
+      "type": "single_choice",
+      "text": "Oбчисліть суму коренів рівняння \\(15(x+3)^2-375=0.\\)",
+      "options": {
+        "A": "\\(2\\)",
+        "B": "\\(0\\)",
+        "C": "\\(6\\)",
+        "D": "\\(-6\\)",
+        "E": "\\(-3\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33993",
+      "source_id": "zno_33993",
+      "topic": "Системи рівнянь",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33993",
+      "type": "single_choice",
+      "text": "У прямокутній системі координат у просторі задано сферу з центром у початку координат, якій належить точка \\(A(0; 0; –5).\\) Яка з наведених точок також належить цій сфері?",
+      "options": {
+        "A": "\\((5; 5; 5)\\)",
+        "B": "\\((0; 0; 10)\\)",
+        "C": "\\((0; 0; 5)\\)",
+        "D": "\\((0; 1; 4)\\)",
+        "E": "\\((5; 5; 0)\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33992",
+      "source_id": "zno_33992",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33992",
+      "type": "single_choice",
+      "text": "Ціна акції компанії зросла на \\(10\\ \\text{%}\\) від її початкової ціни. Якою була початкова ціна (у грн ) цієї акції, якщо її ціна тепер становить \\(990\\) грн ?",
+      "options": {
+        "A": "\\(900\\)",
+        "B": "\\(1089\\)",
+        "C": "\\(891\\)",
+        "D": "\\(1000\\)",
+        "E": "\\(980\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33990",
+      "source_id": "zno_33990",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33990",
+      "type": "single_choice",
+      "text": "\\(\\sqrt{(2-\\sqrt{5})^2}=\\)",
+      "options": {
+        "A": "\\(\\sqrt{5}-2\\)",
+        "B": "\\(1\\)",
+        "C": "\\(2-\\sqrt{5}\\)",
+        "D": "\\(3\\)",
+        "E": "\\(9-4\\sqrt{5}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33988",
+      "source_id": "zno_33988",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33988",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I. &nbsp;&nbsp;&nbsp;Діагоналі будь-якого прямокутника є бісектрисами його кутів. II. &nbsp;&nbsp;Діагоналі будь-якого прямокутника ділять його на чотири рівні трикутники. III. &nbsp;Діагоналі будь-якого прямокутника рівні.",
+      "options": {
+        "A": "лише I",
+        "B": "лише II",
+        "C": "лише II та III",
+        "D": "лише І та III",
+        "E": "лише III"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33987",
+      "source_id": "zno_33987",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33987",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік функції \\(y=f(x),\\) визначеної на відрізку \\([&ndash;5; 5].\\) Позначте властивість, яку має ця функція.",
+      "options": {
+        "A": "набуває лише додатних значень",
+        "B": "парна",
+        "C": "має дві точки екстремуму",
+        "D": "непарна",
+        "E": "зростає на всій області визначення"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/339/33987/02.png"
+    },
+    {
+      "id": "math_zno_33986",
+      "source_id": "zno_33986",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33986",
+      "type": "single_choice",
+      "text": "Tрикутна призма має",
+      "options": {
+        "A": "дві основи та три бічні грані",
+        "B": "три основи та дві бічні грані",
+        "C": "дві основи та чотири бічні грані",
+        "D": "одну основу та чотири бічні грані",
+        "E": "одну основу та три бічні грані"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33985",
+      "source_id": "zno_33985",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33985",
+      "type": "single_choice",
+      "text": "\\(|2-80\\cdot 0\\mathord{,}1|=\\)",
+      "options": {
+        "A": "\\(1\\mathord{,}2\\)",
+        "B": "\\(-6\\)",
+        "C": "\\(6\\)",
+        "D": "\\(7\\mathord{,}8\\)",
+        "E": "\\(-7\\mathord{,}8\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_33984",
+      "source_id": "zno_33984",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33984",
+      "type": "single_choice",
+      "text": "Сторона \\(CD\\) паралелограма \\(ABCD\\) утворює з прямою \\(AD\\) кут, градусна міра якого дорівнює \\(55^\\circ\\) (див.&nbsp;рисунок). Визначте градусну міру кута \\(MAB.\\)",
+      "options": {
+        "A": "\\(35^\\circ\\)",
+        "B": "\\(125^\\circ\\)",
+        "C": "\\(145^\\circ\\)",
+        "D": "\\(55^\\circ\\)",
+        "E": "\\(135^\\circ\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/339/33984/2025-dod-var-03.png"
+    },
+    {
+      "id": "math_zno_33983",
+      "source_id": "zno_33983",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33983",
+      "type": "single_choice",
+      "text": "На діаграмі відображено розподіл кількості працівників фірми за віком. За даними діаграми визначте, у скільки разів кількість працівників віком від \\(20\\) до \\(29\\) років перевищує кількість працівників, яким \\(60\\) і більше років.",
+      "options": {
+        "A": "\\(10\\)",
+        "B": "\\(32\\)",
+        "C": "\\(18\\)",
+        "D": "\\(9\\)",
+        "E": "\\(6\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/339/33983/19.png"
+    },
+    {
+      "id": "math_zno_33982",
+      "source_id": "zno_33982",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/33982",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(7^x\\le \\frac{1}{49}.\\)",
+      "options": {
+        "A": "\\(\\left[\\frac 17; +\\infty\\right)\\)",
+        "B": "\\(\\left(-\\infty;\\ \\frac 12\\right]\\)",
+        "C": "\\(\\left(-\\infty;\\ \\frac{1}{243}\\right]\\)",
+        "D": "\\((-\\infty; -2]\\)",
+        "E": "\\([-2;\\ +\\infty)\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28390",
+      "source_id": "zno_28390",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28390",
+      "type": "single_choice",
+      "text": "На стороні \\(AD\\) паралелограма \\(ABCD\\) вибрано точку \\(K\\) так, що \\(AK:KD=3:2,\\) \\(BK=CD\\) (див.&nbsp;рисунок). Визначте площу паралелограма \\(ABCD,\\) якщо \\(\\angle AKB=\\mathbf{\\alpha},\\) \\(BC=20.\\)",
+      "options": {
+        "A": "\\(\\frac{120}{\\operatorname{tg}\\mathbf{\\alpha}}\\)",
+        "B": "\\(120\\operatorname{tg}\\mathbf{\\alpha}\\)",
+        "C": "\\(160\\sin\\mathbf{\\alpha}\\)",
+        "D": "\\(60\\cos\\mathbf{\\alpha}\\)",
+        "E": "\\(\\frac{60}{\\operatorname{tg}\\mathbf{\\alpha}}\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28390/15-math-2-2024.png"
+    },
+    {
+      "id": "math_zno_28389",
+      "source_id": "zno_28389",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28389",
+      "type": "single_choice",
+      "text": "Розв’яжіть рівняння \\(3^{x^2}=81.\\) Якщо рівняння має один корінь, то вкажіть проміжок, якому він належить. Якщо рівняння має кілька коренів, то вкажіть проміжок, якому належить найменший з них.",
+      "options": {
+        "A": "\\((-\\infty;\\ -10)\\)",
+        "B": "\\([-10;\\ -3)\\)",
+        "C": "\\([-3;\\ -2)\\)",
+        "D": "\\([-2;\\ 0)\\)",
+        "E": "\\([0;\\ +\\infty)\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28388",
+      "source_id": "zno_28388",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28388",
+      "type": "single_choice",
+      "text": "\\(2\\log_63+\\log_64=\\)",
+      "options": {
+        "A": "\\(\\log_610\\)",
+        "B": "\\(\\log_624\\)",
+        "C": "\\(\\log_613\\)",
+        "D": "\\(2\\)",
+        "E": "\\(6\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28387",
+      "source_id": "zno_28387",
+      "topic": "Прогресії",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28387",
+      "type": "single_choice",
+      "text": "Сума перших п’яти членів геометричної прогресії \\((b_n)\\) дорівнює \\(32,\\) а сума перших чотирьох її членів дорівнює \\(20.\\) Визначте \\(b_5.\\)",
+      "options": {
+        "A": "\\(1,6\\)",
+        "B": "\\(52\\)",
+        "C": "\\(11,4\\)",
+        "D": "\\(-12\\)",
+        "E": "\\(12\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28386",
+      "source_id": "zno_28386",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28386",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему рівнянь $$ \\left\\{ \\begin{array}{l} 2x-\\frac y3=7, \\\\ 4x+\\frac{2y}{3}=6. \\end{array} \\right. $$ Якщо \\((x_0;\\ y_0)\\) − розв’язок системи, то \\(x_0+y_0=\\)",
+      "options": {
+        "A": "\\(-3,5\\)",
+        "B": "\\(4,5\\)",
+        "C": "\\(6\\)",
+        "D": "\\(-4\\)",
+        "E": "\\(10,5\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28385",
+      "source_id": "zno_28385",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28385",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I. &nbsp;&nbsp;&nbsp;Cерединний перпендикуляр, проведений до сторони рівностороннього трикутника, ділить його на два рівних трикутники. II. &nbsp;&nbsp;Точка перетину серединних перпендикулярів, проведених до катетів прямокутного трикутника, є серединою його гіпотенузи. III. &nbsp;Точка перетину серединних перпендикулярів, проведених до сторін будь-якого тупокутного трикутника, міститься всередині цього трикутника.",
+      "options": {
+        "A": "лише І",
+        "B": "лише І та ІІ",
+        "C": "лише І та ІІІ",
+        "D": "лише IІ та ІІІ",
+        "E": "І, ІІ та ІІІ"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28384",
+      "source_id": "zno_28384",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28384",
+      "type": "single_choice",
+      "text": "Обчисліть значення виразу \\(2\\sqrt{m+m+m},\\) якщо \\(m=\\frac{1}{27}.\\)",
+      "options": {
+        "A": "\\(\\frac 23\\)",
+        "B": "\\(6\\)",
+        "C": "\\(\\frac 16\\)",
+        "D": "\\(\\frac 32\\)",
+        "E": "\\(\\frac 29\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28383",
+      "source_id": "zno_28383",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28383",
+      "type": "single_choice",
+      "text": "Основою піраміди є ромб, діагоналі якого дорівнюють \\(20\\ \\text{см}\\) і \\(12\\ \\text{см}.\\) Обчисліть об’єм (см 3 ) піраміди, якщо її висота дорівнює \\(15\\ \\text{см}.\\)",
+      "options": {
+        "A": "\\(1800\\)",
+        "B": "\\(1200\\)",
+        "C": "\\(2400\\)",
+        "D": "\\(800\\)",
+        "E": "\\(600\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28382",
+      "source_id": "zno_28382",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28382",
+      "type": "single_choice",
+      "text": "Маса протона наближено дорівнює \\(1,67\\cdot 10^{−27}\\ \\text{кг}.\\) Визначте наближену масу (кг) \\(100\\) протонів.",
+      "options": {
+        "A": "\\(167\\cdot 10^{-25}\\)",
+        "B": "\\(1,67\\cdot 10^{-25}\\)",
+        "C": "\\(1,67\\cdot 10^{-29}\\)",
+        "D": "\\(1,67\\cdot 10^{-2700}\\)",
+        "E": "\\(1,67\\cdot 10^{25}\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28381",
+      "source_id": "zno_28381",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28381",
+      "type": "single_choice",
+      "text": "Графік однієї з наведених функцій проходить через точку, зображену на рисунку. Укажіть цю функцію.",
+      "options": {
+        "A": "\\(y=\\log_4x\\)",
+        "B": "\\(y=\\sqrt{x}\\)",
+        "C": "\\(y=x+2\\)",
+        "D": "\\(y=-x^2\\)",
+        "E": "\\(y=\\frac 1x\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28381/06-math-2-2024.png"
+    },
+    {
+      "id": "math_zno_28380",
+      "source_id": "zno_28380",
+      "topic": "Стереометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28380",
+      "type": "single_choice",
+      "text": "На рисунку зображено куб \\(ABCDA_1B_1C_1D_1.\\) Укажіть із-поміж наведених пряму, паралельну площині грані \\(AA_1B_1B.\\)",
+      "options": {
+        "A": "\\(BC\\)",
+        "B": "\\(C_1D\\)",
+        "C": "\\(BD\\)",
+        "D": "\\(CB_1\\)",
+        "E": "\\(A_1B\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28380/05-math-2-2024.png"
+    },
+    {
+      "id": "math_zno_28379",
+      "source_id": "zno_28379",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28379",
+      "type": "single_choice",
+      "text": "Відомо, що вісь \\(AO\\) Пізанської вежі натепер відхилена від вертикалі \\(BO\\) на кут \\(4^\\circ\\) (див.&nbsp;рисунок). Визначте градусну міру кута \\(AOC,\\) який утворює вісь вежі з горизонтальною поверхнею \\(OC.\\)",
+      "options": {
+        "A": "\\(176^\\circ\\)",
+        "B": "\\(94^\\circ\\)",
+        "C": "\\(104^\\circ\\)",
+        "D": "\\(86^\\circ\\)",
+        "E": "\\(96^\\circ\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28379/04-math-2-2024.png"
+    },
+    {
+      "id": "math_zno_28378",
+      "source_id": "zno_28378",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28378",
+      "type": "single_choice",
+      "text": "Яке з наведених чисел є розв’язком нерівності \\(|-2x-3|\\gt 5?\\)",
+      "options": {
+        "A": "\\(-2\\)",
+        "B": "\\(-1\\)",
+        "C": "\\(0\\)",
+        "D": "\\(1\\)",
+        "E": "\\(2\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28377",
+      "source_id": "zno_28377",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28377",
+      "type": "single_choice",
+      "text": "\\((4x-5)^2=\\)",
+      "options": {
+        "A": "\\(16x^2-40x+25\\)",
+        "B": "\\(16x^2-25\\)",
+        "C": "\\(16x^2-20x+25\\)",
+        "D": "\\(16x^2+25\\)",
+        "E": "\\(4x^2-40x+25\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28376",
+      "source_id": "zno_28376",
+      "topic": "Системи рівнянь",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28376",
+      "type": "single_choice",
+      "text": "У салоні пасажирського літака \\(20\\) рядів, у кожному з яких розташовано по \\(3\\) крісла обабіч проходу (див.&nbsp;рисунок). Реєструючи пасажира, електронна система навмання вибирає для нього посадкове місце. Яка імовірність того, що першому зареєстрованому пасажиру дістанеться місце біля проходу?",
       "options": {
         "A": "\\(\\frac 12\\)",
+        "B": "\\(\\frac 16\\)",
+        "C": "\\(\\frac 13\\)",
+        "D": "\\(\\frac 23\\)",
+        "E": "\\(\\frac{1}{120}\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28376/01-math-2-2024.png"
+    },
+    {
+      "id": "math_zno_28368",
+      "source_id": "zno_28368",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28368",
+      "type": "single_choice",
+      "text": "На рисунку зображено прямокутник \\(ABCD.\\) Точка \\(K\\) лежить на стороні \\(AD.\\) Визначте довжину сторони \\(AD,\\) якщо \\(BK=d,\\) \\(\\angle AKB=\\mathbf{\\alpha},\\ \\angle KCD=\\mathbf{\\beta}.\\)",
+      "options": {
+        "A": "\\(d(\\sin\\mathbf{\\alpha}+\\cos\\mathbf{\\alpha}\\operatorname{tg}\\mathbf{\\beta})\\)",
+        "B": "\\(d(\\cos\\mathbf{\\alpha}+\\sin\\mathbf{\\alpha}\\operatorname{tg}\\mathbf{\\beta})\\)",
+        "C": "\\(d\\left(\\sin\\mathbf{\\alpha}+\\frac{\\cos\\mathbf{\\alpha}}{\\operatorname{tg}\\mathbf{\\beta}}\\right)\\)",
+        "D": "\\(d\\left(\\cos\\mathbf{\\alpha}+\\frac{\\sin\\mathbf{\\alpha}}{\\operatorname{tg}\\mathbf{\\beta}}\\right)\\)",
+        "E": "\\(d(\\cos\\mathbf{\\alpha}+\\sin\\mathbf{\\alpha}\\sin\\mathbf{\\beta})\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28368/nmt-2024-1-new-15.png"
+    },
+    {
+      "id": "math_zno_28367",
+      "source_id": "zno_28367",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28367",
+      "type": "single_choice",
+      "text": "Укажіть корінь рівняння \\(\\operatorname{tg}(3x)=-1.\\)",
+      "options": {
+        "A": "\\(-\\frac{\\mathbf{\\pi}}{12}\\)",
+        "B": "\\(-\\frac{\\mathbf{\\pi}}{3}\\)",
+        "C": "\\(\\frac{\\mathbf{\\pi}}{12}\\)",
+        "D": "\\(-\\frac{\\mathbf{4\\pi}}{3}\\)",
+        "E": "\\(-\\frac{\\mathbf{\\pi}}{4}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28366",
+      "source_id": "zno_28366",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28366",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить значення виразу \\(\\log_{0,2}125.\\)",
+      "options": {
+        "A": "\\((-\\infty;\\ -3)\\)",
+        "B": "\\([-3;\\ 0)\\)",
+        "C": "\\([0;\\ 3)\\)",
+        "D": "\\([3;\\ 25)\\)",
+        "E": "\\([25;\\ +\\infty)\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28365",
+      "source_id": "zno_28365",
+      "topic": "Прогресії",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28365",
+      "type": "single_choice",
+      "text": "В арифметичній прогресії \\((a_n)\\) відомо, що \\(a_6-a_1=-30.\\) Обчисліть значення виразу \\(a_6-a_4.\\)",
+      "options": {
+        "A": "\\(12\\)",
+        "B": "\\(10\\)",
+        "C": "\\(-15\\)",
+        "D": "\\(-10\\)",
+        "E": "\\(-12\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28364",
+      "source_id": "zno_28364",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28364",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему нерівностей $$ \\left\\{ \\begin{array}{l} 5^x\\lt 25, \\\\ 2-x\\lt 8. \\end{array} \\right. $$",
+      "options": {
+        "A": "\\((2;\\ 6)\\)",
+        "B": "\\((2;\\ +\\infty)\\)",
+        "C": "\\((-6;\\ 5)\\)",
+        "D": "\\((-\\infty;\\ -6)\\)",
+        "E": "\\((-6;\\ 2)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28363",
+      "source_id": "zno_28363",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28363",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I. &nbsp;&nbsp;&nbsp;Існує паралелограм, діагональ якого дорівнює сумі двох його сусідних сторін. II. &nbsp;&nbsp;Існує паралелограм, один із кутів якого вдвічі більший за інший кут. III. &nbsp;Існує паралелограм, діагоналі якого перпендикулярні.",
+      "options": {
+        "A": "лише ІІ",
+        "B": "лише І та ІІІ",
+        "C": "лише ІІ та ІІІ",
+        "D": "лише І та ІІ",
+        "E": "І , ІІ та ІІІ"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28362",
+      "source_id": "zno_28362",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28362",
+      "type": "single_choice",
+      "text": "Обчисліть площу бічної поверхні правильної трикутної піраміди, сторона основи якої дорівнює \\(8\\ \\text{см},\\) а апофема на \\(2\\ \\text{см}\\) більша за сторону основи піраміди.",
+      "options": {
+        "A": "\\(72\\ \\text{см}^2\\)",
+        "B": "\\(384\\ \\text{см}^2\\)",
+        "C": "\\(192\\ \\text{см}^2\\)",
+        "D": "\\(120\\ \\text{см}^2\\)",
+        "E": "\\(240\\ \\text{см}^2\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28361",
+      "source_id": "zno_28361",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28361",
+      "type": "single_choice",
+      "text": "Обчисліть \\(\\frac{\\sqrt[3]{189}}{\\sqrt[3]{7}}.\\)",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(7\\)",
+        "C": "\\(9\\)",
+        "D": "\\(21\\)",
+        "E": "\\(27\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28360",
+      "source_id": "zno_28360",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28360",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік функції \\(y=f(x),\\) визначеної на проміжку \\([&ndash;3;\\ 3].\\) У яких координатних чвертях розташований графік функції \\(y=f(x-4)?\\)",
+      "options": {
+        "A": "лише в І та ІІ",
+        "B": "лише в ІІ та ІІІ",
+        "C": "лише в ІІІ та ІV",
+        "D": "лише в І та ІV",
+        "E": "у всіх чвертях"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28360/nmt-2024-1-new-07.png"
+    },
+    {
+      "id": "math_zno_28359",
+      "source_id": "zno_28359",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28359",
+      "type": "single_choice",
+      "text": "Микола частує свою родину фруктовим салатом із яблук, бананів й апельсинів. Для приготування однієї порції салату потрібно \\(1\\) банан, \\(2\\) апельсини та \\(3\\) яблука. Скільки апельсинів використав Микола, якщо він приготував за цим рецептом салат із \\(24\\) фруктів?",
+      "options": {
+        "A": "\\(4\\)",
+        "B": "\\(5\\)",
+        "C": "\\(8\\)",
+        "D": "\\(12\\)",
+        "E": "\\(18\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28358",
+      "source_id": "zno_28358",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28358",
+      "type": "single_choice",
+      "text": "Яке з наведених чисел є коренем рівняння \\(|3x+2|=2?\\)",
+      "options": {
+        "A": "\\(\\frac 43\\)",
+        "B": "\\(-\\frac 43\\)",
+        "C": "\\(\\frac 32\\)",
+        "D": "\\(-\\frac 23\\)",
+        "E": "\\(-\\frac 13\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28357",
+      "source_id": "zno_28357",
+      "topic": "Стереометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28357",
+      "type": "single_choice",
+      "text": "На рисунку зображено циліндр, прямокутник \\(ABCD\\) &ndash; його осьовий переріз. Укажіть відрізок, який є твірною цього циліндра.",
+      "options": {
+        "A": "\\(AD\\)",
+        "B": "\\(BC\\)",
+        "C": "\\(AC\\)",
+        "D": "\\(BD\\)",
+        "E": "\\(AB\\)"
+      },
+      "answer": "E",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28357/nmt-2024-1-new-04.png"
+    },
+    {
+      "id": "math_zno_28356",
+      "source_id": "zno_28356",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28356",
+      "type": "single_choice",
+      "text": "Розкладіть вираз \\(4x^2-144\\) на множники.",
+      "options": {
+        "A": "\\((2x-12)(2x+12)\\)",
+        "B": "\\((2x-72)(2x+72)\\)",
+        "C": "\\((2x-12)^2\\)",
+        "D": "\\((2x-72)^2\\)",
+        "E": "\\(2(x-6)(x+6)\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_28355",
+      "source_id": "zno_28355",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28355",
+      "type": "single_choice",
+      "text": "Зовнішній кут при вершині \\(A\\) трикутника \\(ABC\\) дорівнює \\(100^\\circ,\\) \\(\\angle C=20^\\circ\\) (див.&nbsp;рисунок). Визначте градусну міру кута \\(B.\\)",
+      "options": {
+        "A": "\\(100^\\circ\\)",
+        "B": "\\(90^\\circ\\)",
+        "C": "\\(120^\\circ\\)",
+        "D": "\\(80^\\circ\\)",
+        "E": "\\(70^\\circ\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28355/nmt-2024-1-new-02.png"
+    },
+    {
+      "id": "math_zno_28354",
+      "source_id": "zno_28354",
+      "topic": "Натуральні числа та дроби",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/28354",
+      "type": "single_choice",
+      "text": "На рисунку відображено зміну густини ( мкг/м \\(^3\\) ) дрібнодисперсного пилу в повітрі протягом доби в деякому районі міста. Укажіть із-поміж наведених проміжок часу ( год ), упродовж якого густина такого пилу в повітрі лише зменшувалася .",
+      "options": {
+        "A": "\\([2;\\ 6]\\)",
+        "B": "\\([8;\\ 12]\\)",
+        "C": "\\([12;\\ 14]\\)",
+        "D": "\\([14;\\ 16]\\)",
+        "E": "\\([20;\\ 24]\\)"
+      },
+      "answer": "E",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/283/28354/2024_1.jpeg"
+    },
+    {
+      "id": "math_zno_27699",
+      "source_id": "zno_27699",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27699",
+      "type": "single_choice",
+      "text": "Укажіть похідну функції \\(f(x)=x(x^3+1).\\)",
+      "options": {
+        "A": "\\(f'(x)=4x^3+1\\)",
+        "B": "\\(f'(x)=4x^3\\)",
+        "C": "\\(f'(x)=3x^2\\)",
+        "D": "\\(f'(x)=3x^2+1\\)",
+        "E": "\\(f'(x)=\\frac{x^5}{5}+\\frac{x^2}{2}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27698",
+      "source_id": "zno_27698",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27698",
+      "type": "single_choice",
+      "text": "У паралелограмі \\(ABCD: AB=\\sqrt{6}\\ \\text{см},\\) \\(\\angle BAD=30^\\circ,\\) \\(\\angle CBD=45^\\circ\\) (див.&nbsp;рисунок). Обчисліть довжину діагоналі \\(BD.\\)",
+      "options": {
+        "A": "\\(2\\sqrt{3}\\ \\text{см}\\)",
+        "B": "\\(3\\ \\text{см}\\)",
+        "C": "\\(\\sqrt{2}\\ \\text{см}\\)",
+        "D": "\\(2\\ \\text{см}\\)",
+        "E": "\\(\\sqrt{3}\\ \\text{см}\\)"
+      },
+      "answer": "E",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/276/27698/math-nmt-2024-demo-14.png"
+    },
+    {
+      "id": "math_zno_27697",
+      "source_id": "zno_27697",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27697",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить корінь рівняння \\(\\log_{\\frac 13}(x+1)=-2.\\)",
+      "options": {
+        "A": "\\((-11; -2]\\)",
+        "B": "\\((-2; 1]\\)",
+        "C": "\\((1; 4]\\)",
+        "D": "\\((4; 7]\\)",
+        "E": "\\((7; 9]\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27696",
+      "source_id": "zno_27696",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27696",
+      "type": "single_choice",
+      "text": "Периметр основи правильної чотирикутної піраміди дорівнює \\(72\\ \\text{см}.\\) Обчисліть довжину висоти піраміди, якщо її апофема дорівнює \\(15\\ \\text{см}.\\)",
+      "options": {
+        "A": "\\(6\\ \\text{см}\\)",
+        "B": "\\(9\\ \\text{см}\\)",
+        "C": "\\(10\\ \\text{см}\\)",
+        "D": "\\(12\\ \\text{см}\\)",
+        "E": "\\(14\\ \\text{см}\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27695",
+      "source_id": "zno_27695",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27695",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему рівнянь $$ \\left\\{ \\begin{array}{l} x+y=5, \\\\ 4^x=16^{-1}. \\end{array} \\right. $$ Якщо \\((x_0; y_0)\\) – розв’язок цієї системи, то \\(x_0\\cdot y_0=\\)",
+      "options": {
+        "A": "\\(-36\\)",
+        "B": "\\(-14\\)",
+        "C": "\\(-6\\)",
+        "D": "\\(4\\)",
+        "E": "\\(6\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27694",
+      "source_id": "zno_27694",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27694",
+      "type": "single_choice",
+      "text": "Якщо \\(a\\lt 1,\\) то \\(|a-1|+|-7|=\\)",
+      "options": {
+        "A": "\\(a-8\\)",
+        "B": "\\(a+6\\)",
+        "C": "\\(-a+6\\)",
+        "D": "\\(-a-6\\)",
+        "E": "\\(-a+8\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27693",
+      "source_id": "zno_27693",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27693",
+      "type": "single_choice",
+      "text": "У трикутнику \\(ABC\\) кут \\(B\\) – тупий. Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp; \\(\\angle A+\\angle C\\lt 90^\\circ .\\) II.&nbsp;&nbsp; \\(AB+BC\\lt AC.\\) III.&nbsp;Центр кола, описаного навколо трикутника \\(ABC,\\) лежить поза його межами.",
+      "options": {
+        "A": "лише I та II",
+        "B": "лише І",
+        "C": "лише II та III",
+        "D": "I, II та III",
+        "E": "лише I та III"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27692",
+      "source_id": "zno_27692",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27692",
+      "type": "single_choice",
+      "text": "Спростіть вираз \\(a(a+2b)-(a+b)^2.\\)",
+      "options": {
+        "A": "\\(4ab+b^2\\)",
+        "B": "\\(4ab-b^2\\)",
+        "C": "\\(-b^2\\)",
+        "D": "\\(2ab-b^2\\)",
+        "E": "\\(b^2\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27691",
+      "source_id": "zno_27691",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27691",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік функції \\(y=f(x),\\) визначеної на проміжку \\([1; 8].\\) Скільки нулів має ця функція на заданому проміжку?",
+      "options": {
+        "A": "жодного",
+        "B": "один",
+        "C": "два",
+        "D": "три",
+        "E": "чотири"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/276/27691/math-nmt-2024-demo-07.png"
+    },
+    {
+      "id": "math_zno_27690",
+      "source_id": "zno_27690",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27690",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(0,2x-54\\lt 0.\\)",
+      "options": {
+        "A": "\\((-\\infty; 270)\\)",
+        "B": "\\((270; +\\infty)\\)",
+        "C": "\\((-\\infty; 2,7)\\)",
+        "D": "\\((-\\infty; 27)\\)",
+        "E": "\\((10,8; +\\infty)\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27689",
+      "source_id": "zno_27689",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27689",
+      "type": "single_choice",
+      "text": "Кола із центрами в точках \\(O\\) і \\(O_1\\) мають внутрішній дотик (див.&nbsp;рисунок). Обчисліть відстань \\(OO_1,\\) якщо радіуси кіл дорівнюють \\(12\\ \\text{см}\\) і \\(8\\ \\text{см}.\\)",
+      "options": {
+        "A": "\\(1,5\\ \\text{см}\\)",
+        "B": "\\(2\\ \\text{см}\\)",
+        "C": "\\(3\\ \\text{см}\\)",
+        "D": "\\(4\\ \\text{см}\\)",
+        "E": "\\(8\\ \\text{см}\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/276/27689/math-nmt-2024-demo-05.png"
+    },
+    {
+      "id": "math_zno_27688",
+      "source_id": "zno_27688",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27688",
+      "type": "single_choice",
+      "text": "Якщо \\(m=n-1,\\) то \\(7-m=\\)",
+      "options": {
+        "A": "\\(n-8\\)",
+        "B": "\\(6-n\\)",
+        "C": "\\(8-n\\)",
+        "D": "\\(n-6\\)",
+        "E": "\\(6+n\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27687",
+      "source_id": "zno_27687",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27687",
+      "type": "single_choice",
+      "text": "На рисунку зображено пряму трикутну призму. Її бічною гранню є",
+      "options": {
+        "A": "трикутник",
+        "B": "прямокутник",
+        "C": "відрізок",
+        "D": "паралелограм, що не є прямокутником",
+        "E": "ромб, що не є квадратом"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/276/27687/math-nmt-2024-demo-03.png"
+    },
+    {
+      "id": "math_zno_27686",
+      "source_id": "zno_27686",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27686",
+      "type": "single_choice",
+      "text": "О шостій годині ранку визначено температуру повітря на десяти метеостанціях. Отримані дані відображено в таблиці. Температура (у градусах) 1 3 4 \\(x\\) Кількість метеостанцій 2 3 4 1 Визначте \\(x,\\) якщо середнє арифметичне всіх цих даних дорівнює \\(3,5^\\circ .\\)",
+      "options": {
+        "A": "\\(x=5\\)",
+        "B": "\\(x=6\\)",
+        "C": "\\(x=7\\)",
+        "D": "\\(x=8\\)",
+        "E": "\\(x=9\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_27685",
+      "source_id": "zno_27685",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/27685",
+      "type": "single_choice",
+      "text": "У першу годину роботи на телефон гарячої лінії надійшло \\(145\\) дзвінків, а за другу годину – на \\(17\\) дзвінків більше. Скільки всього дзвінків надійшло на телефон гарячої лінії за дві години роботи?",
+      "options": {
+        "A": "\\(307\\)",
+        "B": "\\(290\\)",
+        "C": "\\(287\\)",
+        "D": "\\(273\\)",
+        "E": "\\(162\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26838",
+      "source_id": "zno_26838",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26838",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(\\log_{0,3}(x+3)\\gt \\log_{0,3}4.\\)",
+      "options": {
+        "A": "\\((1; +\\infty)\\)",
+        "B": "\\((7; +\\infty)\\)",
+        "C": "\\((-\\infty; 1)\\)",
+        "D": "\\((0; 1)\\)",
+        "E": "\\((-3; 1)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26837",
+      "source_id": "zno_26837",
+      "topic": "Тригонометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26837",
+      "type": "single_choice",
+      "text": "Укажіть вираз, тотожно рівний виразу \\((\\cos x-\\sin x)^2.\\)",
+      "options": {
+        "A": "\\(\\cos 2x\\)",
+        "B": "\\(\\cos 2x-\\sin 2x\\)",
+        "C": "\\(\\cos 2x-1\\)",
+        "D": "\\(1-\\sin 2x\\)",
+        "E": "\\(1\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26836",
+      "source_id": "zno_26836",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26836",
+      "type": "single_choice",
+      "text": "Менша сторона прямокутника дорівнює \\(4\\ \\text{см,}\\) а кут між його діагоналями – \\(60^\\circ\\) (див.&nbsp;рисунок). Визначте площу \\((\\text{см}^2)\\) прямокутника.",
+      "options": {
+        "A": "\\(8\\sqrt{3}\\)",
+        "B": "\\(16\\)",
+        "C": "\\(16\\sqrt{3}\\)",
+        "D": "\\(32\\)",
+        "E": "\\(32\\sqrt{3}\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/268/26836/mt-os-math2-13.png"
+    },
+    {
+      "id": "math_zno_26835",
+      "source_id": "zno_26835",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26835",
+      "type": "single_choice",
+      "text": "\\(\\left(-2x^4\\right)^3=\\)",
+      "options": {
+        "A": "\\(-6x^7\\)",
+        "B": "\\(-8x^{12}\\)",
+        "C": "\\(-8x^7\\)",
+        "D": "\\(8x^{12}\\)",
+        "E": "\\(6x^{12}\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26834",
+      "source_id": "zno_26834",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26834",
+      "type": "single_choice",
+      "text": "Якщо функція \\(F(x) = x^3 + 4\\) є однією з первісних функції \\(f(x),\\) тоді \\(f(x) =\\)",
+      "options": {
+        "A": "\\(3x^2+4\\)",
+        "B": "\\(3x^2\\)",
+        "C": "\\(3x\\)",
+        "D": "\\(2x^2\\)",
+        "E": "\\(\\frac{x^4}{4}+C\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26833",
+      "source_id": "zno_26833",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26833",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Пряма, що проходить через центр кола і лежить із цим колом в одній площині, має з ним дві спільні точки. II.&nbsp;&nbsp;Діаметр кола, перпендикулярний до його хорди, проходить через середину цієї хорди. III.&nbsp;Можна провести два діаметри кола, що не мають жодної спільної точки.",
+      "options": {
+        "A": "лише II",
+        "B": "лише I та IIІ",
+        "C": "лише II та III",
+        "D": "лише I та IІ",
+        "E": "І, ІІ та ІІІ"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26830",
+      "source_id": "zno_26830",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26830",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить значення виразу \\(\\left(\\frac 14\\right)^{-2}.\\)",
+      "options": {
+        "A": "\\((-\\infty; -10]\\)",
+        "B": "\\((-10; 0]\\)",
+        "C": "\\((0; 1]\\)",
+        "D": "\\((1; 10]\\)",
+        "E": "\\((10; +\\infty)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26829",
+      "source_id": "zno_26829",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26829",
+      "type": "single_choice",
+      "text": "Укажіть формулу для обчислення об’єму \\(V\\) правильної чотирикутної піраміди, сторона основи й висота якої дорівнюють \\(a.\\)",
+      "options": {
+        "A": "\\(V=a^3\\)",
+        "B": "\\(V=\\frac{4a^2}{3}\\)",
+        "C": "\\(V=4a^2\\)",
+        "D": "\\(V=\\frac{a^3}{3}\\)",
+        "E": "\\(V=\\frac{a^3}{4}\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26828",
+      "source_id": "zno_26828",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26828",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить корінь рівняння $$ \\frac{x}{18-2x}=\\frac 14. $$",
+      "options": {
+        "A": "\\((-\\infty; -3)\\)",
+        "B": "\\([-3; 0)\\)",
+        "C": "\\([0; 4)\\)",
+        "D": "\\([4; 8)\\)",
+        "E": "\\([8; +\\infty)\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26827",
+      "source_id": "zno_26827",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26827",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік функції \\(y = f(x),\\) визначеної на проміжку \\([–2; 4].\\) Цей графік перетинає вісь \\(x\\) в одній із зазначених точок. Укажіть цю точку.",
+      "options": {
+        "A": "\\((4; 0)\\)",
+        "B": "\\((3; 4)\\)",
+        "C": "\\((0; 3)\\)",
+        "D": "\\((3; 0)\\)",
+        "E": "\\((0; 4)\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/268/26827/mt-os-math2-06.png"
+    },
+    {
+      "id": "math_zno_26826",
+      "source_id": "zno_26826",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26826",
+      "type": "single_choice",
+      "text": "Визначте координати вектора \\(\\overrightarrow{c}=\\overrightarrow{b}-\\overrightarrow{a},\\) якщо \\(\\overrightarrow{a}(2; 1; -5)\\) i \\(\\overrightarrow{b}(-7; 0; 3).\\)",
+      "options": {
+        "A": "\\(\\overrightarrow{c}\\ (-9; -1; 8)\\)",
+        "B": "\\(\\overrightarrow{c}\\ (9; 1; -8)\\)",
+        "C": "\\(\\overrightarrow{c}\\ (-5; 1; -2)\\)",
+        "D": "\\(\\overrightarrow{c}\\ (-5; -1; 2)\\)",
+        "E": "\\(\\overrightarrow{c}\\ (-14; 0; -15)\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26825",
+      "source_id": "zno_26825",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26825",
+      "type": "single_choice",
+      "text": "Розв’яжіть рівняння \\(0,01x=-1.\\)",
+      "options": {
+        "A": "-1000",
+        "B": "-100",
+        "C": "-10",
+        "D": "-1",
+        "E": "100"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26824",
+      "source_id": "zno_26824",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26824",
+      "type": "single_choice",
+      "text": "Із точки \\(O,\\) яка лежить на прямій \\(AB,\\) проведено промені \\(OM\\) і \\(OK\\) (див.&nbsp;рисунок). Відомо, що \\(\\angle BOM = 30^\\circ,\\) \\(\\angle MOK = 80^\\circ.\\) Визначте градусну міру кута \\(AOK.\\) Уважайте, що промені \\(OK,\\ OM\\) і пряма \\(AB\\) лежать в одній площині.",
+      "options": {
+        "A": "\\(60^\\circ\\)",
+        "B": "\\(70^\\circ\\)",
+        "C": "\\(80^\\circ\\)",
+        "D": "\\(150^\\circ\\)",
+        "E": "\\(170^\\circ\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/268/26824/mt-os-math2-02.png"
+    },
+    {
+      "id": "math_zno_26823",
+      "source_id": "zno_26823",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26823",
+      "type": "single_choice",
+      "text": "У магазині канцтоварів ручка коштує \\(6\\) грн, а набір із двох ручок – \\(10\\ \\text{грн.}\\) Яку найбільшу кількість таких ручок можна купити в цьому магазині на суму до \\(58\\ \\text{грн?}\\)",
+      "options": {
+        "A": "8",
+        "B": "9",
+        "C": "10",
+        "D": "11",
+        "E": "12"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26821",
+      "source_id": "zno_26821",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26821",
+      "type": "single_choice",
+      "text": "На рисунку відображено інформацію про результати опитування пасажирів транспортної мережі деякого міста щодо визначення якості пасажирських перевезень (у балах за шкалою \\(1–10\\) ). Визначте кількість опитуваних, які поставили оцінку, вищу за \\(8\\) балів.",
+      "options": {
+        "A": "19",
+        "B": "100",
+        "C": "200",
+        "D": "275",
+        "E": "475"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/268/26821/mt-os-math2-01.png"
+    },
+    {
+      "id": "math_zno_26813",
+      "source_id": "zno_26813",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26813",
+      "type": "single_choice",
+      "text": "Укажіть корінь рівняння \\(\\sin 4x=-1.\\)",
+      "options": {
+        "A": "\\(\\frac{3\\mathbf{\\pi}}{8}\\)",
+        "B": "\\(\\frac{\\mathbf{\\pi}}{8}\\)",
+        "C": "\\(\\frac{\\mathbf{\\pi}}{4}\\)",
+        "D": "\\(-\\frac{\\mathbf{\\pi}}{4}\\)",
+        "E": "\\(-\\frac{\\mathbf{\\pi}}{2}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26812",
+      "source_id": "zno_26812",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26812",
+      "type": "single_choice",
+      "text": "Спростіть вираз $$ \\frac{a^2+ab}{(a+b)^2}-\\frac{2a+b}{a+b}. $$",
+      "options": {
+        "A": "\\(1\\)",
+        "B": "\\(\\frac{a-b}{a+b}\\)",
+        "C": "\\(\\frac{b-a}{a+b}\\)",
+        "D": "\\(\\frac{3a+b}{a+b}\\)",
+        "E": "\\(-1\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26811",
+      "source_id": "zno_26811",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26811",
+      "type": "single_choice",
+      "text": "У паралелограмі \\(ABCD\\ \\angle A=30^\\circ,\\) бічна сторона \\(AB = 12\\ \\text{см.}\\) Сторона \\(AD\\) втричі більша за висоту, проведену до цієї сторони (див.&nbsp;рисунок). Визначте площу \\((\\text{см}^2)\\) цього паралелограма.",
+      "options": {
+        "A": "\\(54\\)",
+        "B": "\\(54\\sqrt{3}\\)",
+        "C": "\\(108\\)",
+        "D": "\\(108\\sqrt{3}\\)",
+        "E": "\\(216\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/268/26811/mt-os-math1-13.png"
+    },
+    {
+      "id": "math_zno_26810",
+      "source_id": "zno_26810",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26810",
+      "type": "single_choice",
+      "text": "Матеріальна точка рухається прямолінійно за законом \\(x(t) = 6t^2,\\) де \\(х(t)\\) – координата точки, \\(t\\) – час. За якою формулою визначають швидкість \\(v(t)\\) цієї матеріальної точки в будь-який момент часу \\(t?\\)",
+      "options": {
+        "A": "\\(v(t)=6t\\)",
+        "B": "\\(v(t)=12t\\)",
+        "C": "\\(v(t)=2t^3\\)",
+        "D": "\\(v(t)=6t^3\\)",
+        "E": "\\(v(t)=3t\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26809",
+      "source_id": "zno_26809",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26809",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему рівнянь $$ \\left\\{ \\begin{array}{l} \\frac{1}{3y}=\\frac 2x, \\\\ x-y=30. \\end{array} \\right. $$ Якщо \\((x_0; y_0)\\) – розв’язок системи, то \\(x_0 + y_0 =\\)",
+      "options": {
+        "A": "-150",
+        "B": "35",
+        "C": "36",
+        "D": "42",
+        "E": "150"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26808",
+      "source_id": "zno_26808",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26808",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Середня лінія трапеції проходить через точку перетину її діагоналей. II.&nbsp;&nbsp;Діагональ трапеції ділить її на два рівних трикутники. III.&nbsp;Діагоналі рівнобічної трапеції рівні.",
+      "options": {
+        "A": "лише III",
+        "B": "лише I та IIІ",
+        "C": "лише I та II",
+        "D": "лише II та IIІ",
+        "E": "І, ІІ та ІІІ"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26807",
+      "source_id": "zno_26807",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26807",
+      "type": "single_choice",
+      "text": "Обчисліть \\(\\left(\\frac 17\\cdot \\sqrt[3]{7}\\right)^3.\\)",
+      "options": {
+        "A": "\\(27\\)",
+        "B": "\\(\\frac 17\\)",
+        "C": "\\(1\\)",
+        "D": "\\(\\frac {1}{49}\\)",
+        "E": "\\(49\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26806",
+      "source_id": "zno_26806",
+      "topic": "Стереометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26806",
+      "type": "single_choice",
+      "text": "Доберіть закінчення речення так, щоб утворилося правильне твердження: «Циліндр утворений обертанням…",
+      "options": {
+        "A": "квадрата навколо його сторони».",
+        "B": "прямокутника навколо його діагоналі».",
+        "C": "прямокутного трикутника навколо його гіпотенузи».",
+        "D": "прямокутного трикутника навколо його катета».",
+        "E": "квадрата навколо його діагоналі»."
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26805",
+      "source_id": "zno_26805",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26805",
+      "type": "single_choice",
+      "text": "Плату за користування комп’ютерною програмою підвищили зі \\(140\\) грн у 2021&nbsp;р. до \\(161\\) грн у 2022&nbsp;р. На скільки відсотків збільшили плату у 2022&nbsp;р. порівняно із 2021&nbsp;р.?",
+      "options": {
+        "A": "10",
+        "B": "15",
+        "C": "21",
+        "D": "85",
+        "E": "115"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26804",
+      "source_id": "zno_26804",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26804",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік функції \\(y = f (x),\\) визначеної на проміжку \\([&ndash;3; 3].\\) Укажіть нуль цієї функції.",
+      "options": {
+        "A": "\\(-3\\)",
         "B": "\\(-2\\)",
-        "C": "—",
-        "D": "—",
+        "C": "\\(0\\)",
+        "D": "\\(3\\)",
+        "E": "\\(4\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/268/26804/mt-os-math1-06.png"
+    },
+    {
+      "id": "math_zno_26803",
+      "source_id": "zno_26803",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26803",
+      "type": "single_choice",
+      "text": "Визначте координати вектора, який є сумою векторів \\(\\overrightarrow{a}(2; -2; 3)\\) i \\(\\overrightarrow{b}(-7; -3; 4).\\)",
+      "options": {
+        "A": "\\((9; 1; -1)\\)",
+        "B": "\\((-5; -5; 7)\\)",
+        "C": "\\((-9; -1; 1)\\)",
+        "D": "\\((5; 5; 7)\\)",
+        "E": "\\((-5; 1; 7)\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26802",
+      "source_id": "zno_26802",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26802",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(x+3\\le 0.\\)",
+      "options": {
+        "A": "\\([0; 3]\\)",
+        "B": "\\((-\\infty; 3]\\)",
+        "C": "\\((-\\infty; -3]\\)",
+        "D": "\\((3; +\\infty]\\)",
+        "E": "\\((-3; +\\infty]\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26801",
+      "source_id": "zno_26801",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26801",
+      "type": "single_choice",
+      "text": "Точки \\(A\\) і \\(B\\) лежать на колі радіуса \\(16.\\) Укажіть найбільше можливе значення довжини відрізка \\(AB.\\)",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "32",
+        "E": "64"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26800",
+      "source_id": "zno_26800",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26800",
+      "type": "single_choice",
+      "text": "\\(2(5x+6)=\\)",
+      "options": {
+        "A": "\\(5x+8\\)",
+        "B": "\\(10x+6\\)",
+        "C": "\\(7x+8\\)",
+        "D": "\\(7x+12\\)",
+        "E": "\\(10x+12\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26799",
+      "source_id": "zno_26799",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26799",
+      "type": "single_choice",
+      "text": "Для облаштування кафе було придбано столи і стільці у співвідношенні 1:3 відповідно. Укажіть діаграму, на якій правильно відображено розподіл придбаних столів і стільців.",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/267/26799/mt-os-math1-01-0.png"
+    },
+    {
+      "id": "math_zno_26198",
+      "source_id": "zno_26198",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26198",
+      "type": "single_choice",
+      "text": "Укажіть кількість коренів рівняння \\(\\sin x=\\frac{\\sqrt{3}}{2}\\) на відрізку \\([0;\\ 3\\mathbf{\\pi}].\\)",
+      "options": {
+        "A": "жодного",
+        "B": "один",
+        "C": "два",
+        "D": "три",
+        "E": "більше трьох"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26197",
+      "source_id": "zno_26197",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26197",
+      "type": "single_choice",
+      "text": "Периметр основи правильної чотирикутної піраміди дорівнює \\(72\\ \\text{см.}\\) Визначте довжину висоти піраміди, якщо її апофема дорівнює \\(15\\ \\text{см.}\\)",
+      "options": {
+        "A": "\\(6\\ \\text{см}\\)",
+        "B": "\\(9\\ \\text{см}\\)",
+        "C": "\\(10\\ \\text{см}\\)",
+        "D": "\\(12\\ \\text{см}\\)",
+        "E": "\\(14\\ \\text{см}\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26196",
+      "source_id": "zno_26196",
+      "topic": "Прогресії",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26196",
+      "type": "single_choice",
+      "text": "В арифметичній прогресії \\(a_1=4,\\ a_2=-1.\\) Укажіть формулу для визначення \\(n – \\text{го}\\) члена цієї прогресії.",
+      "options": {
+        "A": "\\(a_n=9-5n\\)",
+        "B": "\\(a_n=7-3n\\)",
+        "C": "\\(a_n=5-n\\)",
+        "D": "\\(a_n=1+3n\\)",
+        "E": "\\(a_n=-1+5n\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26195",
+      "source_id": "zno_26195",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26195",
+      "type": "single_choice",
+      "text": "Діагональ прямокутника утворює з його стороною кут \\(60^\\circ\\) (див.&nbsp;рисунок), більша сторона прямокутника дорівнює \\(5\\sqrt{3}.\\) Визначте довжину кола, описаного навколо цього прямокутника.",
+      "options": {
+        "A": "\\(10\\mathbf{\\pi}\\)",
+        "B": "\\(25\\mathbf{\\pi}\\)",
+        "C": "\\(20\\mathbf{\\pi}\\)",
+        "D": "\\(5\\mathbf{\\pi}\\)",
+        "E": "\\(10\\sqrt{3}\\mathbf{\\pi}\\)"
+      },
+      "answer": "A",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/261/26195/math-demo-2023-12.png"
+    },
+    {
+      "id": "math_zno_26194",
+      "source_id": "zno_26194",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26194",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему нерівностей $$ \\left\\{ \\begin{array}{l} \\left(\\frac 13\\right)^x \\lt 81, \\\\ |x|\\le 5. \\end{array} \\right. $$",
+      "options": {
+        "A": "\\((-\\infty;\\ 4)\\)",
+        "B": "\\([5;\\ \\infty)\\)",
+        "C": "\\([-5;\\ -4)\\)",
+        "D": "\\((-4;\\ 5]\\)",
+        "E": "\\([-5;\\ 4)\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26193",
+      "source_id": "zno_26193",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26193",
+      "type": "single_choice",
+      "text": "Спростіть вираз $$\\frac{a^2+16}{a-4}-\\frac{8a}{a-4}.$$",
+      "options": {
+        "A": "\\(-1\\)",
+        "B": "\\(a-4\\)",
+        "C": "\\(a+4\\)",
+        "D": "\\(1\\)",
+        "E": "\\((a-4)^2\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26192",
+      "source_id": "zno_26192",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26192",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Діагоналі будь-якого ромба ділять його кути навпіл. II.&nbsp;&nbsp;Діагоналі будь-якого чотирикутника точка перетину ділить навпіл. III.&nbsp;Діагоналі будь-якого квадрата взаємно перпендикулярні.",
+      "options": {
+        "A": "лише I",
+        "B": "І, II та ІІІ",
+        "C": "лише III",
+        "D": "лише I та II",
+        "E": "лише I та IIІ"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26191",
+      "source_id": "zno_26191",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26191",
+      "type": "single_choice",
+      "text": "Обчисліть значення виразу \\(\\log_2{(8a)},\\) якщо \\(\\log_2{a}=4.\\)",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "5",
+        "D": "8",
+        "E": "12"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26190",
+      "source_id": "zno_26190",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26190",
+      "type": "single_choice",
+      "text": "Укажіть лінійну функцію, графік якої паралельний осі абсцис і проходить через точку \\(A(–2;\\ 3).\\)",
+      "options": {
+        "A": "\\(y=3\\)",
+        "B": "\\(y=-2\\)",
+        "C": "\\(x=-2\\)",
+        "D": "\\(x=3\\)",
+        "E": "\\(y=-\\frac 32 x\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26189",
+      "source_id": "zno_26189",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26189",
+      "type": "single_choice",
+      "text": "Яке з наведених чисел є коренем рівняння \\(\\frac x2 + \\frac x3=2?\\)",
+      "options": {
+        "A": "0,4",
+        "B": "1,2",
+        "C": "2,4",
+        "D": "5",
+        "E": "12"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26188",
+      "source_id": "zno_26188",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26188",
+      "type": "single_choice",
+      "text": "Обчисліть \\(\\frac{\\sqrt[3]{128}}{\\sqrt[3]{2}}.\\)",
+      "options": {
+        "A": "64",
+        "B": "18",
+        "C": "8",
+        "D": "4",
+        "E": "2"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26187",
+      "source_id": "zno_26187",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26187",
+      "type": "single_choice",
+      "text": "У прямокутному трикутнику сума двох кутів дорівнює \\(115^\\circ.\\) Визначте градусну міру найменшого кута цього трикутника.",
+      "options": {
+        "A": "\\(5^\\circ\\)",
+        "B": "\\(15^\\circ\\)",
+        "C": "\\(25^\\circ\\)",
+        "D": "\\(35^\\circ\\)",
+        "E": "\\(65^\\circ\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26186",
+      "source_id": "zno_26186",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26186",
+      "type": "single_choice",
+      "text": "Визначте кількість граней трикутної призми.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "9"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26185",
+      "source_id": "zno_26185",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26185",
+      "type": "single_choice",
+      "text": "У супермаркеті акція: купуєш три однакові шоколадки «Спокуса», а таку ж саму четверту супермаркет надає безкоштовно. Ціна кожної такої шоколадки – \\(35\\ \\text{грн.}\\) У покупця є \\(220\\ \\text{грн.}\\) Яку максимальну кількість шоколадок «Спокуса» він зможе отримати, узявши участь в акції?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "8",
+        "E": "9"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26184",
+      "source_id": "zno_26184",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26184",
+      "type": "single_choice",
+      "text": "У таблиці наведено дані про температуру повітря в різний час того самого дня. Час, години 6 9 12 15 18 Температура, \\(^\\circ\\text{C}\\) 12 17 14 18 15 На графіках немає шкали (градації) температури повітря. На якому графіку правильно відображено дані, наведені в таблиці?",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26127",
+      "source_id": "zno_26127",
+      "topic": "Тригонометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26127",
+      "type": "single_choice",
+      "text": "Обчисліть значення виразу \\(4\\sin^2\\alpha,\\) якщо \\(4\\cos^2\\alpha = 1.\\)",
+      "options": {
+        "A": "\\(0\\)",
+        "B": "\\(\\frac 14\\)",
+        "C": "\\(\\frac 34\\)",
+        "D": "\\(3\\)",
+        "E": "\\(4\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26126",
+      "source_id": "zno_26126",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26126",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(10^{x+1}\\gt 0,01.\\)",
+      "options": {
+        "A": "\\((-\\infty; -3)\\)",
+        "B": "\\((-\\infty; -2)\\)",
+        "C": "\\((-3; +\\infty)\\)",
+        "D": "\\((-2; +\\infty)\\)",
+        "E": "\\((1; +\\infty)\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26125",
+      "source_id": "zno_26125",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26125",
+      "type": "single_choice",
+      "text": "Обчисліть значення похідної функції \\(f(x)=2x^3 – 5\\) у точці \\(x_0=–1.\\)",
+      "options": {
+        "A": "\\(-11\\)",
+        "B": "\\(-7\\)",
+        "C": "\\(1\\)",
+        "D": "\\(3\\)",
+        "E": "\\(6\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26124",
+      "source_id": "zno_26124",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26124",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему рівнянь \\(\\left\\{ \\begin{array}{l} 3\\sqrt{x}=12,\\\\ x-2y=26. \\end{array} \\right.\\) Якщо \\((x_0; y_0)\\) – розв’язок системи, то \\(x_0+y_0=\\)",
+      "options": {
+        "A": "\\(11\\)",
+        "B": "\\(21\\)",
+        "C": "\\(-7\\)",
+        "D": "\\(-10\\)",
+        "E": "\\(-14\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26123",
+      "source_id": "zno_26123",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26123",
+      "type": "single_choice",
+      "text": "Об’єм циліндра дорівнює \\(72\\pi.\\) Визначте висоту цього циліндра, якщо радіус його основи дорівнює \\(3.\\)",
+      "options": {
+        "A": "\\(24\\)",
+        "B": "\\(12\\)",
+        "C": "\\(9\\)",
+        "D": "\\(8\\)",
+        "E": "\\(6\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26122",
+      "source_id": "zno_26122",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26122",
+      "type": "single_choice",
+      "text": "\\(\\log_5 49+2\\log_5\\frac 57=\\)",
+      "options": {
+        "A": "\\(25\\)",
+        "B": "\\(\\log_5 70\\)",
+        "C": "\\(\\log_5 49\\frac 57\\)",
+        "D": "\\(\\log_5 35\\)",
+        "E": "\\(2\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26121",
+      "source_id": "zno_26121",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26121",
+      "type": "single_choice",
+      "text": "Графік довільної функції \\(y = f(x)\\) паралельно перенесли вздовж осі \\(y\\) на \\(3\\) одиниці вниз. Графік якої з наведених функцій отримали?",
+      "options": {
+        "A": "\\(y=f(x+3)\\)",
+        "B": "\\(y=f(x)+3\\)",
+        "C": "\\(y=3f(x)\\)",
+        "D": "\\(y=f(x)-3\\)",
+        "E": "\\(y=f(x-3)\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26120",
+      "source_id": "zno_26120",
+      "topic": "Натуральні числа та дроби",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26120",
+      "type": "single_choice",
+      "text": "Скоротіть дріб \\(\\frac{10ab^3}{5a^2b}.\\)",
+      "options": {
+        "A": "\\(\\frac{2b^2}{a}\\)",
+        "B": "\\(\\frac{b^4}{2a^3}\\)",
+        "C": "\\(50a^3b^4\\)",
+        "D": "\\(\\frac{2b^4}{a^3}\\)",
+        "E": "\\(\\frac{b^2}{a^2}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26119",
+      "source_id": "zno_26119",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26119",
+      "type": "single_choice",
+      "text": "Графік функції, визначеної на проміжку \\([–5; 4]\\) , проходить через одну з наведених точок (див.&nbsp;рисунок). Укажіть цю точку.",
+      "options": {
+        "A": "\\((-5; -2)\\)",
+        "B": "\\((1; -3)\\)",
+        "C": "\\((-1; 4)\\)",
+        "D": "\\((-3; 1)\\)",
+        "E": "\\((0; -2)\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/260/26059/multy-os-math-06-2022.png"
+    },
+    {
+      "id": "math_zno_26118",
+      "source_id": "zno_26118",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26118",
+      "type": "single_choice",
+      "text": "Прямі \\(AB\\) і \\(CK\\) паралельні, \\(CB\\) – бісектриса кута \\(ACK\\) . Визначте градусну міру кута \\(ABC\\) , якщо \\(\\angle BAC = 52^\\circ.\\)",
+      "options": {
+        "A": "\\(38^\\circ\\)",
+        "B": "\\(52^\\circ\\)",
+        "C": "\\(64^\\circ\\)",
+        "D": "\\(69^\\circ\\)",
+        "E": "\\(128^\\circ\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/260/26058/multy-os-math-05-2022.png"
+    },
+    {
+      "id": "math_zno_26117",
+      "source_id": "zno_26117",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26117",
+      "type": "single_choice",
+      "text": "Обчисліть добуток коренів рівняння \\(x^2+6x-55=0.\\)",
+      "options": {
+        "A": "\\(-55\\)",
+        "B": "\\(55\\)",
+        "C": "\\(-6\\)",
+        "D": "\\(6\\)",
+        "E": "\\(-49\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26116",
+      "source_id": "zno_26116",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26116",
+      "type": "single_choice",
+      "text": "Розгортку якого з наведених многогранників зображено на рисунку?",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/260/26056/multy-os-math-03-0-2022.png"
+    },
+    {
+      "id": "math_zno_26115",
+      "source_id": "zno_26115",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26115",
+      "type": "single_choice",
+      "text": "У під’їзді шістнадцятиповерхового будинку на першому поверсі розташовано \\(6\\) квартир, а на кожному з решти поверхів – по \\(8.\\) На якому поверсі квартира \\(\\text{№}\\ 31\\) , якщо квартири від \\(\\text{№}\\ 1\\) і далі пронумеровано послідовно від першого до останнього поверху?",
+      "options": {
+        "A": "\\(3\\)",
+        "B": "\\(4\\)",
+        "C": "\\(5\\)",
+        "D": "\\(6\\)",
+        "E": "\\(7\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26114",
+      "source_id": "zno_26114",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26114",
+      "type": "single_choice",
+      "text": "На рисунку показано точками найвищу і найнижчу температури повітря з понеділка до п&rsquo;ятниці в деякому місті України. У який день різниця між найвищою та найнижчою температурами повітря була найбільшою?",
+      "options": {
+        "A": "Понеділок",
+        "B": "Вівторок",
+        "C": "Середа",
+        "D": "Четвер",
+        "E": "П'ятниця"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/260/26054/multy-os-math-01-2022.png"
+    },
+    {
+      "id": "math_zno_26007",
+      "source_id": "zno_26007",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26007",
+      "type": "single_choice",
+      "text": "У якому рядку числа \\(\\log_2{64},\\ \\log_{64}{2},\\ 11\\) розташовано за зростанням?",
+      "options": {
+        "A": "\\(\\log_{64}{2},\\ \\log_2{64},\\ 11\\)",
+        "B": "\\(\\log_2{64},\\ 11,\\ \\log_{64}{2}\\)",
+        "C": "\\(\\log_2{64},\\ \\log_{64}{2},\\ 11\\)",
+        "D": "\\(11,\\ \\log_{64}{2},\\ \\log_2{64}\\)",
+        "E": "\\(\\log_{64}{2},\\ 11,\\ \\log_2{64}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26006",
+      "source_id": "zno_26006",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26006",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему нерівностей $$ \\left\\{ \\begin{array}{l} 3x-5\\lt 2x,\\\\ 12-9x\\le 3x. \\end{array} \\right. $$",
+      "options": {
+        "A": "\\((-\\infty;-5)\\)",
+        "B": "\\((-5;-2]\\)",
+        "C": "\\([1;5)\\)",
+        "D": "\\((-\\infty;1]\\)",
+        "E": "\\((5;+\\infty)\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26005",
+      "source_id": "zno_26005",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26005",
+      "type": "single_choice",
+      "text": "Знайдіть похідну функції \\(y=2x+\\cos x.\\)",
+      "options": {
+        "A": "\\(y'=2-\\sin x\\)",
+        "B": "\\(y'=2+\\cos x\\)",
+        "C": "\\(y'=x^2-\\sin x\\)",
+        "D": "\\(y'=2+\\sin x\\)",
+        "E": "\\(y'=x^2+\\sin x\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26004",
+      "source_id": "zno_26004",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26004",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить корінь рівняння $$\\left(\\frac 13\\right)^{2x-1}=9.$$",
+      "options": {
+        "A": "\\((-\\infty;-1]\\)",
+        "B": "\\((-1;0]\\)",
+        "C": "\\((0;1]\\)",
+        "D": "\\((1;2]\\)",
+        "E": "\\((2;+\\infty]\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26003",
+      "source_id": "zno_26003",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26003",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень щодо довільної трапеції \\(ABCD\\ (BC\\ ||\\ AD)\\) є правильними? I.&nbsp;&nbsp;&nbsp; \\(\\angle BAD+\\angle ABC=180^\\circ\\) II.&nbsp;&nbsp; \\(\\angle BCA=\\angle CAD\\) III.&nbsp; \\(AC=BD\\)",
+      "options": {
+        "A": "лише І",
+        "B": "лише І та ІІ",
+        "C": "лише І та ІІІ",
+        "D": "лише ІІ та ІІІ",
+        "E": "І, ІІ та ІІІ"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26002",
+      "source_id": "zno_26002",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26002",
+      "type": "single_choice",
+      "text": "Спростіть вираз \\(3(1 – x)(1 + x).\\)",
+      "options": {
+        "A": "\\(3-3x^2\\)",
+        "B": "\\(3-x^2\\)",
+        "C": "\\(3+3x^2\\)",
+        "D": "\\(3+x^2\\)",
+        "E": "\\(3+6x-3x^2\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26001",
+      "source_id": "zno_26001",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26001",
+      "type": "single_choice",
+      "text": "Графік функції \\(y=\\sqrt{x}\\) паралельно перенесли на \\(2\\) одиниці ліворуч уздовж осі \\(x.\\) Укажіть функцію, графік якої отримали в результаті цього перетворення.",
+      "options": {
+        "A": "\\(y=\\sqrt{2-x}\\)",
+        "B": "\\(y=\\sqrt{x}-2\\)",
+        "C": "\\(y=\\sqrt{x-2}\\)",
+        "D": "\\(y=\\sqrt{x+2}\\)",
+        "E": "\\(y=\\sqrt{x}+2\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_26000",
+      "source_id": "zno_26000",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/26000",
+      "type": "single_choice",
+      "text": "Визначте число, \\(25\\ \\text{%}\\) якого дорівнює \\(50\\) .",
+      "options": {
+        "A": "\\(0{,}5\\)",
+        "B": "\\(2\\)",
+        "C": "\\(12{,}5\\)",
+        "D": "\\(100\\)",
+        "E": "\\(200\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_25999",
+      "source_id": "zno_25999",
+      "topic": "Системи рівнянь",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/25999",
+      "type": "single_choice",
+      "text": "У прямокутній системі координат \\(xy\\) зображено шість точок: \\(K,\\ L,\\ M,\\ N,\\ P\\) та \\(Q\\) (див.&nbsp;рисунок). Відомо, що точка \\(P\\) належить графіку функції \\(y=x^2\\) . Укажіть ще одну точку, яка може належати цьому графіку.",
+      "options": {
+        "A": "\\(K\\)",
+        "B": "\\(L\\)",
+        "C": "\\(M\\)",
+        "D": "\\(N\\)",
+        "E": "\\(Q\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/256/25629/multi-demo-math-2022-06.png"
+    },
+    {
+      "id": "math_zno_25998",
+      "source_id": "zno_25998",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/25998",
+      "type": "single_choice",
+      "text": "Визначте об’єм циліндра, радіус основи якого дорівнює \\(4\\ \\text{см}\\) , а висота – \\(10\\ \\text{см}\\) .",
+      "options": {
+        "A": "\\(40\\mathbf{\\pi}\\ \\text{см}^3\\)",
+        "B": "\\(\\frac{40\\mathbf{\\pi}}{3}\\ \\text{см}^3\\)",
+        "C": "\\(\\frac{160\\mathbf{\\pi}}{3}\\ \\text{см}^3\\)",
+        "D": "\\(80\\mathbf{\\pi}\\ \\text{см}^3\\)",
+        "E": "\\(160\\mathbf{\\pi}\\ \\text{см}^3\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_25997",
+      "source_id": "zno_25997",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/25997",
+      "type": "single_choice",
+      "text": "Розв’яжіть рівняння \\(2x-3=4.\\)",
+      "options": {
+        "A": "\\(0{,}5\\)",
+        "B": "\\(3{,}5\\)",
+        "C": "\\(\\frac 27\\)",
+        "D": "\\(5\\)",
+        "E": "\\(-0{,}5\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_25996",
+      "source_id": "zno_25996",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/25996",
+      "type": "single_choice",
+      "text": "Вершина \\(B\\) паралелограма \\(ABCD\\) лежить на прямій \\(MC\\) (див.&nbsp;рисунок). Визначте градусну міру кута \\(CDA\\) , якщо \\(\\angle MBA=25^\\circ\\) .",
+      "options": {
+        "A": "\\(65^\\circ\\)",
+        "B": "\\(115^\\circ\\)",
+        "C": "\\(155^\\circ\\)",
+        "D": "\\(165^\\circ\\)",
+        "E": "\\(175^\\circ\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/256/25626/multi-demo-math-2022-03.png"
+    },
+    {
+      "id": "math_zno_25995",
+      "source_id": "zno_25995",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/25995",
+      "type": "single_choice",
+      "text": "У коробці лежать тістечка двох видів: бісквіти та бeзе. Яке з наведених чисел може бути кількістю тістечок у коробці, якщо бісквітів у \\(5\\) разів більше, ніж бeзе?",
+      "options": {
+        "A": "\\(27\\)",
+        "B": "\\(44\\)",
+        "C": "\\(50\\)",
+        "D": "\\(61\\)",
+        "E": "\\(72\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_25994",
+      "source_id": "zno_25994",
+      "topic": "Комбінаторика та ймовірність",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/25994",
+      "type": "single_choice",
+      "text": "З кошика, у якому лежать \\(4\\) зелених і \\(5\\) жовтих яблук, виймають навмання одне яблуко. Яка ймовірність того, що це яблуко буде жовтого кольору?",
+      "options": {
+        "A": "\\(\\frac 12\\)",
+        "B": "\\(\\frac 19\\)",
+        "C": "\\(\\frac 49\\)",
+        "D": "\\(\\frac 59\\)",
+        "E": "\\(\\frac 15\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24697",
+      "source_id": "zno_24697",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24697",
+      "type": "single_choice",
+      "text": "Заїзна кишеня для висадки пасажирів громадського (маршрутного) транспорту й таксі, облаштована перед входом у супермаркет, має форму рівнобічної трапеції \\(ABCD\\) . Довжина більшої основи \\(AD\\) становить 38&nbsp;м, ширина кишені дорівнює 5&nbsp;м. Уздовж меншої основи \\(BC\\) й бічних сторін \\(AB\\) й \\(CD\\) планують установити запобіжні стовпчики на відстані 1&nbsp;м один від одного. Частину з них уже встановили&nbsp;(див.&nbsp;рисунок). Скільки всього стовпчиків має бути за планом уздовж сторін \\(AB,\\ BC\\) й \\(CD\\) цієї кишені, якщо вздовж \\(BC\\) вже встановлено 15&nbsp;стовпчиків?",
+      "options": {
+        "A": "39",
+        "B": "41",
+        "C": "42",
+        "D": "43",
+        "E": "45"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/246/24697/16.png"
+    },
+    {
+      "id": "math_zno_24696",
+      "source_id": "zno_24696",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24696",
+      "type": "single_choice",
+      "text": "Розв'яжіть нерівність \\(3^x\\lt 27\\cdot 3^{-x}\\) .",
+      "options": {
+        "A": "\\(\\left(-\\infty;\\ \\frac 23\\right)\\)",
+        "B": "\\(\\left(\\frac 32;\\ +\\infty\\right)\\)",
+        "C": "\\(\\left(-\\infty;\\ 3\\right)\\)",
+        "D": "\\(\\left(\\frac 23;\\ +\\infty\\right)\\)",
+        "E": "\\(\\left(-\\infty;\\ \\frac 32\\right)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24695",
+      "source_id": "zno_24695",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24695",
+      "type": "single_choice",
+      "text": "Визначте довжину апофеми правильної чотирикутної піраміди, якщо площа її повної поверхні дорівнює 208&nbsp;см 2 , а довжина сторони основи - 8&nbsp;см.",
+      "options": {
+        "A": "13 см",
+        "B": "12 см",
+        "C": "9 см",
+        "D": "8 см",
+        "E": "6 см"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24694",
+      "source_id": "zno_24694",
+      "topic": "Системи рівнянь",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24694",
+      "type": "single_choice",
+      "text": "У прямокутній системі координат на площині зображено план паркової зони, що має форму фігури, обмеженої графіками функцій \\(y=f(x)\\) і \\(y=3\\) (див.&nbsp;рисунок). Укажіть формулу для обчислення площі \\(S\\) цієї фігури.",
+      "options": {
+        "A": "\\(S=\\int_{-1}^{3}(f(x)-3)dx\\)",
+        "B": "\\(S=\\int_{-1}^{3}(3-f(x))dx\\)",
+        "C": "\\(S=\\int_{0}^{4}(f(x)+3)dx\\)",
+        "D": "\\(S=\\int_{0}^{4}(f(x)-3)dx\\)",
+        "E": "\\(S=\\int_{0}^{4}(3-f(x))dx\\)"
+      },
+      "answer": "E",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/246/24694/13.png"
+    },
+    {
+      "id": "math_zno_24693",
+      "source_id": "zno_24693",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24693",
+      "type": "single_choice",
+      "text": "Укажіть правильну подвійну нерівність, якщо \\(a=0,5^{-1},\\ b=0,2,\\ c=\\log_{0,2}5\\) .",
+      "options": {
+        "A": "\\(c\\lt b\\lt a\\)",
+        "B": "\\(b\\lt c\\lt a\\)",
+        "C": "\\(a\\lt c\\lt b\\)",
+        "D": "\\(c\\lt a\\lt b\\)",
+        "E": "\\(b\\lt a\\lt c\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24692",
+      "source_id": "zno_24692",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24692",
+      "type": "single_choice",
+      "text": "Якому з наведених проміжків належить корінь рівняння \\(\\frac{x}{9-x}=\\frac 12\\) ?",
+      "options": {
+        "A": "\\((-\\infty; -5]\\)",
+        "B": "\\((-5; -2]\\)",
+        "C": "\\((-2; 2]\\)",
+        "D": "\\((2; 5]\\)",
+        "E": "\\((5; +\\infty)\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24691",
+      "source_id": "zno_24691",
+      "topic": "Тригонометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24691",
+      "type": "single_choice",
+      "text": "\\(\\frac{7-(\\sin ^2\\mathbf{\\beta}+\\cos^2 \\mathbf{\\beta})}{3\\sin^2\\mathbf{\\beta}+3\\cos^2\\mathbf{\\beta}}=\\)",
+      "options": {
+        "A": "\\(\\frac 76\\)",
+        "B": "\\(\\frac 73\\)",
+        "C": "\\(\\frac 83\\)",
+        "D": "\\(12\\)",
+        "E": "\\(2\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24690",
+      "source_id": "zno_24690",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24690",
+      "type": "single_choice",
+      "text": "Із заглибленням у надра Землі температура порід підвищується в середньому на 3&nbsp;&deg;С щокожні 100&nbsp;м. Прилад на першому рівні ствола шахти показує температуру породи +12&nbsp;&deg;С. За якою формулою можна визначити температуру \\(t\\) (у&nbsp;&deg;C) породи на глибині, що на \\(h\\) &nbsp;м нижче від першого рівня?",
+      "options": {
+        "A": "\\(t=12+\\frac{3h}{100}\\)",
+        "B": "\\(t=12-\\frac{3h}{100}\\)",
+        "C": "\\(t=3+\\frac{100h}{12}\\)",
+        "D": "\\(t=3+\\frac{100}{12h}\\)",
+        "E": "\\(t=12+\\frac{100h}{3}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24689",
+      "source_id": "zno_24689",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24689",
+      "type": "single_choice",
+      "text": "Точки \\(A,\\ B,\\ C\\) та \\(D\\) лежать в одній площині. Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Якщо точка \\(B\\) належить відрізку \\(CD\\) , то \\(CB+BD=CD\\) . II.&nbsp;&nbsp;Якщо точка \\(A\\) не належить відрізку \\(CD\\) , то \\(CA+AD\\lt CD\\) . III.&nbsp;Якщо відрізок \\(CD\\) перетинає відрізок \\(AB\\) в точці О під прямим кутом i \\(AO=OB\\) , то \\(AC=CB\\) .",
+      "options": {
+        "A": "лише І та ІІ",
+        "B": "лише І",
+        "C": "лише І та ІІІ",
+        "D": "лише ІІ",
+        "E": "І, ІІ та ІІІ"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24688",
+      "source_id": "zno_24688",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24688",
+      "type": "single_choice",
+      "text": "Спростіть вираз \\(2(x+5y)-(4y-7x)\\) .",
+      "options": {
+        "A": "\\(9x+y\\)",
+        "B": "\\(9x+14y\\)",
+        "C": "\\(-5x+6y\\)",
+        "D": "\\(9x+6y\\)",
+        "E": "\\(16x+2y\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24687",
+      "source_id": "zno_24687",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24687",
+      "type": "single_choice",
+      "text": "Укажіть функцію, графік якої проходить через початок координат.",
+      "options": {
+        "A": "\\(y=x-1\\)",
+        "B": "\\(y=1-x\\)",
+        "C": "\\(y=1\\)",
+        "D": "\\(x=-1\\)",
+        "E": "\\(y=x\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24686",
+      "source_id": "zno_24686",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24686",
+      "type": "single_choice",
+      "text": "У рівнобедреному трикутнику \\(ABC\\) з основою \\(AC\\ \\angle B=40^\\circ\\) . Визначте градусну міру кута \\(A\\) .",
+      "options": {
+        "A": "80&deg;",
+        "B": "70&deg;",
+        "C": "60&deg;",
+        "D": "50&deg;",
+        "E": "40&deg;"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/246/24686/05.png"
+    },
+    {
+      "id": "math_zno_24685",
+      "source_id": "zno_24685",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24685",
+      "type": "single_choice",
+      "text": "Обчисліть суму коренів рівняння \\(x^2+3x-4=0\\) .",
+      "options": {
+        "A": "-4",
+        "B": "-3",
+        "C": "3",
+        "D": "4",
         "E": "—"
       },
-      "answer": "?",
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24684",
+      "source_id": "zno_24684",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24684",
+      "type": "single_choice",
+      "text": "Точки \\(A\\) та \\(B\\) лежать на сфері радіуса 10 см. Укажіть найбільше можливе значення довжини відрізка \\(AB\\) .",
+      "options": {
+        "A": "20 см",
+        "B": "100&pi; см",
+        "C": "10 см",
+        "D": "20&pi; см",
+        "E": "—"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_24683",
+      "source_id": "zno_24683",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24683",
+      "type": "single_choice",
+      "text": "Кількість відвідувачів ботанічного саду протягом червня становила чверть від їхньої сумарної кількості в травні й червні. На якій із діаграм правильно зображено розподіл відвідувачів цього ботанічного саду впродовж цих двох місяців? &ndash; кількість відвідувачів у травні &ndash; кількість відвідувачів у червні &nbsp;",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "—"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/246/24683/02-05.png"
+    },
+    {
+      "id": "math_zno_24682",
+      "source_id": "zno_24682",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/24682",
+      "type": "single_choice",
+      "text": "У під'їзді шістнадцятиповерхового будинку на першому поверсі розташовано 6&nbsp;квартир, а на кожному з решти поверхів – по&nbsp;8. На якому поверсі квартира №&nbsp;31, якщо квартири від №&nbsp;1 і далі пронумеровано послідовно від першого до останнього поверху?",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "—"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23675",
+      "source_id": "zno_23675",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23675",
+      "type": "single_choice",
+      "text": "Прямолінійною дорогою \\(AB\\) рухається тролейбус (див.&nbsp;рисунок). Лінія \\(CD\\) електричного дроту паралельна \\(AB\\) й даху \\(MN\\) тролейбуса. Штанга \\(KN\\) , що на рисунку є відрізком, утворює з \\(MN\\) кут \\(30^\\circ\\) . Відстані між прямими \\(CD\\) й \\(AB, MN\\) й \\(AB\\) дорівнюють 6&nbsp;м i 3,2&nbsp;м відповідно. Укажіть проміжок, якому належить довжина (у&nbsp;м) штанги \\(KN\\) . Уважайте, що всі зазначені прямі лежать в одній площині.",
+      "options": {
+        "A": "\\([1; 3)\\)",
+        "B": "\\([3; 5)\\)",
+        "C": "\\([5; 5{,}5)\\)",
+        "D": "\\([5{,}5; 6)\\)",
+        "E": "\\([6; 8)\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/236/23675/16.png"
+    },
+    {
+      "id": "math_zno_23674",
+      "source_id": "zno_23674",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23674",
+      "type": "single_choice",
+      "text": "Сторона основи правильної чотирикутної піраміди дорівнює 6&nbsp;см, апофема &ndash; 7&nbsp;см. Визначте площу повної поверхні цієї піраміди.",
+      "options": {
+        "A": "\\(84\\ \\text{см}^2\\)",
+        "B": "\\(204\\ \\text{см}^2\\)",
+        "C": "\\(156\\ \\text{см}^2\\)",
+        "D": "\\(162\\ \\text{см}^2\\)",
+        "E": "\\(120\\ \\text{см}^2\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23673",
+      "source_id": "zno_23673",
+      "topic": "Тригонометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23673",
+      "type": "single_choice",
+      "text": "\\(\\sin^2 2x=\\)",
+      "options": {
+        "A": "\\(2\\sin^2 x\\)",
+        "B": "\\(4\\sin^2 x\\)",
+        "C": "\\(4\\sin^2 x\\cos^2 x\\)",
+        "D": "\\(2\\sin^2 x\\cos^2 x\\)",
+        "E": "\\(\\sin 4x^2\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23672",
+      "source_id": "zno_23672",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23672",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(\\log_{0,9}(3x)\\gt 2\\) .",
+      "options": {
+        "A": "\\((-\\infty; 0,27)\\)",
+        "B": "\\((-\\infty; 0,6)\\)",
+        "C": "\\((0,27;\\ +\\infty)\\)",
+        "D": "\\((0,6;\\ +\\infty)\\)",
+        "E": "\\((0; 0,27)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23671",
+      "source_id": "zno_23671",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23671",
+      "type": "single_choice",
+      "text": "Обчисліть \\(\\frac{5^4\\cdot 2^4}{20^3}\\) .",
+      "options": {
+        "A": "\\(\\frac 54\\)",
+        "B": "\\(\\frac{1}{10}\\)",
+        "C": "\\(\\frac 12\\)",
+        "D": "\\(\\frac{1}{20}\\)",
+        "E": "\\(10\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23670",
+      "source_id": "zno_23670",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23670",
+      "type": "single_choice",
+      "text": "Яка з наведених функцій є первісною для функції \\(f(x)=x^{-4}\\) ?",
+      "options": {
+        "A": "\\(F(x)=-\\frac{1}{5x^5}\\)",
+        "B": "\\(F(x)=-\\frac{3}{x^5}\\)",
+        "C": "\\(F(x)=-\\frac{4}{x^5}\\)",
+        "D": "\\(F(x)=-\\frac{5}{x^5}\\)",
+        "E": "\\(F(x)=-\\frac{1}{3x^3}\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23669",
+      "source_id": "zno_23669",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23669",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить корінь рівняння \\(\\sqrt{x+12}=3\\) .",
+      "options": {
+        "A": "\\([-12; -6)\\)",
+        "B": "\\([-6; 0)\\)",
+        "C": "\\([0; 6)\\)",
+        "D": "\\([6; 12)\\)",
+        "E": "\\([12; +\\infty)\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23668",
+      "source_id": "zno_23668",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23668",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Навколо будь-якого ромба можна описати коло. II.&nbsp;&nbsp;Діагоналі будь-якого ромба взаємно перпендикулярні. III.&nbsp;У будь-якому ромбі всі сторони рівні.",
+      "options": {
+        "A": "лише І та ІІ",
+        "B": "лише І і ІІІ",
+        "C": "лише ІІ",
+        "D": "лише ІІ та ІІІ",
+        "E": "І, ІІ та ІІІ"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23667",
+      "source_id": "zno_23667",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23667",
+      "type": "single_choice",
+      "text": "Для місцевості, що лежить на рівні моря, нормальний атмосферний тиск становить 760&nbsp;мм&nbsp;рт.&nbsp;ст. Із підняттям на кожні 100&nbsp;метрів угору атмосферний тиск знижується на&nbsp;10&nbsp;мм&nbsp;рт.&nbsp;ст. Укажіть з-поміж наведених формулу, за якою визначають атмосферний тиск \\(p\\) (у&nbsp;мм&nbsp;рт.&nbsp;ст.) на висоті \\(h\\) метрів над рівнем моря.",
+      "options": {
+        "A": "\\(p=\\frac{760\\cdot 100}{10h}\\)",
+        "B": "\\(p=760-\\frac{100h}{10}\\)",
+        "C": "\\(p=760+\\frac{10h}{100}\\)",
+        "D": "\\(p=760+\\frac{100h}{10}\\)",
+        "E": "\\(p=760-\\frac{10h}{100}\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23666",
+      "source_id": "zno_23666",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23666",
+      "type": "single_choice",
+      "text": "Спростіть вираз \\(\\frac{3m-2n}{8}-\\frac{3m}{8}\\) .",
+      "options": {
+        "A": "\\(-\\frac{n}{4}\\)",
+        "B": "\\(-\\frac{n}{8}\\)",
+        "C": "\\(-\\frac{n}{6}\\)",
+        "D": "\\(-\\frac{m}{4}\\)",
+        "E": "\\(\\frac{3m-n}{4}\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23665",
+      "source_id": "zno_23665",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23665",
+      "type": "single_choice",
+      "text": "Сума трьох кутів паралелограма дорівнює 280&deg;. Визначте градусну міру більшого кута цього паралелограма.",
+      "options": {
+        "A": "100&deg;",
+        "B": "80&deg;",
+        "C": "140&deg;",
+        "D": "40&deg;",
+        "E": "120&deg;"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23664",
+      "source_id": "zno_23664",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23664",
+      "type": "single_choice",
+      "text": "Укажіть з-поміж наведених ескіз графіка функції \\(y=-2x+3\\) .",
+      "options": {
+        "A": "А",
+        "B": "Б",
+        "C": "В",
+        "D": "Г",
+        "E": "Д"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23661",
+      "source_id": "zno_23661",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23661",
+      "type": "single_choice",
+      "text": "Укажіть корінь рівняння \\(1-5x=0\\) .",
+      "options": {
+        "A": "\\(5\\)",
+        "B": "\\(-\\frac 15\\)",
+        "C": "\\(\\frac 15\\)",
+        "D": "\\(4\\)",
+        "E": "—"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_23660",
+      "source_id": "zno_23660",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23660",
+      "type": "single_choice",
+      "text": "Пластикові кульки радіуса 6&nbsp;см зберігають у висувній шухлядці, що має форму прямокутного паралелепіпеда (див. рисунок). Якою з наведених може бути висота \\(h\\) цієї шухлядки?",
+      "options": {
+        "A": "3 см",
+        "B": "6 см",
+        "C": "10 см",
+        "D": "13 см",
+        "E": "—"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/236/23660/03.png"
+    },
+    {
+      "id": "math_zno_23659",
+      "source_id": "zno_23659",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23659",
+      "type": "single_choice",
+      "text": "На графіку відображено зміну робочої температури двигуна легкового автомобіля протягом 10 хвилин з моменту його запуску. Визначте за графіком кількість хвилин, протягом яких робоча температура двигуна була не більшою за&nbsp;50&nbsp;&deg;С.",
+      "options": {
+        "A": "\\(7\\)",
+        "B": "\\(4\\)",
+        "C": "\\(3\\)",
+        "D": "\\(2\\)",
+        "E": "—"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/236/23659/02.png"
+    },
+    {
+      "id": "math_zno_23658",
+      "source_id": "zno_23658",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/23658",
+      "type": "single_choice",
+      "text": "За 6&nbsp;однакових конвертів заплатили 3&nbsp;грн. Скільки всього таких конвертів можна купити за 12&nbsp;грн?",
+      "options": {
+        "A": "6",
+        "B": "24",
+        "C": "30",
+        "D": "36",
+        "E": "—"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22915",
+      "source_id": "zno_22915",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22915",
+      "type": "single_choice",
+      "text": "Цукерку циліндричної форми висотою 10&nbsp;см і радіусом основи 1&nbsp;см запаковано в коробку, що має форму правильної трикутної призми (див. рисунок). Основи циліндра вписано у відповідні основи призми. Основи коробки (призми) виготовлено з поліетилену, а всі її бічні грані &ndash; з паперу. Визначте площу паперу, витраченого на виготовлення такої коробки. Укажіть відповідь, найближчу до точної. Витратами паперу на з&rsquo;єднання граней коробки знехтуйте.",
+      "options": {
+        "A": "\\(55\\ \\text{см}^2\\)",
+        "B": "\\(75\\ \\text{см}^2\\)",
+        "C": "\\(105\\ \\text{см}^2\\)",
+        "D": "\\(115\\ \\text{см}^2\\)",
+        "E": "\\(135\\ \\text{см}^2\\)"
+      },
+      "answer": "C",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/229/22915/16.png"
+    },
+    {
+      "id": "math_zno_22914",
+      "source_id": "zno_22914",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22914",
+      "type": "single_choice",
+      "text": "Бісектриса кута \\(A\\) прямокутника \\(ABCD\\) перетинає сторону \\(BC\\) в точці \\(K\\) . Обчисліть площу чотирикутника \\(AKCD\\) , якщо \\(BK=KC=8\\ \\text{см}\\) .",
+      "options": {
+        "A": "\\(48\\ \\text{см}^2\\)",
+        "B": "\\(72\\ \\text{см}^2\\)",
+        "C": "\\(96\\ \\text{см}^2\\)",
+        "D": "\\(128\\ \\text{см}^2\\)",
+        "E": "\\(192\\ \\text{см}^2\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22913",
+      "source_id": "zno_22913",
+      "topic": "Тригонометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22913",
+      "type": "single_choice",
+      "text": "Спростіть вираз \\(2\\cos(450^\\circ + \\mathbf{\\alpha})-\\sin \\mathbf{\\alpha}\\) .",
+      "options": {
+        "A": "\\(\\sin\\mathbf{\\alpha}\\)",
+        "B": "\\(-3\\sin\\mathbf{\\alpha}\\)",
+        "C": "\\(-2\\cos\\mathbf{\\alpha}-\\sin\\mathbf{\\alpha}\\)",
+        "D": "\\(2\\cos\\mathbf{\\alpha}-\\sin\\mathbf{\\alpha}\\)",
+        "E": "\\(3\\sin\\mathbf{\\alpha}\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22912",
+      "source_id": "zno_22912",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22912",
+      "type": "single_choice",
+      "text": "Розв’яжіть нерівність \\(4\\cdot 3^x\\lt 3^x +6\\) .",
+      "options": {
+        "A": "\\((-\\infty; \\log_9 6)\\)",
+        "B": "\\((-\\infty; \\log_2 3)\\)",
+        "C": "\\((-\\infty; 2)\\)",
+        "D": "\\((-\\infty; 1)\\)",
+        "E": "\\((-\\infty; \\log_3 2)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22911",
+      "source_id": "zno_22911",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22911",
+      "type": "single_choice",
+      "text": "Укажіть похідну функції $$ f(x)=\\frac{2x-3}{x}. $$",
+      "options": {
+        "A": "$$f'(x)=\\frac{3}{x^2}$$",
+        "B": "$$f'(x)=\\frac 3x$$",
+        "C": "$$f'(x)=\\frac{4x-3}{x^2}$$",
+        "D": "$$f'(x)=-\\frac{3}{x^2}$$",
+        "E": "$$f'(x)=2$$"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22910",
+      "source_id": "zno_22910",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22910",
+      "type": "single_choice",
+      "text": "Розв’яжіть систему рівнянь $$ \\left\\{ \\begin{array}{l} 6(x+5)+10y=3,\\\\ 2x=y+4. \\end{array} \\right. $$ Для одержаного розв’язку \\((x_0;\\ y_0)\\) укажіть суму \\(x_0+y_0\\) .",
+      "options": {
+        "A": "&ndash;2,5",
+        "B": "&ndash;3,5",
+        "C": "3,5",
+        "D": "6,5",
+        "E": "&ndash;1,5"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22909",
+      "source_id": "zno_22909",
+      "topic": "Планіметрія — чотирикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22909",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Діагоналі будь-якого паралелограма рівні. II.&nbsp;&nbsp;Протилежні кути будь-якого паралелограма рівні. III.&nbsp;Відстані від точки перетину діагоналей будь-якого паралелограма до його протилежних сторін рівні.",
+      "options": {
+        "A": "лише ІІ",
+        "B": "лише І і ІІІ",
+        "C": "І, ІІ, ІІІ",
+        "D": "лише І і ІІ",
+        "E": "лише ІІ і ІІІ"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22908",
+      "source_id": "zno_22908",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22908",
+      "type": "single_choice",
+      "text": "$$\\frac{15^3}{3^2}=$$",
+      "options": {
+        "A": "5",
+        "B": "15",
+        "C": "125",
+        "D": "375",
+        "E": "675"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22907",
+      "source_id": "zno_22907",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22907",
+      "type": "single_choice",
+      "text": "Період \\(T\\) електромагнітних коливань у коливальному контурі, що складається з послідовно з’єднаних конденсатора ємністю \\(C\\) й котушки з індуктивністю \\(L\\) , обчислюють за формулою Томсона \\(T=2\\mathbf{\\pi}\\sqrt{LC}\\) . Визначте із цієї формули індуктивність \\(L\\) .",
+      "options": {
+        "A": "\\(L=\\frac{T}{2\\mathbf{\\pi}C}\\)",
+        "B": "\\(L=\\frac{2\\mathbf{\\pi}C}{T}\\)",
+        "C": "\\(L=\\frac 1C\\sqrt{\\frac{T}{2\\mathbf{\\pi}}}\\)",
+        "D": "\\(L=\\frac{4\\mathbf{\\pi}^2C}{T^2}\\)",
+        "E": "\\(L=\\frac{T^2}{4\\mathbf{\\pi}^2C}\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22906",
+      "source_id": "zno_22906",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22906",
+      "type": "single_choice",
+      "text": "\\((a-4)^2-a^2=\\)",
+      "options": {
+        "A": "\\(-8a+16\\)",
+        "B": "\\(8a+16\\)",
+        "C": "\\(16\\)",
+        "D": "\\(-4a+16\\)",
+        "E": "\\(-4a+8\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22905",
+      "source_id": "zno_22905",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22905",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік функції \\(y=f(x)\\) , визначеної на проміжку [&ndash;2; 4]. Укажіть точку екстремуму цієї функції.",
+      "options": {
+        "A": "\\(x_0=-2\\)",
+        "B": "\\(x_0=-1\\)",
+        "C": "\\(x_0=1\\)",
+        "D": "\\(x_0=3\\)",
+        "E": "\\(x_0=4\\)"
+      },
+      "answer": "B",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/229/22905/06.png"
+    },
+    {
+      "id": "math_zno_22904",
+      "source_id": "zno_22904",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22904",
+      "type": "single_choice",
+      "text": "На рисунку зображено трапецію \\(ABCD\\) . Визначте градусну міру кута \\(BCD\\) , якщо \\(\\angle ADB=35^\\circ, \\angle BDC = 20^\\circ\\) .",
+      "options": {
+        "A": "125&deg;",
+        "B": "165&deg;",
+        "C": "155&deg;",
+        "D": "145&deg;",
+        "E": "140&deg;"
+      },
+      "answer": "A",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/229/22904/05_1.png"
+    },
+    {
+      "id": "math_zno_22903",
+      "source_id": "zno_22903",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22903",
+      "type": "single_choice",
+      "text": "Розв’яжіть рівняння \\(\\frac{x}{10}=2,5.\\)",
+      "options": {
+        "A": "0,25",
+        "B": "4",
+        "C": "12,5",
+        "D": "25",
+        "E": "—"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22902",
+      "source_id": "zno_22902",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22902",
+      "type": "single_choice",
+      "text": "Сума довжин усіх ребер прямокутного паралелепіпеда, що виходять з однієї вершини, дорівнює 60&nbsp;см. Визначте суму довжин усіх ребер цього паралелепіпеда.",
+      "options": {
+        "A": "360 см",
+        "B": "240 см",
+        "C": "180 см",
+        "D": "120 см",
+        "E": "—"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_22901",
+      "source_id": "zno_22901",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22901",
+      "type": "single_choice",
+      "text": "На рисунку зображено графік залежності шляху \\(S\\) &nbsp;(у&nbsp;км), пройденого групою туристів, від часу \\(t\\) &nbsp;(у&nbsp;год). Яке з наведених тверджень є правильним?",
+      "options": {
+        "A": "Зупинка тривала 4 години.",
+        "B": "До зупинки туристи пройшли 20 км.",
+        "C": "Після зупинки туристи пройшли більшу відстань, ніж до зупинки.",
+        "D": "Туристи зробили зупинку через 4 години після початку руху.",
+        "E": "—"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/229/22901/02_1.png"
+    },
+    {
+      "id": "math_zno_22900",
+      "source_id": "zno_22900",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/22900",
+      "type": "single_choice",
+      "text": "Група з 15 школярів у супроводі трьох дорослих планує автобусну екскурсію в заповідник. Оренда автобуса для екскурсії коштує 800&nbsp;грн. Вартість вхідного квитка в заповідник становить 20&nbsp;грн для школяра й 50&nbsp;грн – для дорослого. Якої мінімальної суми грошей достатньо для проведення цієї екскурсії?",
+      "options": {
+        "A": "1050 грн",
+        "B": "1150 грн",
+        "C": "1250 грн",
+        "D": "870 грн",
+        "E": "—"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21226",
+      "source_id": "zno_21226",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21226",
+      "type": "single_choice",
+      "text": "Стріла \\(CD\\) автокрана нахилена до горизонтальної поверхні \\(AB\\) під кутом \\(60^\\circ\\) , \\(CD=20\\) м (див.&nbsp;рисунок). Основа \\(C\\) стріли розташована на відстані \\(d=2\\) м від \\(AB.\\) Відстань \\(h_1\\) , від кінця \\(D\\) стріли до нижньої основи \\(MN\\) вантажу становить \\(6\\) м . Укажіть проміжок, якому належить відстань \\(h_2\\) (у м ) від \\(MN\\) до \\(AB.\\) Уважайте, що \\(MN\\ ||\\ AB.\\)",
+      "options": {
+        "A": "\\((4; 8]\\)",
+        "B": "\\((8; 10\\mathord{,}5]\\)",
+        "C": "\\((10\\mathord{,}5; 12\\mathord{,}5]\\)",
+        "D": "\\((12\\mathord{,}5; 14\\mathord{,}5]\\)",
+        "E": "\\((14\\mathord{,}5; 20]\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/212/21226/ds-math-2020-new-20.jpg"
+    },
+    {
+      "id": "math_zno_21225",
+      "source_id": "zno_21225",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21225",
+      "type": "single_choice",
+      "text": "Розв'яжіть систему нерівностей $$ \\left\\{\\begin{array}{l} 4x-7\\ge 2x+1,\\\\ x\\ge -3. \\end{array}\\right. $$",
+      "options": {
+        "A": "\\([-1; +\\infty)\\)",
+        "B": "\\([-3; 4]\\)",
+        "C": "\\(\\varnothing\\)",
+        "D": "\\([-3; +\\infty)\\)",
+        "E": "\\([4; +\\infty)\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21224",
+      "source_id": "zno_21224",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21224",
+      "type": "single_choice",
+      "text": "Функція \\(F(x)=10x^5-4\\) є первісною функції \\(f(x).\\) Укажіть функцію \\(G(x)\\) , яка також є первісною функції \\(f(x).\\)",
+      "options": {
+        "A": "\\(G(x)=10x^5+7\\)",
+        "B": "\\(G(x)=2x^6-4x\\)",
+        "C": "\\(G(x)=50x^6\\)",
+        "D": "\\(G(x)=50x^4\\)",
+        "E": "\\(G(x)=x^5-4\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21223",
+      "source_id": "zno_21223",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21223",
+      "type": "single_choice",
+      "text": "Укажіть проміжок, якому належить корінь рівняння \\(\\log_{\\frac 13}(x+1)=-2.\\)",
+      "options": {
+        "A": "\\((-11; -2]\\)",
+        "B": "\\((-2; 1]\\)",
+        "C": "\\((1; 4]\\)",
+        "D": "\\((4; 7]\\)",
+        "E": "\\((7; 9]\\)"
+      },
+      "answer": "E",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21222",
+      "source_id": "zno_21222",
+      "topic": "Планіметрія — трикутники",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21222",
+      "type": "single_choice",
+      "text": "На рисунку зображено прямокутник i рівнобедрений трикутник, які є гранями прямої призми. Довжини основи та бічної сторони трикутника дорівнюють \\(10\\) см i \\(13\\) см відповідно. Визначте площу повної поверхні призми, якщо площа її найбільшої бічної грані дорівнює \\(260\\) см \\(^2.\\)",
+      "options": {
+        "A": "\\(520\\) см \\(^2\\)",
+        "B": "\\(720\\) см \\(^2\\)",
+        "C": "\\(780\\) см \\(^2\\)",
+        "D": "\\(840\\) см \\(^2\\)",
+        "E": "\\(960\\) см \\(^2\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/212/21222/ds-math-2020-new-16_1.png"
+    },
+    {
+      "id": "math_zno_21221",
+      "source_id": "zno_21221",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21221",
+      "type": "single_choice",
+      "text": "\\(|1-\\sqrt{3}|=\\)",
+      "options": {
+        "A": "\\(-1-\\sqrt{3}\\)",
+        "B": "\\(\\sqrt{3}-1\\)",
+        "C": "\\(1-\\sqrt{3}\\)",
+        "D": "\\(1+\\sqrt{3}\\)",
+        "E": "\\(1\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21220",
+      "source_id": "zno_21220",
+      "topic": "Функції та графіки",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21220",
+      "type": "single_choice",
+      "text": "Укажіть з-поміж наведених функцію, ескіз графіка якої зображено на рисунку.",
+      "options": {
+        "A": "\\(y=x^2-2\\)",
+        "B": "\\(y=(x-2)^2\\)",
+        "C": "\\(y=x^2\\)",
+        "D": "\\(y=(x+2)^2\\)",
+        "E": "\\(y=x^2+2\\)"
+      },
+      "answer": "D",
+      "explanation": "",
+      "image": "https://zno.osvita.ua/doc/images/znotest/212/21220/164400_ds-math-2020-new-14.png"
+    },
+    {
+      "id": "math_zno_21219",
+      "source_id": "zno_21219",
+      "topic": "Тригонометрія",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21219",
+      "type": "single_choice",
+      "text": "\\( \\frac{\\cos\\mathbf{\\alpha}\\operatorname{tg}\\ \\mathbf{\\alpha}}{\\sin^2\\mathbf{\\alpha}}= \\)",
+      "options": {
+        "A": "\\(\\sin\\mathbf{\\alpha}\\)",
+        "B": "\\(\\frac{1}{\\sin^2\\mathbf{\\alpha}}\\)",
+        "C": "\\(\\frac{1}{\\sin\\mathbf{\\alpha}}\\)",
+        "D": "\\(\\cos\\mathbf{\\alpha}\\)",
+        "E": "\\(1\\)"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21218",
+      "source_id": "zno_21218",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21218",
+      "type": "single_choice",
+      "text": "Укажіть формулу для визначення радіуса \\(R\\) сфери, площа якої дорівнює \\(S.\\)",
+      "options": {
+        "A": "\\(R=\\sqrt{\\frac{S}{\\mathbf{\\pi}}}\\)",
+        "B": "\\(R=\\sqrt{\\frac{4\\mathbf{\\pi}}{S}}\\)",
+        "C": "\\(R=\\sqrt{4\\mathbf{\\pi}S}\\)",
+        "D": "\\(R=\\sqrt{\\frac{S}{4\\mathbf{\\pi}}}\\)",
+        "E": "\\(R=\\sqrt{\\frac{4S}{\\mathbf{\\pi}}}\\)"
+      },
+      "answer": "D",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21216",
+      "source_id": "zno_21216",
+      "topic": "Планіметрія — кола",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21216",
+      "type": "single_choice",
+      "text": "Які з наведених тверджень є правильними? I.&nbsp;&nbsp;&nbsp;Навколо довільного ромба завжди можна описати коло. II.&nbsp;&nbsp;Навколо довільної трапеції завжди можна описати коло. III.&nbsp;Навколо довільного прямокутника завжди можна описати коло.",
+      "options": {
+        "A": "лише І та ІІI",
+        "B": "лише І",
+        "C": "лише ІIІ",
+        "D": "I, II та III",
+        "E": "лише ІI та ІІI"
+      },
+      "answer": "C",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21215",
+      "source_id": "zno_21215",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21215",
+      "type": "single_choice",
+      "text": "Укажіть вираз, тотожно рівний виразу \\((2x-3)^2+12x.\\)",
+      "options": {
+        "A": "\\(4x^2+12x-9\\)",
+        "B": "\\(4x^2+9\\)",
+        "C": "\\(4x^2-9\\)",
+        "D": "\\(4x^2+12x+9\\)",
+        "E": "\\(4x^2+6x+9\\)"
+      },
+      "answer": "B",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21214",
+      "source_id": "zno_21214",
+      "topic": "Загальне",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21214",
+      "type": "single_choice",
+      "text": "Із гаманця, у якому лежать \\(5\\) монет номіналом по \\(10\\) копійок, \\(12\\) монет &ndash; по \\(25\\) копійок, \\(3\\) монети &ndash; по \\(1\\) гривні, беруть навмання одну монету. Обчисліть імовірність того, що її номінал буде менше \\(50\\) копійок.",
+      "options": {
+        "A": "\\(\\frac{17}{20}\\)",
+        "B": "\\(\\frac{3}{5}\\)",
+        "C": "\\(\\frac{1}{4}\\)",
+        "D": "\\(\\frac{3}{20}\\)",
+        "E": "\\(1\\)"
+      },
+      "answer": "A",
+      "explanation": ""
+    },
+    {
+      "id": "math_zno_21213",
+      "source_id": "zno_21213",
+      "topic": "Рівняння і нерівності",
+      "year": null,
+      "source": "zno.osvita.ua/mathematics/21213",
+      "type": "single_choice",
+      "text": "Розв'яжіть рівняння \\(x^2=25x.\\)",
+      "options": {
+        "A": "\\(-5; 5\\)",
+        "B": "\\(0; 25\\)",
+        "C": "\\(25\\)",
+        "D": "\\(-5; 0; 5\\)",
+        "E": "\\(-25; 0\\)"
+      },
+      "answer": "B",
       "explanation": ""
     }
   ],
-  "total_questions": 350
+  "total_questions": 500
 }
