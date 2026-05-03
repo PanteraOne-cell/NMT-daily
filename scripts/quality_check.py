@@ -1,23 +1,47 @@
-import html, json, random, re, sys
+#!/usr/bin/env python3
+"""Quick quality check for bank/*.json files.
+
+Samples one random valid question per subject and verifies:
+- No leftover HTML entities after clean()
+- answer is present in options
+
+Usage:
+    python scripts/quality_check.py
+"""
+import html
+import json
+import random
+import re
+import sys
 from pathlib import Path
 
-_MD_SPECIAL = re.compile(r"([_*\[\]()~`>#+\-=|{}.!\\])")
-def escape_md(text): return _MD_SPECIAL.sub(r"\\\1", str(text))
-def clean(text): return html.unescape(str(text))
+ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(ROOT))
 
-SUBJECTS = {
-    "math":      "Математика",
-    "ukrainian": "Українська мова",
-    "history":   "Історія України",
-    "biology":   "Біологія",
-}
+from subjects import SUBJECT_NAMES
+
+_MD_SPECIAL = re.compile(r"([_*\[\]()~`>#+\-=|{}.!\\])")
+
+
+def escape_md(text):
+    return _MD_SPECIAL.sub(r"\\\1", str(text))
+
+
+def clean(text):
+    text = html.unescape(str(text))
+    text = html.unescape(text)
+    return text
+
+
 ENTITY_MARKERS = ["&laquo;", "&raquo;", "&nbsp;", "&ndash;", "&quot;", "&amp;"]
+
+BANK_DIR = ROOT / "bank"
 
 print("=" * 60)
 all_ok = True
 
-for subject, label in SUBJECTS.items():
-    path = Path(f"bank/{subject}.json")
+for subject, label in SUBJECT_NAMES.items():
+    path = BANK_DIR / f"{subject}.json"
     if not path.exists():
         print(f"\n[{subject}] SKIP — файл відсутній")
         continue
