@@ -177,10 +177,10 @@ def main():
     subjects = list(SUBJECTS.keys())
     random.shuffle(subjects)
 
-    for i, chat_id in enumerate(CHAT_IDS):
+    for i, subject in enumerate(subjects):
         if i > 0:
             time.sleep(1)
-        subject = subjects[i % len(subjects)]
+        chat_id = CHAT_IDS[i % len(CHAT_IDS)]
         q = load_question(subject)
         send_to(chat_id, subject, q)
         print(f"OK [{chat_id}]: {subject}")
