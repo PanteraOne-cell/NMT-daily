@@ -1,17 +1,24 @@
 import html
 import json
+import logging
 import random
 import os
 import re
 import time
 import requests
-from datetime import datetime, timezone
 from pathlib import Path
 from dotenv import load_dotenv
 
 from subjects import SUBJECT_NAMES, SUBJECT_EMOJIS
 
 load_dotenv()
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s %(levelname)s %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+log = logging.getLogger(__name__)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHAT_IDS = [cid.strip() for cid in os.getenv("CHAT_IDS", "").split(",") if cid.strip()]
@@ -23,11 +30,12 @@ NEEDS_IMAGE_KW = [
     "зображено", "зображення", "на діаграмі", "на карті", "на схемі",
 ]
 
-SENT_PATH   = Path("data/sent.json")   # relative to CWD (repo root)
+SENT_PATH   = Path("data/sent.json")
 SENT_WINDOW = 200
 
 
 def clean(text: str) -> str:
+    # Double unescape: some source data has double-encoded HTML entities
     text = html.unescape(str(text))
     text = html.unescape(text)
     text = text.replace("\xa0", " ")
@@ -118,17 +126,17 @@ def _post(endpoint: str, **kwargs) -> requests.Response:
         except requests.RequestException as exc:
             if attempt == 2:
                 raise
-            print(f"  [{endpoint}] network error (attempt {attempt + 1}): {exc}")
+            log.warning("[%s] network error (attempt %d): %s", endpoint, attempt + 1, exc)
             time.sleep(delay)
             delay *= 2
             continue
         if resp.status_code == 429:
             retry_after = int(resp.headers.get("Retry-After", delay))
-            print(f"  [{endpoint}] rate-limited, retry in {retry_after}s")
+            log.warning("[%s] rate-limited, retry in %ds", endpoint, retry_after)
             time.sleep(retry_after)
             continue
         if not resp.ok:
-            print(f"Telegram error {endpoint}: {resp.status_code} {resp.text}")
+            log.error("Telegram error %s: %s %s", endpoint, resp.status_code, resp.text)
         resp.raise_for_status()
         return resp
     resp.raise_for_status()  # unreachable, satisfies type checkers
@@ -178,9 +186,9 @@ def send_to(chat_id: str, subject: str, q: dict):
 
 
 def main():
-    print(f"[{datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S')} UTC] Starting...")
+    log.info("Starting...")
     if not CHAT_IDS:
-        print("ERROR: CHAT_IDS not set in .env")
+        log.error("CHAT_IDS not set in .env")
         return
 
     subjects = list(SUBJECTS)
@@ -192,7 +200,7 @@ def main():
             if i > 0:
                 time.sleep(1)
             send_to(chat_id, subject, q)
-            print(f"OK [{chat_id}]: {subject}")
+            log.info("OK [%s]: %s", chat_id, subject)
         time.sleep(2)
 
 
