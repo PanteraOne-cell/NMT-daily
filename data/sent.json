@@ -1,9 +1,5 @@
 {
   "sent": [
-    "biol_zno_34694",
-    "math_zno_35801",
-    "hist_zno_26939",
-    "ukra_zno_26849",
     "biol_zno_27926",
     "hist_zno_35454",
     "math_zno_36407",
@@ -199,6 +195,10 @@
     "biol_zno_23185",
     "ukra_zno_25454",
     "hist_zno_33942",
-    "math_zno_36604"
+    "math_zno_36604",
+    "hist_zno_37304",
+    "math_zno_26833",
+    "ukra_zno_23755",
+    "biol_zno_35553"
   ]
 }
